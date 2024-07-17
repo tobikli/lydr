@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+
+    <blocktypes>
+        <blocktype handle="content" package=""/>
+        <blocktype handle="html" package=""/>
+        <blocktype handle="hero_image" package=""/>
+        <blocktype handle="image" package=""/>
+        <blocktype handle="file" package=""/>
+        <blocktype handle="horizontal_rule" package=""/>
+        <blocktype handle="feature" package=""/>
+        <blocktype handle="feature_link" package=""/>
+    </blocktypes>
+
+    <blocktypesets>
+        <blocktypeset handle="basic" name="Basic" package="">
+            <blocktype handle="content"/>
+            <blocktype handle="html"/>
+            <blocktype handle="hero_image"/>
+            <blocktype handle="image"/>
+            <blocktype handle="file"/>
+            <blocktype handle="horizontal_rule"/>
+            <blocktype handle="feature"/>
+            <blocktype handle="feature_link"/>
+        </blocktypeset>
+    </blocktypesets>
+
+</concrete5-cif>

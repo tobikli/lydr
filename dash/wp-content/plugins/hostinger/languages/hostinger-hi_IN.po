@@ -1,0 +1,248 @@
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger 2.1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-"
+"wordpress-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Hindi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-20T07:03:00+00:00\n"
+"PO-Revision-Date: 2024-05-30 07:53+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4"
+
+#: includes/Admin/Assets.php:131
+msgid ""
+" Turning on XML-RPC might make your site less secure. Do you want to proceed?"
+msgstr ""
+
+#: includes/Errors.php:16
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"क्षमा करें, यह क्रिया विफल रही। कृपया दोबारा प्रयास करें या सपोर्ट से संपर्क "
+"करें।"
+
+#: includes/Errors.php:19
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr ""
+"अनपेक्षित त्रुटि पेश आई है। कृपया दोबारा प्रयास करें या सपोर्ट से संपर्क "
+"करें।"
+
+#. translators: %s: PHP version
+#: hostinger.php:83
+msgid "Attention:"
+msgstr ""
+
+#: includes/Admin/Menu.php:45
+msgid "Billings"
+msgstr ""
+
+#: includes/Admin/Assets.php:130
+msgid "Bypass link"
+msgstr ""
+
+#: includes/Admin/Assets.php:135
+msgid "Bypass link reset"
+msgstr ""
+
+#: includes/Admin/Assets.php:133 includes/Admin/Assets.php:137
+msgid "Cancel"
+msgstr ""
+
+#: includes/Views/ComingSoon.php:6 includes/Views/ComingSoon.php:24
+msgid "Coming Soon"
+msgstr "जल्द आ रहा है"
+
+#: includes/Admin/Assets.php:109
+msgid ""
+"Disable public access to the site (WordPress admins will still be able to "
+"access)"
+msgstr ""
+
+#: includes/Admin/Assets.php:112
+msgid "Disable XML-RPC"
+msgstr ""
+
+#: includes/Admin/Assets.php:132
+msgid "Disclaimer"
+msgstr ""
+
+#: includes/Admin/Assets.php:124
+msgid "For improved security, ensure you use the latest version of WordPress"
+msgstr ""
+
+#: includes/Admin/Assets.php:114
+msgid "Force HTTPs"
+msgstr ""
+
+#: includes/Admin/Assets.php:116
+msgid "Force WWW"
+msgstr ""
+
+#: includes/Admin/Hooks.php:53
+msgid "Got it"
+msgstr ""
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Hooks.php:51
+msgid "Hostinger plugin updates"
+msgstr ""
+
+#. Plugin Name of the plugin
+#: includes/Admin/Assets.php:108
+msgid "Hostinger Tools"
+msgstr ""
+
+#. Description of the plugin
+msgid "Hostinger WordPress plugin."
+msgstr "Hostinger WordPress प्लगइन"
+
+#. Plugin URI of the plugin
+msgid "https://hostinger.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.hostinger.com"
+msgstr ""
+
+#: includes/Admin/Assets.php:139
+msgid "Link has been reset"
+msgstr ""
+
+#: includes/Admin/Assets.php:125
+msgid "Maintenance"
+msgstr ""
+
+#: includes/Admin/Assets.php:129
+msgid "Maintenance mode"
+msgstr ""
+
+#: includes/Views/ComingSoon.php:27
+msgid "New WordPress website is being built and will be published soon"
+msgstr ""
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+
+#: includes/Admin/Assets.php:119
+msgid "PHP version"
+msgstr ""
+
+#: includes/Admin/Assets.php:126
+msgid "Preview my website"
+msgstr ""
+
+#: includes/Admin/Assets.php:134
+msgid "Proceed anyway"
+msgstr ""
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr ""
+
+#: includes/Admin/Assets.php:128
+msgid "Redirects"
+msgstr ""
+
+#: includes/Admin/Assets.php:115
+msgid "Redirects all HTTP URLs to HTTPS sites"
+msgstr ""
+
+#: includes/Admin/Assets.php:117
+msgid "Redirects all WWW URLs to non-WWW ones"
+msgstr ""
+
+#: includes/Admin/Assets.php:111 includes/Admin/Assets.php:138
+msgid "Reset link"
+msgstr ""
+
+#: includes/Admin/Assets.php:122
+msgid "Running the latest version"
+msgstr ""
+
+#: includes/Admin/Assets.php:127
+msgid "Security"
+msgstr ""
+
+#: includes/Admin/Assets.php:110
+msgid "Skip-link that bypasses the maintenance mode"
+msgstr ""
+
+#. translators: %s: PHP version
+#: hostinger.php:83
+msgid "The Hostinger plugin requires minimum PHP version of <b>%s</b>. "
+msgstr ""
+
+#: includes/Admin/Assets.php:136
+msgid ""
+"This will invalidate the currently generated link in use. This action cannot "
+"be undone, are you sure you want to proceed?"
+msgstr ""
+
+#: includes/Admin/Menu.php:57 includes/Admin/Menu.php:58
+msgid "Tools"
+msgstr ""
+
+#: includes/Errors.php:38
+msgid "Unknown error code."
+msgstr ""
+
+#: includes/Admin/Assets.php:123
+msgid "Update to"
+msgstr ""
+
+#: includes/Admin/Assets.php:121
+msgid "Various updates and fixes available in the newest version."
+msgstr ""
+
+#: includes/Errors.php:22
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+
+#: includes/Admin/Hooks.php:52
+msgid ""
+"We have split certain settings into Hostinger tools to easily manage some "
+"key preferences of your website. “Get started” and “Learning” sections are "
+"now part of the main Hostinger Easy Onboarding plugin."
+msgstr ""
+
+#: includes/Admin/Menu.php:36
+msgid "Website list"
+msgstr ""
+
+#: includes/Admin/Assets.php:120
+msgid "WordPress version"
+msgstr ""
+
+#: includes/Admin/Assets.php:118
+msgid ""
+"WWW and non-WWW domain records are not pointing to the same host. Redirect "
+"not possible."
+msgstr ""
+
+#: includes/Admin/Assets.php:113
+msgid ""
+"XML-RPC allows apps to connect to your WordPress site, but might expose your "
+"site's security. Disable this feature if you don't need it"
+msgstr ""
+
+#. translators: %s: PHP version
+#: hostinger.php:87
+msgid "You are running <b>%s</b> PHP version."
+msgstr ""

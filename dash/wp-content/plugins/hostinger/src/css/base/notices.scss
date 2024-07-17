@@ -1,0 +1,55 @@
+@import "fonts";
+
+.hts-plugin-split {
+	font-family: DMSans, serif;
+	background: #fff;
+	padding: 20px 30px;
+	margin: 20px 0;
+	border: none;
+
+    h2 {
+        margin-top: 0;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    p, ul {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #727586;
+        padding: 0;
+    }
+
+    ul {
+        list-style-type: circle;
+        padding-left: 17px;
+
+        li {
+
+        }
+    }
+
+    button {
+        position: static;
+        background-color: #673DE6;
+        border-radius: 8px;
+        padding: 8px 24px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 15px;
+        transition: .3s;
+
+        &:hover {
+            opacity: .8;
+        }
+
+        &:before {
+            display: none;
+        }
+    }
+}

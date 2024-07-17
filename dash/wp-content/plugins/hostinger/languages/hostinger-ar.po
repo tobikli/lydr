@@ -1,0 +1,287 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 08:19+0000\n"
+"PO-Revision-Date: 2024-05-30 07:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4\n"
+"X-Domain: hostinger"
+
+#: includes/Admin/Assets.php:131
+msgid ""
+" Turning on XML-RPC might make your site less secure. Do you want to proceed?"
+msgstr " قد يؤدي تشغيل XML-RPC إلى جعل موقعك أقل أمانًا. هل تريد حقا المتابعة؟"
+
+#: includes/Errors.php:16
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr "عفوا، لقد فشلت المحاولة. حاول مرة أخرى أو اتصل بالدعم."
+
+#: includes/Errors.php:19
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr "لقد حدث خطأ غير متوقّع. حاول مرة أخرى أو اتصل بالدعم."
+
+#. translators: %s: PHP version
+#: hostinger.php:83
+#, fuzzy
+msgid "Attention:"
+msgstr "انتباه:"
+
+#: includes/Admin/Menu.php:45
+msgid "Billings"
+msgstr "الفواتير"
+
+#: includes/Admin/Assets.php:130
+msgid "Bypass link"
+msgstr "رابط الوصلة الفرعية"
+
+#: includes/Admin/Assets.php:135
+msgid "Bypass link reset"
+msgstr "إعادة تعيين الوصلة الفرعية"
+
+#: includes/Admin/Assets.php:133 includes/Admin/Assets.php:137
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: includes/Views/ComingSoon.php:6 includes/Views/ComingSoon.php:24
+msgid "Coming Soon"
+msgstr "قريباً"
+
+#: includes/Admin/Assets.php:109
+msgid ""
+"Disable public access to the site (WordPress admins will still be able to "
+"access)"
+msgstr ""
+"تعطيل وصول الجمهور إلى الموقع (سيظل مشرفو ووردبريس قادرين على الوصول إلى "
+"الموقع)"
+
+#: includes/Admin/Assets.php:112
+#, fuzzy
+msgid "Disable XML-RPC"
+msgstr "تعطيل XML-RPC"
+
+#: includes/Admin/Assets.php:132
+#, fuzzy
+msgid "Disclaimer"
+msgstr "إخلاء المسؤولية"
+
+#: includes/Admin/Assets.php:124
+#, fuzzy
+msgid "For improved security, ensure you use the latest version of WordPress"
+msgstr "لتحسين الأمان، تأكد من استخدامك لأحدث إصدار من ووردبريس"
+
+#: includes/Admin/Assets.php:114
+#, fuzzy
+msgid "Force HTTPs"
+msgstr "فرض HTTPs"
+
+#: includes/Admin/Assets.php:116
+#, fuzzy
+msgid "Force WWW"
+msgstr "فرض WWW"
+
+#: includes/Admin/Hooks.php:53
+#, fuzzy
+msgid "Got it"
+msgstr "حصلت عليه"
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Hooks.php:51
+#, fuzzy
+msgid "Hostinger plugin updates"
+msgstr "تحديثات المكوّن الإضافي Hostinger"
+
+#. Plugin Name of the plugin
+#: includes/Admin/Assets.php:108
+msgid "Hostinger Tools"
+msgstr "أدوات Hostinger"
+
+#. Description of the plugin
+msgid "Hostinger WordPress plugin."
+msgstr "إضافة Hostinger ووردبريس."
+
+#. Plugin URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://hostinger.com"
+
+#. Author URI of the plugin
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.com"
+
+#: includes/Admin/Assets.php:139
+#, fuzzy
+msgid "Link has been reset"
+msgstr "تمت إعادة تعيين الرابط"
+
+#: includes/Admin/Assets.php:125
+#, fuzzy
+msgid "Maintenance"
+msgstr "الصيانة"
+
+#: includes/Admin/Assets.php:129
+#, fuzzy
+msgid "Maintenance mode"
+msgstr "وضع الصيانة"
+
+#: includes/Views/ComingSoon.php:27
+msgid "New WordPress website is being built and will be published soon"
+msgstr "يتم الآن إنشاء موقع ووردبريس الجديد وسيتم نشره قريبًا"
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+#| msgid ""
+#| "on <a\n"
+#| "\t\t\t   href=\"https://wordpress."
+#| "org/support/plugin/hostinger/reviews/#new-post\"\n"
+#| "\t\t\t   target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"على <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Assets.php:119
+#, fuzzy
+msgid "PHP version"
+msgstr "إصدار PHP"
+
+#: includes/Admin/Assets.php:126
+msgid "Preview my website"
+msgstr "معاينة موقعي الإلكتروني"
+
+#: includes/Admin/Assets.php:134
+#, fuzzy
+msgid "Proceed anyway"
+msgstr "تابع على أي حال"
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "قيّم هذه الإضافة"
+
+#: includes/Admin/Assets.php:128
+#, fuzzy
+msgid "Redirects"
+msgstr "عمليات إعادة التوجيه"
+
+#: includes/Admin/Assets.php:115
+msgid "Redirects all HTTP URLs to HTTPS sites"
+msgstr "إعادة توجيه جميع عناوين URL الخاصة بـ HTTP إلى مواقع HTTPS"
+
+#: includes/Admin/Assets.php:117
+msgid "Redirects all WWW URLs to non-WWW ones"
+msgstr "إعادة توجيه جميع عناوين URL الخاصة بـ WWW إلى عناوين غير WWW"
+
+#: includes/Admin/Assets.php:111 includes/Admin/Assets.php:138
+#, fuzzy
+msgid "Reset link"
+msgstr "إعادة تعيين الرابط"
+
+#: includes/Admin/Assets.php:122
+#, fuzzy
+msgid "Running the latest version"
+msgstr "تشغيل أحدث إصدار"
+
+#: includes/Admin/Assets.php:127
+msgid "Security"
+msgstr "الأمان"
+
+#: includes/Admin/Assets.php:110
+#, fuzzy
+msgid "Skip-link that bypasses the maintenance mode"
+msgstr "تخطي الرابط الذي يتجاوز وضع الصيانة"
+
+#. translators: %s: PHP version
+#: hostinger.php:83
+#, fuzzy
+msgid "The Hostinger plugin requires minimum PHP version of <b>%s</b>. "
+msgstr "تتطلب الإضافة Hostinger الحد الأدنى من إصدار PHP من <b>%s</b>."
+
+#: includes/Admin/Assets.php:136
+msgid ""
+"This will invalidate the currently generated link in use. This action cannot "
+"be undone, are you sure you want to proceed?"
+msgstr ""
+"سيؤدي هذا إلى إبطال الرابط الذي تم إنشاؤه حاليًا. لا يمكن التراجع عن هذا "
+"الإجراء، هل أنت متأكد من رغبتك في المتابعة؟"
+
+#: includes/Admin/Menu.php:57 includes/Admin/Menu.php:58
+#, fuzzy
+msgid "Tools"
+msgstr "الأدوات"
+
+#: includes/Errors.php:38
+msgid "Unknown error code."
+msgstr "رمز خطأ غير معروف."
+
+#: includes/Admin/Assets.php:123
+#, fuzzy
+msgid "Update to"
+msgstr "تحديث إلى"
+
+#: includes/Admin/Assets.php:121
+#, fuzzy
+msgid "Various updates and fixes available in the newest version."
+msgstr "تحديثات وإصلاحات مختلفة متوفرة في الإصدار الأحدث."
+
+#: includes/Errors.php:22
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"نعتذر عن الإزعاج. لقد واجهت عملية إنشاء محتوى الذكاء الاصطناعي خطأً على "
+"مستوى الخادم. يرجى المحاولة مرة أخرى لاحقًا، وإذا استمرت المشكلة، فيرجى "
+"الاتصال بفريق الدعم للحصول على المساعدة."
+
+#: includes/Admin/Hooks.php:52
+#, fuzzy
+msgid ""
+"We have split certain settings into Hostinger tools to easily manage some "
+"key preferences of your website. “Get started” and “Learning” sections are "
+"now part of the main Hostinger Easy Onboarding plugin."
+msgstr ""
+"لقد قمنا بتقسيم بعض الإعدادات إلى أدوات Hostinger لإدارة بعض التفضيلات "
+"الرئيسية لموقعك على الويب بسهولة. أصبح قسما \"البدء\" و \"التعلم\" الآن "
+"جزءًا من المكون الإضافي الرئيسي \"Hostinger Easy Onboarding\"."
+
+#: includes/Admin/Menu.php:36
+#, fuzzy
+msgid "Website list"
+msgstr "قائمة المواقع الإلكترونية"
+
+#: includes/Admin/Assets.php:120
+#, fuzzy
+msgid "WordPress version"
+msgstr "إصدار ووردبريس"
+
+#: includes/Admin/Assets.php:118
+msgid ""
+"WWW and non-WWW domain records are not pointing to the same host. Redirect "
+"not possible."
+msgstr ""
+"لا تشير سجلات النطاقات WWW وغير WWW إلى نفس المضيف. إعادة التوجيه غير ممكنة."
+
+#: includes/Admin/Assets.php:113
+msgid ""
+"XML-RPC allows apps to connect to your WordPress site, but might expose your "
+"site's security. Disable this feature if you don't need it"
+msgstr ""
+"يسمح XML-RPC للتطبيقات بالاتصال بموقع WordPress الخاص بك، لكنه قد يعرّض أمان "
+"موقعك للخطر. عطّل هذه الميزة إذا لم تكن بحاجة إليها."
+
+#. translators: %s: PHP version
+#: hostinger.php:87
+#, fuzzy
+msgid "You are running <b>%s</b> PHP version."
+msgstr "أنت تقوم بتشغيل <b>%s</b> إصدار PHP."

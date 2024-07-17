@@ -1,0 +1,85 @@
+@mixin padding-margin($mode) {
+  @if $mode == general {
+    $mode: "";
+  } @else {
+    $mode: "-" + $mode;
+  }
+
+  @for $i from 0 through 50 {
+    $num: $i * 4;
+    .h-m-#{$num}#{$mode} {
+      margin: #{$num}px !important;
+    }
+    .h-mx-#{$num}#{$mode} {
+      margin-left: #{$num}px !important;
+      margin-right: #{$num}px !important;
+    }
+    .h-my-#{$num}#{$mode} {
+      margin-top: #{$num}px !important;
+      margin-bottom: #{$num}px !important;
+    }
+    .h-mt-#{$num}#{$mode} {
+      margin-top: #{$num}px !important;
+    }
+    .h-mb-#{$num}#{$mode} {
+      margin-bottom: #{$num}px !important;
+    }
+    .h-ml-#{$num}#{$mode} {
+      margin-left: #{$num}px !important;
+    }
+    .h-mr-#{$num}#{$mode} {
+      margin-right: #{$num}px !important;
+    }
+
+    .h-m-#{$num}#{$mode}-minus {
+      margin: -#{$num}px !important;
+    }
+    .h-mx-#{$num}#{$mode}-minus {
+      margin-left: -#{$num}px !important;
+      margin-right: -#{$num}px !important;
+    }
+    .h-my-#{$num}#{$mode}-minus {
+      margin-top: -#{$num}px !important;
+      margin-bottom: -#{$num}px !important;
+    }
+    .h-mt-#{$num}#{$mode}-minus {
+      margin-top: -#{$num}px !important;
+    }
+    .h-mb-#{$num}#{$mode}-minus {
+      margin-bottom: -#{$num}px !important;
+    }
+    .h-ml-#{$num}#{$mode}-minus {
+      margin-left: -#{$num}px !important;
+    }
+    .h-mr-#{$num}#{$mode}-minus {
+      margin-right: -#{$num}px !important;
+    }
+
+    .h-p-#{$num}#{$mode} {
+      padding: #{$num}px !important;
+    }
+    .h-px-#{$num}#{$mode} {
+      padding-left: #{$num}px !important;
+      padding-right: #{$num}px !important;
+    }
+    .h-py-#{$num}#{$mode} {
+      padding-top: #{$num}px !important;
+      padding-bottom: #{$num}px !important;
+    }
+    .h-pt-#{$num}#{$mode} {
+      padding-top: #{$num}px !important;
+    }
+    .h-pb-#{$num}#{$mode} {
+      padding-bottom: #{$num}px !important;
+    }
+    .h-pl-#{$num}#{$mode} {
+      padding-left: #{$num}px !important;
+    }
+    .h-pr-#{$num}#{$mode} {
+      padding-right: #{$num}px !important;
+    }
+  }
+}
+
+// no media query
+@include padding-margin(general);

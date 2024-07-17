@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  wordpress:
+    build:
+      target: dev
+    restart: always
+    ports:
+      - "8080:80"
+    env_file:
+      - .env
+    volumes:
+      - ./:/var/www/html/wp-content/development
+      - ./docker/wordpress/ray.php:/var/www/html/ray.php
+      - ./docker/wordpress/wp-config.php:/var/www/html/wp-config.php
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      db:
+        condition: service_healthy
+  db:
+    image: mysql:5.7.36
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ${WORDPRESS_DB_NAME}
+      MYSQL_USER: ${WORDPRESS_DB_USER}
+      MYSQL_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "--silent" ]
+      retries: 3
+      timeout: 5s
+networks:
+  default:
+    name: wordpress-network
+volumes:
+  wordpress:
+  db:

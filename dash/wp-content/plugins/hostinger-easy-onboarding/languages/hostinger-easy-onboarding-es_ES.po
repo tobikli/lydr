@@ -1,0 +1,1300 @@
+# #-#-#-#-#  hostinger-easy-onboarding.po (Hostinger Easy Onboarding 1.0.0)  #-#-#-#-#
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPL v3.
+# #-#-#-#-#  hostinger-es_ES.po (Plugins - Hostinger - Stable (latest release))  #-#-#-#-#
+# Translation of Plugins - Hostinger - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Hostinger - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger Easy Onboarding 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-easy-"
+"onboarding\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-06T11:48:04+00:00\n"
+"PO-Revision-Date: 2024-06-05 12:48+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger-easy-onboarding\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: es_ES\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4"
+
+#: includes/Admin/Assets.php:117
+#, fuzzy
+msgid ""
+" Learn how to connect your domain to Hostinger by watching this tutorial on "
+"YouTube for a step-by-step guide:"
+msgstr ""
+" Aprenda a conectar su dominio a Hostinger viendo este tutorial en YouTube "
+"para obtener una guía paso a paso:"
+
+#. translators: %s plugin slug
+#: includes/Rest/WooRoutes.php:98
+#, fuzzy
+msgid "%s is already active"
+msgstr "%s ya está activo"
+
+#. translators: %s field name that is missing
+#: includes/Rest/StepRoutes.php:59 includes/Rest/StepRoutes.php:63
+#: includes/Rest/WooRoutes.php:40 includes/Rest/WooRoutes.php:89
+#: includes/Rest/WooRoutes.php:169
+#, fuzzy
+msgid "%s missing or empty"
+msgstr "falta %s o está vacío"
+
+#: includes/Admin/Onboarding/PluginManager.php:32
+#, fuzzy
+msgid "Accept payments via credit card. Manage transactions within WordPress."
+msgstr ""
+"Acepte pagos con tarjeta de crédito. Gestionar las transacciones dentro de "
+"WordPress."
+
+#: includes/Admin/Assets.php:170
+#, fuzzy
+msgid "Access site identity and edit title"
+msgstr "Acceder a la identidad del sitio y editar el título"
+
+#: includes/Admin/Onboarding/Onboarding.php:326
+msgid "Access the Site identity and edit title"
+msgstr "Accede a la identidad del sitio y edita el título"
+
+#: includes/Errors.php:14
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr "Acción fallida. Prueba de nuevo o contacta con soporte. Disculpas."
+
+#: includes/Admin/Assets.php:183
+#, fuzzy
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/Admin/Onboarding/Onboarding.php:384
+msgid "Add a gallery block"
+msgstr "Añadir un bloque de galería"
+
+#: includes/Admin/Assets.php:134 includes/Admin/Assets.php:172
+#: includes/Admin/Onboarding/Onboarding.php:355
+#: includes/Admin/Onboarding/Onboarding.php:396
+msgid "Add a new page"
+msgstr "Añade una nueva página"
+
+#: includes/Admin/Assets.php:185 includes/Admin/Onboarding/Onboarding.php:400
+msgid "Add a title"
+msgstr "Añade un título"
+
+#: includes/Admin/Assets.php:196 includes/Admin/Onboarding/Onboarding.php:404
+msgid "Add content"
+msgstr "Añade contenido"
+
+#: includes/Admin/Assets.php:173
+#, fuzzy
+msgid "Add plugin"
+msgstr "Añadir plugin"
+
+#: includes/Admin/Onboarding/Onboarding.php:482
+#, fuzzy
+#| msgid "Add products"
+msgid "Add product"
+msgstr "Añadir productos"
+
+#: includes/Admin/Assets.php:192
+#, fuzzy
+msgid "Add shipping method"
+msgstr "Añadir método de envío"
+
+#: includes/Admin/Onboarding/Onboarding.php:368
+msgid "Add the content and images that represent your services"
+msgstr "Añade el contenido y las imágenes que representan tus servicios"
+
+#: includes/Admin/Assets.php:195 includes/Admin/Onboarding/Onboarding.php:401
+msgid ""
+"Add the title of the page, for example, About. Click the Add Title text to "
+"open the text box where you will add your title. The title of your page "
+"should be descriptive of the information the page will have."
+msgstr ""
+"Añade el título de la página, por ejemplo: Sobre nosotros. Haz clic en "
+"Añadir título para abrir el cuadro de texto donde lo añadirás. El título de "
+"tu página debe ser descriptivo y debe estar relacionado con la página."
+
+#: includes/Admin/Assets.php:108 includes/Admin/Onboarding/Onboarding.php:476
+#, fuzzy
+msgid "Add your first product"
+msgstr "Añada su primer producto"
+
+#: includes/Admin/Assets.php:109
+#, fuzzy
+msgid "Add your first product or service"
+msgstr "Añada su primer producto o servicio"
+
+#: includes/Admin/Assets.php:174
+#, fuzzy
+msgid "Added"
+msgstr "Añadido"
+
+#: includes/Admin/Assets.php:123
+#, fuzzy
+msgid ""
+"Adding a logo is a great way to personalize a website or add branding "
+"information. You can use your existing logo or create a new one using the <a "
+"href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\">AI Logo Maker.</a>"
+msgstr ""
+"Añadir un logotipo es una forma estupenda de personalizar un sitio web o "
+"añadir información de marca. Puede utilizar su logotipo actual o crear uno "
+"nuevo con <a href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" "
+"style=\"text-decoration:none; font-weight:bold; color:#673de6\">AI Logo "
+"Maker.</a>"
+
+#: includes/Admin/Onboarding/Onboarding.php:199
+msgid ""
+"Adding a logo is a great way to personalize a website or add branding "
+"information. You can use your existing logo or create a new one using the <a "
+"href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" "
+"target=\"_blank\">AI Logo Maker</a>."
+msgstr ""
+"Añadir un logotipo es una forma estupenda de personalizar una web o de "
+"añadir información de la marca. Puedes utilizar tu logotipo actual o crear "
+"uno nuevo utilizando el <a href=\"https://logo.hostinger.com/?ref=wordpress-"
+"onboarding\" target=\"_blank\">Creador de logos con IA</a>."
+
+#: includes/Admin/Onboarding/PluginManager.php:60
+#, fuzzy
+msgid "Adds Correios shipping methods to your WooCommerce store."
+msgstr "Añade métodos de envío Correios a tu tienda WooCommerce."
+
+#: includes/Admin/Onboarding/PluginManager.php:50
+#, fuzzy
+msgid ""
+"Adiciona PagSeguro como meio de pagamento (com desconto nas taxas oficiais)."
+msgstr ""
+"Añade PagSeguro como medio de pago (con descuento en impuestos oficiales)."
+
+#: includes/Admin/Onboarding/PluginManager.php:41
+#, fuzzy
+msgid ""
+"Amazon Pay is embedded directly into your existing web site, and all the "
+"buyer interactions with Amazon Pay and Login with Amazon take place in "
+"embedded widgets so that the buyer never leaves your site. "
+msgstr ""
+"Amazon Pay se integra directamente en su sitio web existente, y todas las "
+"interacciones del comprador con Amazon Pay e Iniciar sesión con Amazon "
+"tienen lugar en widgets integrados para que el comprador nunca abandone su "
+"sitio."
+
+#: includes/Errors.php:17
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr ""
+"Se ha producido un error inesperado. Por favor, inténtalo de nuevo o "
+"contacta con soporte."
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:77
+#, fuzzy
+msgid "Attention:"
+msgstr "Atención:"
+
+#: includes/Admin/Assets.php:186
+#, fuzzy
+msgid "Back"
+msgstr "Volver"
+
+#: includes/Admin/Assets.php:199 includes/Admin/Onboarding/Onboarding.php:409
+msgid ""
+"Before publishing, you can preview your created page by clicking on the "
+"Preview button. If you are happy with the result, click the Publish button."
+msgstr ""
+"Antes de publicar, puedes previsualizar la página creada haciendo clic en "
+"Previsualizar. Si te gusta, pulsa el botón Publicar."
+
+#: includes/Admin/Menu.php:59
+msgid "Billings"
+msgstr "Facturación"
+
+#: includes/Rest/WelcomeRoutes.php:65
+#, fuzzy
+msgid "Choice parameter missing or empty"
+msgstr "Falta el parámetro de elección o está vacío"
+
+#: includes/Admin/Assets.php:101 includes/Admin/Onboarding/Onboarding.php:525
+#, fuzzy
+msgid ""
+"Choose the ways you'd like to ship orders to customers. You can always add "
+"others later."
+msgstr ""
+"Elija las formas en que desea enviar los pedidos a los clientes. Siempre "
+"puedes añadir otras más adelante."
+
+#: includes/Admin/Onboarding/Onboarding.php:365
+msgid ""
+"Come up with a clear and concise name for the page that accurately reflects "
+"the services you provide."
+msgstr ""
+"Piensa en un nombre claro y conciso para la página, que refleje fielmente "
+"los servicios que prestas."
+
+#: includes/Admin/Assets.php:146
+#, fuzzy
+msgid "Complete"
+msgstr "Complete"
+
+#: includes/Admin/Onboarding/Onboarding.php:550
+#, fuzzy
+msgid "Configure"
+msgstr "Configure"
+
+#: includes/Admin/Onboarding/PluginManager.php:35
+#, fuzzy
+msgid ""
+"Configure the payment options and accept payments with cards, ticket and "
+"money of Mercado Pago account."
+msgstr ""
+"Configura las opciones de pago y acepta pagos con tarjetas, ticket y dinero "
+"de la cuenta de Mercado Pago."
+
+#: includes/Admin/Assets.php:175
+#, fuzzy
+msgid "Connect"
+msgstr "Conectar"
+
+#: includes/Admin/Assets.php:154
+#, fuzzy
+msgid "Connect domain now"
+msgstr "Conectar dominio ahora"
+
+#: includes/Admin/Assets.php:182 includes/Admin/Onboarding/WelcomeCards.php:29
+#, fuzzy
+msgid ""
+"Connect your <strong>Amazon Associate</strong> account to fetch API details."
+msgstr ""
+"Conecta tu cuenta de <strong>Amazon Associate</strong> para obtener los "
+"detalles de la API."
+
+#: includes/Admin/Assets.php:135 includes/Admin/Onboarding/Onboarding.php:428
+msgid "Connect your domain"
+msgstr "Conecta tu dominio"
+
+#: includes/Admin/Assets.php:112 includes/Admin/Assets.php:115
+#: includes/Admin/Assets.php:201
+#, fuzzy
+msgid "Connect your domain to Hostinger"
+msgstr "Conecte su dominio a Hostinger"
+
+#: includes/Admin/Assets.php:197 includes/Admin/Onboarding/Onboarding.php:405
+msgid ""
+"Content can be anything you wish, for example, text, images, videos, tables, "
+"and lots more. Click on a plus sign and choose any block you want to add to "
+"the page."
+msgstr ""
+"El contenido puede ser cualquier cosa que quieras. Por ejemplo, texto, "
+"imágenes, vídeos, tablas y mucho más. Haz clic en el signo «+» y elige el "
+"bloque que quieras añadir a la página."
+
+#: includes/Admin/Assets.php:89
+#, fuzzy
+msgid "Continue"
+msgstr "Continuar"
+
+#: includes/Admin/Onboarding/Onboarding.php:229
+msgid "Create a catchy headline"
+msgstr "Crea un titular pegadizo"
+
+#: includes/Admin/Onboarding/Onboarding.php:230
+msgid ""
+"Create a headline that grabs your visitors attention and accurately "
+"represents the content of your post."
+msgstr ""
+"Crea un título que capte la atención de tus visitantes y represente "
+"fielmente el contenido de tu entrada."
+
+#: includes/Admin/Assets.php:136 includes/Admin/Onboarding/Onboarding.php:198
+msgid "Create a logo"
+msgstr "Crea un logo"
+
+#: includes/Admin/Onboarding/Onboarding.php:380
+msgid "Create a new page called “My projects”"
+msgstr "Crea una nueva página llamada «Mis proyectos»."
+
+#: includes/Admin/Onboarding/Onboarding.php:349
+msgid "Create a page describing your services"
+msgstr "Crea una página que describa tus servicios"
+
+#: includes/Admin/Onboarding/PluginManager.php:57
+#, fuzzy
+msgid ""
+"Create additional shipment methods in WooCommerce and enable pricing based "
+"on cart weight or total."
+msgstr ""
+"Cree métodos de envío adicionales en WooCommerce y habilite la fijación de "
+"precios basada en el peso o el total del carrito."
+
+#: includes/Admin/Onboarding/PluginManager.php:69
+#, fuzzy
+msgid "Create Chronopost & Mondial relay shipping labels and send them easily."
+msgstr ""
+"Cree etiquetas de envío por relé Chronopost y Mondial y envíelas fácilmente."
+
+#: includes/Admin/Onboarding/Onboarding.php:225
+msgid "Create your first blog post"
+msgstr "Crea tu primera entrada en el blog"
+
+#: includes/Admin/Assets.php:148 includes/Admin/Assets.php:176
+#, fuzzy
+msgid "Dismiss"
+msgstr "Desestimar"
+
+#: includes/Admin/Surveys.php:47
+msgid "Do you have any comments/suggestions to improve our AI tools?"
+msgstr ""
+"¿Tienes algún comentario/sugerencia para mejorar nuestras herramientas de IA?"
+
+#: includes/Admin/Surveys.php:33
+msgid ""
+"Do you have any comments/suggestions to improve our WooCommerce onboarding?"
+msgstr ""
+"¿Tienes algún comentario/sugerencia para mejorar nuestro proceso de puesta "
+"en marcha de WooCommerce?"
+
+#: includes/Admin/Assets.php:202
+#, fuzzy
+msgid ""
+"Domain propagation can take up to 24 hours. Your domain will propagate "
+"automatically, and you don't need to take any action during this time."
+msgstr ""
+"La propagación del dominio puede tardar hasta 24 horas. Tu dominio se "
+"propagará automáticamente y no es necesario que realices ninguna acción "
+"durante este tiempo."
+
+#: includes/Admin/Onboarding/Onboarding.php:233
+msgid "Draft your post"
+msgstr "Escribe el borrador de tu entrada"
+
+#: includes/Admin/Assets.php:166 includes/Admin/Onboarding/Onboarding.php:299
+msgid "Edit an image"
+msgstr "Edita una imagen"
+
+#: includes/Admin/Assets.php:160 includes/Admin/Onboarding/Onboarding.php:268
+msgid "Edit description"
+msgstr "Edita la descripción"
+
+#: includes/Admin/Assets.php:158 includes/Admin/Onboarding/Onboarding.php:264
+msgid "Edit post"
+msgstr "Edita la entrada"
+
+#: includes/Admin/Assets.php:131 includes/Admin/Onboarding/Onboarding.php:256
+msgid "Edit post description"
+msgstr "Edita el contenido de las entradas"
+
+#: includes/Admin/Assets.php:133 includes/Admin/Onboarding/Onboarding.php:318
+msgid "Edit site title"
+msgstr "Edita el título del sitio"
+
+#: includes/Admin/Assets.php:144 includes/Admin/Onboarding/Onboarding.php:458
+#, fuzzy
+msgid ""
+"Enter your store details so we can help you set up your online store faster."
+msgstr ""
+"Introduzca los datos de su tienda para que podamos ayudarle a crear su "
+"tienda en línea más rápidamente."
+
+#: includes/Admin/Assets.php:93 includes/Admin/Onboarding/Onboarding.php:547
+#, fuzzy
+msgid ""
+"Expand your audience with the help of Omnisend. Create email campaigns that "
+"drive sales."
+msgstr ""
+"Amplíe su audiencia con la ayuda de Omnisend. Cree campañas de correo "
+"electrónico que impulsen las ventas."
+
+#: includes/Admin/Onboarding/PluginManager.php:47
+#, fuzzy
+msgid "Extends WooCommerce with a RedSys gateway."
+msgstr "Amplía WooCommerce con una pasarela RedSys."
+
+#: includes/Admin/Onboarding/Onboarding.php:372
+msgid "Finalize the page"
+msgstr "Finaliza la página"
+
+#: includes/Admin/Assets.php:212
+#, fuzzy
+msgid "Find the answers you need in our Knowledge Base"
+msgstr "Encuentre las respuestas que necesita en nuestra Base de conocimientos"
+
+#: includes/Admin/Assets.php:162 includes/Admin/Onboarding/Onboarding.php:291
+msgid "Find the Media page"
+msgstr "Encuentra la página Medios"
+
+#: includes/Admin/Assets.php:221
+#, fuzzy
+msgid "Follow these steps to complete your setup"
+msgstr "Siga estos pasos para completar la configuración"
+
+#: includes/Admin/Assets.php:177
+#, fuzzy
+msgid "Generate content"
+msgstr "Generar contenidos"
+
+#: includes/Admin/Assets.php:179 includes/Admin/Onboarding/WelcomeCards.php:37
+#, fuzzy
+#| msgid "Create content with AI"
+msgid "Generate content with AI"
+msgstr "Crea contenidos con IA"
+
+#: includes/Admin/Assets.php:200
+#, fuzzy
+msgid "Get a domain"
+msgstr "Obtener un dominio"
+
+#: includes/Admin/Hooks.php:52
+msgid "Get Discount"
+msgstr "Obtén el descuento"
+
+#: includes/Admin/Assets.php:180
+#, fuzzy
+msgid ""
+"Get images, text, and SEO keywords created for you instantly – try <strong>"
+"AI Content Creator</strong>."
+msgstr ""
+"Consigue imágenes, texto y palabras clave SEO creadas para ti al instante - "
+"prueba <strong>AI Content Creator</strong>."
+
+#: includes/Admin/Onboarding/WelcomeCards.php:39
+#, fuzzy
+msgid "Get images, text, and SEO keywords created for you instantly."
+msgstr ""
+"Obtenga imágenes, texto y palabras clave SEO creadas para usted al instante."
+
+#: includes/Admin/Assets.php:219
+#, fuzzy
+msgid "Get in touch with our live specialists"
+msgstr "Póngase en contacto con nuestros especialistas"
+
+#: includes/Admin/Assets.php:107 includes/Admin/Onboarding/Onboarding.php:502
+#, fuzzy
+msgid ""
+"Get ready to accept customer payments. Let them pay for your products and "
+"services with ease."
+msgstr ""
+"Prepárese para aceptar pagos de clientes. Permítales pagar sus productos y "
+"servicios con facilidad."
+
+#: includes/Admin/Onboarding/Onboarding.php:460
+#, fuzzy
+#| msgid "Get started"
+msgid "Get Started"
+msgstr "Primeros pasos"
+
+#: includes/Admin/Assets.php:141
+#, fuzzy
+msgid "Get started!"
+msgstr "Póngase en marcha"
+
+#: includes/Admin/Assets.php:102
+#, fuzzy
+msgid "Getting your features ready"
+msgstr "Prepare sus funciones"
+
+#: includes/Admin/Onboarding/Onboarding.php:364
+msgid "Give a page a short title such as “Our Services”"
+msgstr "Dale a una página un título corto, como «Nuestros servicios»."
+
+#: includes/Admin/Onboarding/Onboarding.php:381
+msgid ""
+"Give your page a name (e.g. \"My Portfolio\"), then click the \"+\" button "
+"in the editor to add a new block."
+msgstr ""
+"Dale un nombre a tu página (por ejemplo, «Mi porfolio») y luego haz clic en "
+"«+» para añadir un nuevo bloque."
+
+#: includes/Admin/Assets.php:156 includes/Admin/Onboarding/Onboarding.php:260
+msgid "Go to Posts"
+msgstr "Ve a las entradas"
+
+#: includes/Admin/Assets.php:137 includes/Admin/Assets.php:168
+#: includes/Admin/Onboarding/Onboarding.php:202
+#: includes/Admin/Onboarding/Onboarding.php:322
+msgid "Go to the Customize page"
+msgstr "Ve a la página del Personalizador"
+
+#: includes/Admin/Assets.php:155
+#, fuzzy
+msgid "Got it!"
+msgstr "¡La tengo!"
+
+#: includes/Admin/Assets.php:213
+#, fuzzy
+msgid "Help Center"
+msgstr "Centro de ayuda"
+
+#: includes/Admin/Assets.php:153
+#, fuzzy
+msgid "Hide completed"
+msgstr "Ocultar completado"
+
+#: includes/Admin/Onboarding/PluginManager.php:54
+#, fuzzy
+msgid ""
+"Hosted services for WooCommerce: automated tax calculation, shipping label "
+"printing, and smoother payment setup."
+msgstr ""
+"Servicios alojados para WooCommerce: cálculo automático de impuestos, "
+"impresión de etiquetas de envío y configuración de pagos más sencilla."
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Assets.php:215
+#, fuzzy
+msgid "Hostinger Academy"
+msgstr "Academia Hostinger"
+
+#. Plugin Name of the plugin
+msgid "Hostinger Easy Onboarding"
+msgstr "Fácil incorporación de Hostinger"
+
+#. Description of the plugin
+msgid "Hostinger Easy Onboarding WordPress plugin."
+msgstr "Plugin de WordPres Fácil incorporación de Hostinger"
+
+#: includes/Admin/Assets.php:159 includes/Admin/Onboarding/Onboarding.php:265
+msgid ""
+"Hover over the chosen post to see the options menu. Click on the Edit button "
+"to open the post editor."
+msgstr ""
+"Pasa el ratón por encima de la entrada elegida para ver el menú de opciones. "
+"Pulsa el botón Editar para abrir el editor."
+
+#: includes/Admin/Surveys.php:40
+msgid "How could we make it easier to create a new WordPress website?"
+msgstr "¿Cómo podríamos facilitar la creación de un nuevo sitio WordPress?"
+
+#: includes/Admin/Assets.php:203 includes/Admin/Views/Learn.php:8
+msgid "How to Add Your WordPress Website to Google Search Console"
+msgstr "Cómo añadir tu sitio WordPress a Google Search Console"
+
+#: includes/Admin/Assets.php:208 includes/Admin/Views/Learn.php:33
+msgid "How to Back Up a WordPress Site"
+msgstr "Cómo hacer una copia de seguridad de un sitio WordPress"
+
+#: includes/Admin/Assets.php:205 includes/Admin/Views/Learn.php:18
+msgid "How to Clear Cache in WordPress Website"
+msgstr "Cómo borrar la caché de un sitio WordPress"
+
+#: includes/Admin/Assets.php:204 includes/Admin/Views/Learn.php:13
+msgid "How to Create a WordPress Contact Us Page"
+msgstr "Cómo crear una página de contacto en WordPress"
+
+#: includes/Admin/Assets.php:206 includes/Admin/Views/Learn.php:23
+msgid "How to Edit the Footer in WordPress"
+msgstr "Cómo editar el pie de página en WordPress"
+
+#: includes/Admin/Assets.php:209 includes/Admin/Views/Learn.php:38
+msgid "How to Import Images Into WordPress Website"
+msgstr "Cómo importar imágenes a un sitio WordPress"
+
+#: includes/Admin/Assets.php:118
+#, fuzzy
+msgid "How to Point Domain Name to Web Hosting"
+msgstr "Cómo asignar un nombre de dominio a un alojamiento web"
+
+#: includes/Admin/Assets.php:210 includes/Admin/Views/Learn.php:43
+msgid "How to Set Up WordPress SMTP"
+msgstr "Cómo configurar el SMTP de WordPress"
+
+#: includes/Admin/Surveys.php:39
+msgid ""
+"How would you rate your experience building a website based on a pre-built "
+"template? (Score 1-10)"
+msgstr ""
+"¿Cómo calificarías tu experiencia construyendo un sitio web basado en una "
+"plantilla preconstruida? (Puntuación 1-10)"
+
+#: includes/Admin/Surveys.php:32
+msgid ""
+"How would you rate your experience setting up a WooCommerce site on our "
+"hosting?"
+msgstr ""
+"¿Cómo calificarías tu experiencia al configurar un sitio WooCommerce en "
+"nuestro alojamiento?"
+
+#: includes/Admin/Surveys.php:46
+msgid ""
+"How would you rate your experience using our AI content generation tools in "
+"onboarding? (Scale 1-10)"
+msgstr ""
+"¿Cómo valorarías tu experiencia usando nuestro plugin de asistente de IA "
+"para generación de contenido?"
+
+#. Plugin URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://www.hostinger.es"
+
+#. Author URI of the plugin
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.es"
+
+#: includes/Admin/Assets.php:167 includes/Admin/Onboarding/Onboarding.php:300
+msgid ""
+"If you wish to edit the image, click on the chosen image and click the Edit "
+"Image button. You can now crop, rotate, flip or scale the selected image."
+msgstr ""
+"Si quieres editar la imagen, haz clic en la imagen elegida y pulsa el botón "
+"Editar imagen. Ahora puedes recortar, girar, voltear o escalar la imagen "
+"seleccionada."
+
+#: includes/Admin/Onboarding/Onboarding.php:385
+msgid ""
+"In the block menu, search for \"Gallery\" and select the Gallery block. "
+"Upload the images you want to showcase in your portfolio, then adjust the "
+"layout and add captions if needed."
+msgstr ""
+"En el menú de bloques, busca «Galería» y selecciona el bloque Galería. Sube "
+"las imágenes que quieras mostrar en tu porfolio, luego ajusta el diseño y "
+"añade pies de foto si es necesario."
+
+#: includes/Admin/Assets.php:130 includes/Admin/Assets.php:169
+#: includes/Admin/Onboarding/Onboarding.php:323
+msgid ""
+"In the left sidebar, click Appearance to expand the menu. In the Appearance "
+"section, click Customize. The Customize page will open."
+msgstr ""
+"En la barra lateral izquierda, haz clic en Apariencia para desplegar el menú."
+" En la sección Apariencia, haz clic en Personalizar. Se abrirá el "
+"Personalizador."
+
+#: includes/Admin/Onboarding/Onboarding.php:203
+msgid ""
+"In the left sidebar, click Appearance to expand the menu. In the Appearance "
+"section, click Customize. The Customize page will open. "
+msgstr ""
+"En la barra lateral izquierda, haz clic en Apariencia para desplegar el menú."
+" En la sección Apariencia, haz clic en Personalizar. Se abrirá la página del "
+"personalizador. "
+
+#: includes/Admin/Assets.php:171 includes/Admin/Onboarding/Onboarding.php:327
+msgid "In the left sidebar, click Site Identity and edit your site title."
+msgstr ""
+"En la barra lateral izquierda, haz clic en Identidad del sitio y edita el "
+"título de tu sitio."
+
+#: includes/Admin/Assets.php:139
+#, fuzzy
+msgid ""
+"In the left sidebar, click Site Identity, then click on the Select Site Icon "
+"button. Here, you can upload your brand logo."
+msgstr ""
+"En la barra lateral izquierda, haga clic en Identidad del sitio y, a "
+"continuación, en el botón Seleccionar icono del sitio. Aquí puede cargar el "
+"logotipo de su marca."
+
+#: includes/Admin/Onboarding/Onboarding.php:207
+msgid ""
+"In the left sidebar, click Site Identity, then click on the Select Site Icon "
+"button. Here, you can upload your brand logo. "
+msgstr ""
+"En la barra lateral izquierda, haz clic en Identidad del sitio y, a "
+"continuación, en el botón Seleccionar icono del sitio. Aquí puedes subir el "
+"logotipo de tu marca. "
+
+#: includes/Admin/Assets.php:163
+#, fuzzy
+msgid ""
+"In the left sidebar, find the Media button. Click on the Library button to "
+"see all the images you have uploaded to your website."
+msgstr ""
+"En la barra lateral izquierda, busque el botón Multimedia. Haz clic en el "
+"botón Biblioteca para ver todas las imágenes que has subido a tu sitio web."
+
+#: includes/Admin/Onboarding/Onboarding.php:292
+msgid ""
+"In the left sidebar, find the Media button. The Media Library page allows "
+"you to edit, view, and delete media previously uploaded to your website."
+msgstr ""
+"En la barra lateral, busca el botón de medios. La página de biblioteca de "
+"medios te permite editar, ver y eliminar medios subidos previamente a tu web."
+
+#: includes/Admin/Assets.php:184 includes/Admin/Onboarding/Onboarding.php:397
+msgid ""
+"In the left sidebar, find the Pages menu and click on Add New button. You "
+"will see the WordPress page editor. Each paragraph, image, or video in the "
+"WordPress editor is presented as a “block” of content."
+msgstr ""
+"En la barra lateral izquierda, busca el menú Páginas y haz clic en el botón "
+"Añadir nueva. Verás el editor de páginas de WordPress. Cada párrafo, imagen "
+"o video del editor de WordPress se presenta como un bloque de contenido."
+
+#: includes/Admin/Assets.php:157 includes/Admin/Onboarding/Onboarding.php:261
+msgid ""
+"In the left sidebar, find the Posts button. Click on the All Posts button "
+"and find the post for which you want to change the description."
+msgstr ""
+"En la barra lateral izquierda, busca el botón Entradas. Haz clic en el botón "
+"Todas las entrada y busca la entrada cuya descripción quieras cambiar."
+
+#: includes/Admin/Onboarding/WelcomeCards.php:19
+#, fuzzy
+msgid ""
+"Install <strong>WooCommerce</strong>, add products or services, and start "
+"selling today."
+msgstr ""
+"Instale <strong>WooCommerce</strong>, añada productos o servicios y empiece "
+"a vender hoy mismo."
+
+#: includes/Admin/Assets.php:178
+#, fuzzy
+msgid "Installed"
+msgstr "Instalado"
+
+#: includes/Admin/Assets.php:121
+#: includes/Admin/Views/Partials/PromotionalBanner.php:5
+msgid "Invite a Friend, Earn Up to $100"
+msgstr "Invita a un amigo y gana hasta $100"
+
+#: includes/Admin/Onboarding/PluginManager.php:44
+#, fuzzy
+msgid ""
+"It enables a WooCommerce site to accept payments through UPI apps like BHIM, "
+"Google Pay, Paytm, PhonePe or any Banking UPI app. Avoid payment gateway "
+"charges."
+msgstr ""
+"Permite a un sitio WooCommerce aceptar pagos a través de aplicaciones UPI "
+"como BHIM, Google Pay, Paytm, PhonePe o cualquier aplicación UPI bancaria. "
+"Evita los gastos de pasarela de pago."
+
+#: includes/Admin/Assets.php:211
+#, fuzzy
+msgid "Knowledge Base"
+msgstr "Base de conocimientos"
+
+#: includes/Admin/Menu.php:86 includes/Admin/Menu.php:87
+msgid "Learn"
+msgstr "Aprender"
+
+#: includes/Admin/Assets.php:207 includes/Admin/Views/Learn.php:28
+msgid "LiteSpeed Cache: How to Get 100% WordPress Optimization"
+msgstr "LiteSpeed Cache: cómo optimizar WordPress al 100%"
+
+#: includes/Admin/Onboarding/Onboarding.php:373
+msgid ""
+"Make the page easy to read and navigate by using headings and bullet points. "
+"Include a clear call-to-action (CTA) to encourage visitors to take the next "
+"step for example, to contact you via email or contact form."
+msgstr ""
+"Haz que la página sea fácil de leer y navegar utilizando encabezados y "
+"viñetas. Incluye una llamada a la acción (CTA) clara para animar a los "
+"visitantes a dar el siguiente paso, por ejemplo, ponerse en contacto contigo "
+"por email o mediante un formulario de contacto."
+
+#: includes/Admin/Assets.php:91
+#, fuzzy
+msgid "Manage shipping"
+msgstr "Gestionar los envíos"
+
+#: includes/Admin/Assets.php:90 includes/Admin/Onboarding/Onboarding.php:543
+#, fuzzy
+msgid "Market your business"
+msgstr "Comercialice su empresa"
+
+#: includes/Admin/Assets.php:114
+#, fuzzy
+msgid "Nameserver"
+msgstr "Servidor de nombres"
+
+#: includes/Admin/Assets.php:149
+#, fuzzy
+msgid "Now <strong>finish setting up</strong> the plugins you’ve installed."
+msgstr ""
+"Ahora <strong>termina de configurar</strong> los plugins que has instalado."
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"en <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Menu.php:27 includes/Admin/Menu.php:76
+#: includes/Admin/Menu.php:77
+msgid "Onboarding"
+msgstr "Incorporación"
+
+#: includes/Admin/Onboarding/Onboarding.php:238
+msgid ""
+"Once you have finished drafting your post, read it over to check for errors, "
+"make any necessary revisions, and then publish it to your blog."
+msgstr ""
+"Una vez que hayas terminado de redactar tu entrada, léelo para comprobar si "
+"hay errores, haz las revisiones necesarias y luego publícalo en tu blog."
+
+#: includes/Admin/Onboarding/Onboarding.php:389
+msgid ""
+"Once you're happy with your portfolio post, click the \"Publish\" button to "
+"make it live on your website. You can add a link to your main navigation "
+"menu or other relevant posts to make it easy for visitors to find."
+msgstr ""
+"Cuando te guste la publicación de tu porfolio, haz clic en el botón "
+"«Publicar». Puedes añadir un enlace a tu menú de navegación principal o a "
+"otras entradas relevantes para que los visitantes lo encuentren fácilmente."
+
+#: includes/Admin/Assets.php:86 includes/Admin/Onboarding/Onboarding.php:72
+#, fuzzy
+msgid "Online store setup"
+msgstr "Configuración de la tienda en línea"
+
+#: includes/Admin/Assets.php:216
+#, fuzzy
+msgid ""
+"Opt-in to receive tips, discounts, and recommendations from the WooCommerce "
+"team directly in your inbox."
+msgstr ""
+"Inscríbete para recibir consejos, descuentos y recomendaciones del equipo de "
+"WooCommerce directamente en tu bandeja de entrada."
+
+#: includes/Admin/Assets.php:191
+#, fuzzy
+msgid "Other"
+msgstr "Otros"
+
+#: includes/Admin/Assets.php:187
+#, fuzzy
+msgid "Payment methods"
+msgstr "Formas de pago"
+
+#: includes/Admin/Onboarding/PluginManager.php:29
+#, fuzzy
+msgid ""
+"PayPal's latest complete payments processing solution. Accept PayPal, Pay "
+"Later, credit/debit cards, alternative digital wallets local payment types "
+"and bank accounts."
+msgstr ""
+"La última solución completa de procesamiento de pagos de PayPal. Acepte "
+"PayPal, Pay Later, tarjetas de crédito/débito, carteras digitales "
+"alternativas, tipos de pago locales y cuentas bancarias."
+
+#: includes/Admin/Assets.php:119
+#, fuzzy
+msgid "Play on YouTube"
+msgstr "Reproducir en YouTube"
+
+#: includes/Admin/Assets.php:88
+#, fuzzy
+msgid "Preview website"
+msgstr "Vista previa del sitio web"
+
+#: includes/Admin/Onboarding/Onboarding.php:237
+msgid "Proofread and publish"
+msgstr "Revisa y publica"
+
+#: includes/Admin/Assets.php:198 includes/Admin/Onboarding/Onboarding.php:408
+msgid "Publish the page"
+msgstr "Publica la página"
+
+#: includes/Admin/Onboarding/Onboarding.php:388
+msgid "Publish your page"
+msgstr "Publica tu página"
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "Valora este plugin"
+
+#: includes/Admin/Assets.php:190
+#, fuzzy
+msgid "Recommended for you"
+msgstr "Recomendado para usted"
+
+#: includes/Admin/Assets.php:181 includes/Admin/Onboarding/WelcomeCards.php:27
+#, fuzzy
+msgid "Run an Amazon Affiliate site"
+msgstr "Gestionar un sitio afiliado a Amazon"
+
+#: includes/Admin/Assets.php:92
+#, fuzzy
+msgid "Run email marketing campaigns"
+msgstr "Realice campañas de marketing por correo electrónico"
+
+#: includes/Admin/Onboarding/PluginManager.php:38
+#, fuzzy
+msgid ""
+"Securely accept payments, synchronize sales, and seamlessly manage inventory "
+"and product data between WooCommerce and Square POS."
+msgstr ""
+"Acepta pagos de forma segura, sincroniza ventas y gestiona sin problemas el "
+"inventario y los datos de los productos entre WooCommerce y Square POS."
+
+#: includes/Admin/Assets.php:110 includes/Admin/Onboarding/Onboarding.php:480
+#, fuzzy
+msgid ""
+"Sell products, services, and digital downloads. Set up and customize each "
+"item to fit your business needs."
+msgstr ""
+"Venda productos, servicios y descargas digitales. Configura y personaliza "
+"cada artículo para adaptarlo a las necesidades de tu negocio."
+
+#: includes/Admin/Assets.php:105 includes/Admin/Onboarding/Onboarding.php:500
+#, fuzzy
+msgid "Set up a payment method"
+msgstr "Establecer un método de pago"
+
+#: includes/Admin/Assets.php:122 includes/Admin/Assets.php:126
+#, fuzzy
+msgid "Set up a website that works for you."
+msgstr "Cree un sitio web que funcione para usted."
+
+#: includes/Admin/Onboarding/WelcomeCards.php:17
+#, fuzzy
+#| msgid "Set up your online store"
+msgid "Set up an online store"
+msgstr "Configura tu tienda online"
+
+#: includes/Admin/Assets.php:106 includes/Admin/Onboarding/Onboarding.php:504
+#, fuzzy
+msgid "Set up payment method"
+msgstr "Configurar el método de pago"
+
+#: includes/Admin/Assets.php:189
+#, fuzzy
+msgid "Set up payments"
+msgstr "Establecer pagos"
+
+#: includes/Admin/Assets.php:143 includes/Admin/Onboarding/Onboarding.php:456
+#, fuzzy
+#| msgid "Set up my online store"
+msgid "Setup my online store"
+msgstr "Crear mi tienda online"
+
+#: includes/Admin/Views/Partials/PromotionalBanner.php:9
+msgid ""
+"Share your referral link with friends and family and <b>receive 20% "
+"commission</b> for every successful referral."
+msgstr ""
+"Comparte tu enlace de referido con amigos y familiares y <b>recibe un 20% de "
+"comisión</b> por cada recomendación con éxito."
+
+#: includes/Admin/Assets.php:120
+#, fuzzy
+msgid ""
+"Share your referral link with friends and family and <strong>receive 20% "
+"commission</strong> for every successful referral."
+msgstr ""
+"Comparte tu enlace de recomendación con amigos y familiares y <strong>recibe "
+"un 20% de comisión</strong> por cada recomendación exitosa."
+
+#: includes/Admin/Assets.php:94 includes/Admin/Onboarding/Onboarding.php:523
+#, fuzzy
+msgid "Ship products with ease"
+msgstr "Envíe productos con facilidad"
+
+#: includes/Admin/Assets.php:95 includes/Admin/Assets.php:188
+#: includes/Admin/Onboarding/Onboarding.php:527
+#, fuzzy
+msgid "Shipping methods"
+msgstr "Métodos de envío"
+
+#: includes/Rest/WooRoutes.php:46
+#, fuzzy
+msgid "Shop locale is empty, please setup store first"
+msgstr ""
+"La ubicación de la tienda está vacía, por favor, configure primero la tienda"
+
+#: includes/Admin/Assets.php:142 includes/Admin/Onboarding/Step.php:76
+#, fuzzy
+msgid "Skip"
+msgstr "Saltar"
+
+#: includes/Rest/WooRoutes.php:117
+#, fuzzy
+msgid "Sorry, there are activation errors."
+msgstr "Lo sentimos, hay errores de activación."
+
+#: includes/Rest/StepRoutes.php:69 includes/Rest/WooRoutes.php:52
+#: includes/Rest/WooRoutes.php:104 includes/Rest/WooRoutes.php:185
+#, fuzzy
+msgid "Sorry, there are validation errors."
+msgstr "Lo sentimos, hay errores de validación."
+
+#: includes/Admin/Assets.php:111
+#: includes/Admin/Views/Partials/PromotionalBanner.php:24
+msgid "Start earning"
+msgstr "Empieza a ganar"
+
+#: includes/Rest/StepRoutes.php:88
+#, fuzzy
+msgid "Step category and/or step does not exist."
+msgstr "Categoría de paso y/o paso no existe."
+
+#: includes/Admin/Assets.php:104
+#, fuzzy
+msgid "Store info"
+msgstr "Información de la tienda"
+
+#: includes/Rest/WooRoutes.php:179
+#, fuzzy
+msgid "Store location locale not found"
+msgstr "No se ha encontrado la configuración regional de la tienda"
+
+#: includes/Admin/Onboarding/PluginManager.php:26
+#, fuzzy
+msgid "Take credit card payments on your store using Stripe."
+msgstr "Acepte pagos con tarjeta de crédito en su tienda utilizando Stripe."
+
+#: includes/Admin/Assets.php:140 includes/Admin/Onboarding/Step.php:75
+msgid "Take me there"
+msgstr "Llévame allí"
+
+#: includes/Admin/Assets.php:217
+#, fuzzy
+msgid "Tell us a bit about your business"
+msgstr "Háblenos un poco de su empresa"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:77
+#, fuzzy
+msgid ""
+"The Hostinger Easy Onboarding plugin requires minimum PHP version of <b>"
+"%s</b>. "
+msgstr ""
+"El plugin Hostinger Easy Onboarding requiere una versión mínima de PHP de <b>"
+"%s</b>."
+
+#: includes/Admin/Onboarding/PluginManager.php:66
+#, fuzzy
+msgid ""
+"The USPS Simple plugin calculates rates for domestic shipping dynamically "
+"using USPS API during checkout."
+msgstr ""
+"El plugin USPS Simple calcula las tarifas de los envíos nacionales de forma "
+"dinámica utilizando la API de USPS durante el proceso de pago."
+
+#: includes/Admin/Onboarding/PluginManager.php:63
+#, fuzzy
+msgid ""
+"This extension gives you the possibility to use the Colissimo shipping "
+"methods in WooCommerce"
+msgstr ""
+"Esta extensión le da la posibilidad de utilizar los métodos de envío "
+"Colissimo en WooCommerce"
+
+#: includes/Admin/Assets.php:165 includes/Admin/Onboarding/Onboarding.php:296
+msgid ""
+"To upload a new image, click on Add New button on the Media Library page and "
+"select files."
+msgstr ""
+"Para subir una nueva imagen, haz clic en el botón Añadir nuevo de la página "
+"Multimedia y selecciona los archivos."
+
+#: includes/Admin/Assets.php:96 includes/Admin/Onboarding/Onboarding.php:552
+#, fuzzy
+msgid "Try Omnisend"
+msgstr "Pruebe Omnisend"
+
+#: includes/Errors.php:31
+msgid "Unknown error code."
+msgstr "Código de error desconocido."
+
+#: includes/Admin/Assets.php:132 includes/Admin/Assets.php:164
+#: includes/Admin/Onboarding/Onboarding.php:287
+#: includes/Admin/Onboarding/Onboarding.php:295
+msgid "Upload an image"
+msgstr "Sube una imagen"
+
+#: includes/Admin/Assets.php:124 includes/Admin/Assets.php:138
+#: includes/Admin/Onboarding/Onboarding.php:194
+#: includes/Admin/Onboarding/Onboarding.php:206
+msgid "Upload your logo"
+msgstr "Sube tu logo"
+
+#: includes/Admin/Onboarding/Onboarding.php:352
+msgid "Upload your portfolio projects"
+msgstr "Sube tu porfolio de proyectos"
+
+#: includes/Admin/Hooks.php:48
+msgid ""
+"Use the special discount code <b>ONLYHOSTINGER30</b> to get 30% off on "
+"Omnisend for 6 months when you upgrade."
+msgstr ""
+"Utiliza el código de descuento especial <b>ONLYHOSTINGER30</b> para obtener "
+"un 30% de descuento en Omnisend durante 6 meses al mejorar tu plan."
+
+#: includes/Admin/Assets.php:152
+#, fuzzy
+msgid "View completed"
+msgstr "Vista completa"
+
+#: includes/Admin/Assets.php:150
+#, fuzzy
+msgid "View plugins"
+msgstr "Ver plugins"
+
+#: includes/Admin/Assets.php:113
+#, fuzzy
+msgid "Wait for domain propagation"
+msgstr "Esperar a la propagación del dominio"
+
+#: includes/Errors.php:20
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"Nos disculpamos por el inconveniente. Todo el proceso de generación de "
+"contenido IA se encontró con un error de servidor. Por favor, inténtalo de "
+"nuevo más tarde, y si el problema continúa, contacta con el equipo de "
+"soporte para asistencia."
+
+#: includes/Admin/Assets.php:218
+#, fuzzy
+msgid "We'll use this information to help you set up your store faster."
+msgstr ""
+"Utilizaremos esta información para ayudarle a configurar su tienda más "
+"rápidamente."
+
+#: includes/Admin/Assets.php:87
+#, fuzzy
+msgid "Website is published"
+msgstr "Se publica el sitio web"
+
+#: includes/Admin/Menu.php:50
+msgid "Website list"
+msgstr "Lista de sitios web"
+
+#: includes/Admin/Assets.php:147 includes/Admin/Onboarding/Onboarding.php:39
+#, fuzzy
+msgid "Website setup"
+msgstr "Configuración del sitio web"
+
+#: includes/Admin/Assets.php:127
+#, fuzzy
+msgid "Website URL"
+msgstr "URL del sitio web"
+
+#: includes/Admin/Assets.php:220
+#, fuzzy
+msgid "Welcome to WordPress!"
+msgstr "Bienvenido a WordPress"
+
+#: includes/Admin/Assets.php:100
+#, fuzzy
+msgid "What type of products or services will you sell?"
+msgstr "¿Qué tipo de productos o servicios va a vender?"
+
+#: includes/Admin/Assets.php:99
+#, fuzzy
+msgid "Where is your store located?"
+msgstr "¿Dónde se encuentra su tienda?"
+
+#: includes/Admin/Assets.php:214
+#, fuzzy
+msgid "WordPress tutorials"
+msgstr "Tutoriales de WordPress"
+
+#: includes/Admin/Onboarding/Onboarding.php:369
+msgid ""
+"Write a brief introduction to your business, provide an overview of your "
+"services with descriptions and benefits, and use relevant images to support "
+"your content. Keep it simple and straightforward."
+msgstr ""
+"Escribe una breve introducción de tu empresa, ofrece una visión general de "
+"tus servicios con descripciones y ventajas, y utiliza imágenes relevantes "
+"para apoyar tu contenido. Hazla sencilla y directa."
+
+#: includes/Admin/Onboarding/Onboarding.php:234
+msgid ""
+"Write your content, making sure to include relevant keywords and images. You "
+"can use different blocks to create headings, paragraphs, lists, and other "
+"types of content."
+msgstr ""
+"Escribe tu contenido, asegurándote de incluir palabras clave e imágenes "
+"relevantes. Puedes utilizar diferentes bloques para crear títulos, párrafos, "
+"listas y otros tipos de contenido."
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:81
+#, fuzzy
+msgid "You are running <b>%s</b> PHP version."
+msgstr "Está ejecutando <b>%s</b> versión de PHP."
+
+#: includes/Admin/Assets.php:194
+#, fuzzy
+msgid ""
+"You can also set up a payment method without installing additional plugins."
+msgstr ""
+"También puede configurar un método de pago sin instalar plugins adicionales."
+
+#: includes/Admin/Assets.php:193
+#, fuzzy
+msgid ""
+"You can also set up a shipping method without installing additional plugins."
+msgstr ""
+"También puede configurar un método de envío sin instalar plugins adicionales."
+
+#: includes/Admin/Assets.php:116
+#, fuzzy
+msgid ""
+"You can connect domain to Hostinger by changing the nameservers. Different "
+"domain providers are have unique procedures for changing nameservers. Here "
+"are Hostinger's nameservers:"
+msgstr ""
+"Puede conectar su dominio a Hostinger cambiando los servidores de nombres. "
+"Diferentes proveedores de dominio tienen procedimientos únicos para cambiar "
+"los servidores de nombre. Estos son los servidores de nombres de Hostinger:"
+
+#: includes/Admin/Assets.php:161 includes/Admin/Onboarding/Onboarding.php:269
+msgid ""
+"You can see the whole post in the editor. Find the description part and "
+"change it to your preferences."
+msgstr ""
+"Puedes ver toda en el editor. Busca la parte de la descripción y cámbiala "
+"según tus preferencias."
+
+#: includes/Admin/Assets.php:129
+#, fuzzy
+msgid ""
+"You need to purchase a domain for your website before the preview domain "
+"becomes inaccessible. Find a desired website name using a <a style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\" target=\"_blank\" "
+"href=\"https://hpanel.hostinger.com/domains/domain-checker\" >domain name "
+"searcher.</a >"
+msgstr ""
+"Necesita comprar un dominio para su sitio web antes de que el dominio de "
+"vista previa se vuelva inaccesible. Busque el nombre de sitio web que desee "
+"utilizando un <a style=\"text-decoration:none; font-weight:bold; color:"
+"#673de6\" target=\"_blank\" href=\"https://hpanel.hostinger."
+"com/domains/domain-checker\" >buscador de nombres de dominio.</a >"
+
+#: includes/Admin/Assets.php:98
+#, fuzzy
+msgid "Your business email"
+msgstr "Su correo electrónico profesional"
+
+#: includes/Admin/Assets.php:103 includes/Admin/Assets.php:145
+#, fuzzy
+msgid "Your progress"
+msgstr "Tus progresos"
+
+#: includes/Admin/Assets.php:97
+#, fuzzy
+msgid "Your store name"
+msgstr "Nombre de su tienda"
+
+#: includes/Admin/Assets.php:128
+#, fuzzy
+msgid ""
+"Your website is already published and can be accessed using Hostinger free "
+"temporary subdomain right now. Here is the current URL of your website:"
+msgstr ""
+"Su sitio web ya está publicado y se puede acceder utilizando Hostinger "
+"subdominio temporal libre en este momento. Aquí está la URL actual de su "
+"sitio web:"
+
+#: includes/Admin/Assets.php:151
+#, fuzzy
+msgid "You’re done setting up your online store!"
+msgstr "¡Ya has terminado de configurar tu tienda online!"
+
+#: includes/Admin/Assets.php:125
+#, fuzzy
+msgid "👋 Welcome to WooCommerce"
+msgstr "👋 Bienvenido a WooCommerce"

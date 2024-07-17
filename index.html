@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lydr</title>
+    <link rel="icon" type="image/x-icon" href="/lydr.png">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgb(9, 9, 28);
+            font-family: 'Courier New', Courier, monospace; /* Default font, can be changed */
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        button {
+            font-family: 'Courier New', Courier, monospace; /* Default font, can be changed */
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            max-width: 200px; /* Adjust based on your needs */
+            margin: 0 auto; /* Center the image */
+        }
+        
+        .text {
+            color: white;
+            font-size: 2em;
+            margin-top: 20px; /* Space between image and text */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        footer ul li a, footer ul li button {
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        footer ul li a:hover, footer ul li button:hover {
+            text-decoration: underline;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #moreLinks {
+            margin-top: 10px;
+        }
+        
+        .fade-in {
+            opacity: 0;
+            animation: fadeInAnimation ease 3s;
+            animation-fill-mode: forwards;
+        }
+        
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var currentPath = window.location.pathname;
+            var redirectPath = '/go'; // Replace this with the pathname you want to check
+            var redirectUrl = 'https://go.lydr.io'; // Replace this with the URL you want to redirect to
+
+            if (currentPath === redirectPath) {
+                window.location.href = redirectUrl;
+            }
+        });
+    </script>
+    <div class="container">
+        <img src="/lydr.png" alt="Image" class="fade-in">
+        <div class="text fade-in">lydr</div>
+    </div>
+
+    <!-- New text added here -->
+    <div class="fade-in">
+        <p style="color: white; text-align: center; margin: 20px 0;">
+            Short links: <a href="https://go.lydr.io" style="color: rgb(255, 255, 255); text-decoration: underline dashed; text-decoration-thickness: 0.5px;">go.lydr.io</a>
+
+
+        </p>    </div>
+
+    <footer class="fade-in">
+        <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="https://dash.lydr.io/login">Login</a></li>
+            <li><a href="https://dash.lydr.io/register">Register</a></li>
+            <li><button id="moreLinksButton">></button></li>
+        </ul>
+        <div id="moreLinks" class="hidden">
+            <ul>
+                <li><a href="/api">API</a></li>
+                <li><a href="/ar">AR</a></li>
+                <li><a href="https://go.lydr.io">GO</a></li>
+
+            </ul>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('moreLinksButton').addEventListener('click', function() {
+            var moreLinks = document.getElementById('moreLinks');
+            if (moreLinks.classList.contains('hidden')) {
+                moreLinks.classList.remove('hidden');
+                this.textContent = '<';
+            } else {
+                moreLinks.classList.add('hidden');
+                this.textContent = '>';
+            }
+        });
+    </script>
+</body>
+</html>

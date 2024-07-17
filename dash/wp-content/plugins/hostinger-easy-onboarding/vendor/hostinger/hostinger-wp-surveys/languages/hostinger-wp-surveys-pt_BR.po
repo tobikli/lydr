@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger WordPress Surveys package\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Portuguese (Brazil)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-13T05:29:33+00:00\n"
+"PO-Revision-Date: 2024-05-15 14:57+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger-wp-surveys\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4"
+
+#: src/SurveyManager.php:166
+msgid "Next"
+msgstr "Próximo"
+
+#: src/SurveyManager.php:167
+msgid "Previous"
+msgstr "Anterior"
+
+#: src/SurveyManager.php:168
+msgid "Submit"
+msgstr "Enviar"
+
+#: src/SurveyManager.php:169
+msgid "Thank you for completing the survey !"
+msgstr ""
+"Obrigado por completar a pesquisa!\n"
+
+#: src/SurveyManager.php:178
+msgid "Response required."
+msgstr "Resposta obrigátoria."
+
+#: src/SurveyManager.php:188
+msgid "Poor"
+msgstr "Ruim"
+
+#: src/SurveyManager.php:189
+msgid "Excellent"
+msgstr "Excelente"
+
+#: src/SurveyManager.php:237
+msgid "Question"
+msgstr "Pergunta"
+
+#: src/SurveyManager.php:243
+msgid "of "
+msgstr "de"

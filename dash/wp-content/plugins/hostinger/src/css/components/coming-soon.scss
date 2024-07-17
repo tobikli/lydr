@@ -1,0 +1,55 @@
+@import 'global';
+@import '../base/fonts';
+
+.hsr-coming-soon-body {
+    @include hostinger-fonts-style;
+    display: flex;
+    width: 650px;
+    height: 564px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hsr-coming-soon-illustration {
+    width: 650px;
+    margin-bottom: 32px;
+}
+
+body.hostinger {
+    background: #F4F5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hsr-logo {
+    width: 150px;
+    height: 30px;
+    margin-bottom: 32px;
+}
+
+.hsr-coming-soon-body h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.hsr-coming-soon-body p {
+    color: $paragraph-color;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    .hsr-coming-soon-body {
+        width: 80%;
+    }
+
+    .hsr-coming-soon-illustration {
+        width: 100%;
+    }
+}

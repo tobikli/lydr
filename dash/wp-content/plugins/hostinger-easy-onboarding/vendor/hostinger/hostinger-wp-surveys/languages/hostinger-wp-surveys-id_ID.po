@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger WordPress Surveys package\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-13T05:29:33+00:00\n"
+"PO-Revision-Date: 2024-05-16 03:37+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger-wp-surveys\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4"
+
+#: src/SurveyManager.php:166
+msgid "Next"
+msgstr "Selanjutnya"
+
+#: src/SurveyManager.php:167
+msgid "Previous"
+msgstr "Sebelumnya"
+
+#: src/SurveyManager.php:168
+msgid "Submit"
+msgstr "Kirim"
+
+#: src/SurveyManager.php:169
+msgid "Thank you for completing the survey !"
+msgstr "Terima kasih telah mengisi survei ini!"
+
+#: src/SurveyManager.php:178
+msgid "Response required."
+msgstr "Wajib diisi."
+
+#: src/SurveyManager.php:188
+msgid "Poor"
+msgstr "Tidak puas"
+
+#: src/SurveyManager.php:189
+msgid "Excellent"
+msgstr "Sangat puas"
+
+#: src/SurveyManager.php:237
+msgid "Question"
+msgstr "Pertanyaan"
+
+#: src/SurveyManager.php:243
+msgid "of "
+msgstr "dari"

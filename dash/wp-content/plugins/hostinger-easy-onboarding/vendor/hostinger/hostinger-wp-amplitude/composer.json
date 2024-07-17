@@ -1,0 +1,31 @@
+{
+	"name": "hostinger/hostinger-wp-amplitude",
+	"description": "A PHP package with amplitude events for WordPress plugins",
+	"license": "proprietary",
+	"type": "library",
+	"version": "1.0.5",
+	"require": {
+		"php": ">=8.0",
+		"hostinger/hostinger-wp-helper": "dev-main"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.0",
+		"phpunit/phpunit": "^9.6"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:hostinger/hostinger-wp-helper.git"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Hostinger\\Amplitude\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Hostinger\\Amplitude\\Tests\\": "tests/phpunit"
+		}
+	}
+}

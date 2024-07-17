@@ -1,0 +1,1306 @@
+# #-#-#-#-#  hostinger-easy-onboarding-lt_LT.po (Hostinger Easy Onboarding 1.0.0)  #-#-#-#-#
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-"
+"wordpress-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Lithuanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-02T12:10:37+00:00\n"
+"PO-Revision-Date: 2024-06-05 12:47+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4"
+
+#: includes/Admin/Assets.php:117
+#, fuzzy
+msgid ""
+" Learn how to connect your domain to Hostinger by watching this tutorial on "
+"YouTube for a step-by-step guide:"
+msgstr ""
+" Sužinokite, kaip prijungti savo domeną prie \"Hostinger\", žiūrėdami šią "
+"\"YouTube\" pamokėlę, kurioje pateikiamas žingsnis po žingsnio vadovas:"
+
+#. translators: %s plugin slug
+#: includes/Rest/WooRoutes.php:98
+#, fuzzy
+msgid "%s is already active"
+msgstr "%s jau yra aktyvus"
+
+#. translators: %s field name that is missing
+#: includes/Rest/StepRoutes.php:59 includes/Rest/StepRoutes.php:63
+#: includes/Rest/WooRoutes.php:40 includes/Rest/WooRoutes.php:89
+#: includes/Rest/WooRoutes.php:169
+#, fuzzy
+msgid "%s missing or empty"
+msgstr "%s trūksta arba tuščia"
+
+#: includes/Admin/Onboarding/PluginManager.php:32
+#, fuzzy
+msgid "Accept payments via credit card. Manage transactions within WordPress."
+msgstr ""
+"Priimkite mokėjimus kredito kortele. Tvarkykite sandorius \"WordPress\"."
+
+#: includes/Admin/Assets.php:170
+#, fuzzy
+msgid "Access site identity and edit title"
+msgstr "Prieiga prie svetainės tapatybės ir redaguoti pavadinimą"
+
+#: includes/Admin/Onboarding/Onboarding.php:326
+msgid "Access the Site identity and edit title"
+msgstr "spustelėkite „Tinklalapio identitetas“ ir redaguokite antraštę"
+
+#: includes/Errors.php:14
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"Veiksmas nepavyko. Bandykite dar kartą arba susisiekite su palaikymu. "
+"Atsiprašome."
+
+#: includes/Admin/Assets.php:183
+#, fuzzy
+msgid "Activate"
+msgstr "Suaktyvinti"
+
+#: includes/Admin/Onboarding/Onboarding.php:384
+msgid "Add a gallery block"
+msgstr "Pridėkite galerijos blokelį"
+
+#: includes/Admin/Assets.php:134 includes/Admin/Assets.php:172
+#: includes/Admin/Onboarding/Onboarding.php:355
+#: includes/Admin/Onboarding/Onboarding.php:396
+msgid "Add a new page"
+msgstr "Pridėkite naują puslapį"
+
+#: includes/Admin/Assets.php:185 includes/Admin/Onboarding/Onboarding.php:400
+msgid "Add a title"
+msgstr "Pridėkite antraštę"
+
+#: includes/Admin/Assets.php:196 includes/Admin/Onboarding/Onboarding.php:404
+msgid "Add content"
+msgstr "Pridėkite turinį"
+
+#: includes/Admin/Assets.php:173
+#, fuzzy
+msgid "Add plugin"
+msgstr "Pridėti įskiepį"
+
+#: includes/Admin/Onboarding/Onboarding.php:482
+#, fuzzy
+#| msgid "Add products"
+msgid "Add product"
+msgstr "Pridėkite produktus"
+
+#: includes/Admin/Assets.php:192
+#, fuzzy
+msgid "Add shipping method"
+msgstr "Pridėti pristatymo būdą"
+
+#: includes/Admin/Onboarding/Onboarding.php:368
+msgid "Add the content and images that represent your services"
+msgstr "Pridėkite turinį ir vaizdus, kurie atspindi jūsų paslaugas."
+
+#: includes/Admin/Assets.php:195 includes/Admin/Onboarding/Onboarding.php:401
+msgid ""
+"Add the title of the page, for example, About. Click the Add Title text to "
+"open the text box where you will add your title. The title of your page "
+"should be descriptive of the information the page will have."
+msgstr ""
+"Įrašykite puslapio pavadinimą, pavyzdžiui, „Apie“. Tai padarysite spustelėję "
+"ant teksto „Pridėti pavadinimą“. Jūsų puslapio pavadinimas turėtų atspindėti "
+"informaciją, kuri bus pateikta puslapyje."
+
+#: includes/Admin/Assets.php:108 includes/Admin/Onboarding/Onboarding.php:476
+#, fuzzy
+msgid "Add your first product"
+msgstr "Pridėkite pirmąjį gaminį"
+
+#: includes/Admin/Assets.php:109
+#, fuzzy
+msgid "Add your first product or service"
+msgstr "Pridėkite pirmąjį produktą arba paslaugą"
+
+#: includes/Admin/Assets.php:174
+#, fuzzy
+msgid "Added"
+msgstr "Pridėta"
+
+#: includes/Admin/Assets.php:123
+#, fuzzy
+msgid ""
+"Adding a logo is a great way to personalize a website or add branding "
+"information. You can use your existing logo or create a new one using the <a "
+"href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\">AI Logo Maker.</a>"
+msgstr ""
+"Logotipo pridėjimas yra puikus būdas suasmeninti svetainę arba pridėti "
+"prekės ženklo informacijos. Galite naudoti esamą logotipą arba sukurti naują "
+"naudodami <a href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" "
+"style=\"text-decoration:none; font-weight:bold; color:#673de6\">AI Logo "
+"Maker.</a>"
+
+#: includes/Admin/Onboarding/Onboarding.php:199
+#| msgid ""
+#| "Adding a logo is a great way to personalize a website or add branding "
+#| "information. You can use your existing logo or create a new one using the "
+#| "<a href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" "
+#| "target=\"_blank\">Ai Logo Maker</a>."
+msgid ""
+"Adding a logo is a great way to personalize a website or add branding "
+"information. You can use your existing logo or create a new one using the <a "
+"href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" "
+"target=\"_blank\">AI Logo Maker</a>."
+msgstr ""
+"Logotipas yra puikus būdas suasmeninti svetainę arba suteikti daugiau "
+"informacijos apie savo prekės ženklą. Galite naudoti esamą logotipą arba "
+"sukurti naują pasinaudoję <a href=\"https://logo.hostinger.com/?"
+"ref=wordpress-onboarding\" target=\"_blank\">Di logotipų kūrimo įrankiu.</a>"
+
+#: includes/Admin/Onboarding/PluginManager.php:60
+#, fuzzy
+msgid "Adds Correios shipping methods to your WooCommerce store."
+msgstr ""
+"Prideda \"Correios\" pristatymo metodus į jūsų \"WooCommerce\" parduotuvę."
+
+#: includes/Admin/Onboarding/PluginManager.php:50
+#, fuzzy
+msgid ""
+"Adiciona PagSeguro como meio de pagamento (com desconto nas taxas oficiais)."
+msgstr ""
+"Adiciona PagSeguro como meio de pagamento (com desconto nas taxas oficiais)."
+
+#: includes/Admin/Onboarding/PluginManager.php:41
+#, fuzzy
+msgid ""
+"Amazon Pay is embedded directly into your existing web site, and all the "
+"buyer interactions with Amazon Pay and Login with Amazon take place in "
+"embedded widgets so that the buyer never leaves your site. "
+msgstr ""
+"\"Amazon Pay\" įterpiamas tiesiai į jūsų esamą svetainę, o visos pirkėjo "
+"sąveikos su \"Amazon Pay\" ir \"Login with Amazon\" vyksta įterptuose "
+"valdikliuose, todėl pirkėjas niekada nepalieka jūsų svetainės."
+
+#: includes/Errors.php:17
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr "Nenumatyta klaida. Bandykite dar kartą arba susisiekite su palaikymu."
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:77
+#, fuzzy
+msgid "Attention:"
+msgstr "Dėmesio:"
+
+#: includes/Admin/Assets.php:186
+#, fuzzy
+msgid "Back"
+msgstr "Atgal"
+
+#: includes/Admin/Assets.php:199 includes/Admin/Onboarding/Onboarding.php:409
+msgid ""
+"Before publishing, you can preview your created page by clicking on the "
+"Preview button. If you are happy with the result, click the Publish button."
+msgstr ""
+"Prieš paskelbdami puslapį galite jį peržiūrėti spustelėdami mygtuką "
+"„Peržiūrėti“. Jei esate patenkinti rezultatu, spustelėkite mygtuką "
+"„Paskelbti“."
+
+#: includes/Admin/Menu.php:59
+msgid "Billings"
+msgstr "Mokėjimai"
+
+#: includes/Rest/WelcomeRoutes.php:65
+#, fuzzy
+msgid "Choice parameter missing or empty"
+msgstr "Trūksta pasirinkimo parametro arba jis tuščias"
+
+#: includes/Admin/Assets.php:101 includes/Admin/Onboarding/Onboarding.php:525
+#, fuzzy
+msgid ""
+"Choose the ways you'd like to ship orders to customers. You can always add "
+"others later."
+msgstr ""
+"Pasirinkite būdus, kuriais norite siųsti užsakymus klientams. Vėliau visada "
+"galėsite pridėti kitų."
+
+#: includes/Admin/Onboarding/Onboarding.php:365
+msgid ""
+"Come up with a clear and concise name for the page that accurately reflects "
+"the services you provide."
+msgstr ""
+"Sugalvokite aiškų ir glaustą puslapio pavadinimą, kuris tiksliai atspindėtų "
+"jūsų teikiamas paslaugas."
+
+#: includes/Admin/Assets.php:146
+#, fuzzy
+msgid "Complete"
+msgstr "Pilnas"
+
+#: includes/Admin/Onboarding/Onboarding.php:550
+#, fuzzy
+msgid "Configure"
+msgstr "Konfigūruoti"
+
+#: includes/Admin/Onboarding/PluginManager.php:35
+#, fuzzy
+msgid ""
+"Configure the payment options and accept payments with cards, ticket and "
+"money of Mercado Pago account."
+msgstr ""
+"Sukonfigūruokite mokėjimo parinktis ir priimkite mokėjimus kortelėmis, "
+"bilietais ir \"Mercado Pago\" sąskaitos pinigais."
+
+#: includes/Admin/Assets.php:175
+#, fuzzy
+msgid "Connect"
+msgstr "Prisijungti"
+
+#: includes/Admin/Assets.php:154
+#, fuzzy
+msgid "Connect domain now"
+msgstr "Prijungti domeną dabar"
+
+#: includes/Admin/Assets.php:182 includes/Admin/Onboarding/WelcomeCards.php:29
+#, fuzzy
+msgid ""
+"Connect your <strong>Amazon Associate</strong> account to fetch API details."
+msgstr ""
+"Prisijunkite prie savo <strong>\"Amazon\" asocijuotojo</strong> paskyros, "
+"kad gautumėte API informaciją."
+
+#: includes/Admin/Assets.php:135 includes/Admin/Onboarding/Onboarding.php:428
+msgid "Connect your domain"
+msgstr "Prijunkite savo domeną"
+
+#: includes/Admin/Assets.php:112 includes/Admin/Assets.php:115
+#: includes/Admin/Assets.php:201
+#, fuzzy
+msgid "Connect your domain to Hostinger"
+msgstr "Prijunkite savo domeną prie \"Hostinger"
+
+#: includes/Admin/Assets.php:197 includes/Admin/Onboarding/Onboarding.php:405
+msgid ""
+"Content can be anything you wish, for example, text, images, videos, tables, "
+"and lots more. Click on a plus sign and choose any block you want to add to "
+"the page."
+msgstr ""
+"Turinys gali būti bet koks, pavyzdžiui, tekstas, paveikslėliai, vaizdo "
+"įrašai, lentelės ir dar daugiau. Spustelėkite pliuso ženklą ir pasirinkite "
+"bet kurį bloką, kurį norite pridėti prie puslapio."
+
+#: includes/Admin/Assets.php:89
+#, fuzzy
+msgid "Continue"
+msgstr "Tęsti"
+
+#: includes/Admin/Onboarding/Onboarding.php:229
+msgid "Create a catchy headline"
+msgstr "Sukurkite patrauklią antraštę"
+
+#: includes/Admin/Onboarding/Onboarding.php:230
+msgid ""
+"Create a headline that grabs your visitors attention and accurately "
+"represents the content of your post."
+msgstr ""
+"Sukurkite antraštę, kuri patrauktų lankytojų dėmesį ir tiksliai atspindėtų "
+"jūsų įrašo turinį."
+
+#: includes/Admin/Assets.php:136 includes/Admin/Onboarding/Onboarding.php:198
+msgid "Create a logo"
+msgstr "Sukurkite logotipą"
+
+#: includes/Admin/Onboarding/Onboarding.php:380
+msgid "Create a new page called “My projects”"
+msgstr "Suteikite puslapiui trumpą pavadinimą, pavyzdžiui, „Mūsų paslaugos“"
+
+#: includes/Admin/Onboarding/Onboarding.php:349
+msgid "Create a page describing your services"
+msgstr "Sukurkite puslapį, kuriame aprašomos jūsų paslaugos"
+
+#: includes/Admin/Onboarding/PluginManager.php:57
+#, fuzzy
+msgid ""
+"Create additional shipment methods in WooCommerce and enable pricing based "
+"on cart weight or total."
+msgstr ""
+"Sukurkite papildomų siuntimo būdų \"WooCommerce\" ir įgalinkite kainodarą "
+"pagal krepšelio svorį arba bendrą sumą."
+
+#: includes/Admin/Onboarding/PluginManager.php:69
+#, fuzzy
+msgid "Create Chronopost & Mondial relay shipping labels and send them easily."
+msgstr ""
+"Kurkite \"Chronopost\" ir \"Mondial relay\" siuntimo etiketes ir lengvai jas "
+"siųskite."
+
+#: includes/Admin/Onboarding/Onboarding.php:225
+msgid "Create your first blog post"
+msgstr "Sukurkite pirmąjį tinklaraščio įrašą"
+
+#: includes/Admin/Assets.php:148 includes/Admin/Assets.php:176
+#, fuzzy
+msgid "Dismiss"
+msgstr "Atmesti"
+
+#: includes/Admin/Surveys.php:47
+msgid "Do you have any comments/suggestions to improve our AI tools?"
+msgstr ""
+"Ar turite pastabų ar pasiūlymų, kaip patobulinti mūsų dirbtinio intelekto "
+"įrankius?"
+
+#: includes/Admin/Surveys.php:33
+msgid ""
+"Do you have any comments/suggestions to improve our WooCommerce onboarding?"
+msgstr ""
+"Ar turite pastabų ar pasiūlymų, kaip patobulinti mūsų WooCommerce įdiegimą?"
+
+#: includes/Admin/Assets.php:202
+#, fuzzy
+msgid ""
+"Domain propagation can take up to 24 hours. Your domain will propagate "
+"automatically, and you don't need to take any action during this time."
+msgstr ""
+"Domeno sklaida gali užtrukti iki 24 valandų. Jūsų domenas bus perkeltas "
+"automatiškai, ir per šį laiką jums nereikia imtis jokių veiksmų."
+
+#: includes/Admin/Onboarding/Onboarding.php:233
+msgid "Draft your post"
+msgstr "Sukurkite savo įrašą"
+
+#: includes/Admin/Assets.php:166 includes/Admin/Onboarding/Onboarding.php:299
+msgid "Edit an image"
+msgstr "Redaguokite paveikslėlį"
+
+#: includes/Admin/Assets.php:160 includes/Admin/Onboarding/Onboarding.php:268
+msgid "Edit description"
+msgstr "Redaguokite aprašymą"
+
+#: includes/Admin/Assets.php:158 includes/Admin/Onboarding/Onboarding.php:264
+msgid "Edit post"
+msgstr "Redaguokite įrašą"
+
+#: includes/Admin/Assets.php:131 includes/Admin/Onboarding/Onboarding.php:256
+msgid "Edit post description"
+msgstr "Redaguokite įrašo aprašymą"
+
+#: includes/Admin/Assets.php:133 includes/Admin/Onboarding/Onboarding.php:318
+msgid "Edit site title"
+msgstr "Redaguokite puslapio antraštę"
+
+#: includes/Admin/Assets.php:144 includes/Admin/Onboarding/Onboarding.php:458
+#, fuzzy
+msgid ""
+"Enter your store details so we can help you set up your online store faster."
+msgstr ""
+"Įveskite savo parduotuvės duomenis, kad galėtume padėti greičiau sukurti "
+"internetinę parduotuvę."
+
+#: includes/Admin/Assets.php:93 includes/Admin/Onboarding/Onboarding.php:547
+#, fuzzy
+msgid ""
+"Expand your audience with the help of Omnisend. Create email campaigns that "
+"drive sales."
+msgstr ""
+"Išplėskite savo auditoriją su \"Omnisend\" pagalba. Kurkite el. pašto "
+"kampanijas, kurios skatina pardavimus."
+
+#: includes/Admin/Onboarding/PluginManager.php:47
+#, fuzzy
+msgid "Extends WooCommerce with a RedSys gateway."
+msgstr "Išplečia \"WooCommerce\" su \"RedSys\" vartais."
+
+#: includes/Admin/Onboarding/Onboarding.php:372
+msgid "Finalize the page"
+msgstr "Užbaikite puslapio kūrimą"
+
+#: includes/Admin/Assets.php:212
+#, fuzzy
+msgid "Find the answers you need in our Knowledge Base"
+msgstr "Ieškokite reikiamų atsakymų mūsų žinių bazėje"
+
+#: includes/Admin/Assets.php:162 includes/Admin/Onboarding/Onboarding.php:291
+msgid "Find the Media page"
+msgstr "Raskite failų puslapį"
+
+#: includes/Admin/Assets.php:221
+#, fuzzy
+msgid "Follow these steps to complete your setup"
+msgstr "Atlikite šiuos veiksmus, kad užbaigtumėte sąranką"
+
+#: includes/Admin/Assets.php:177
+#, fuzzy
+msgid "Generate content"
+msgstr "Kurti turinį"
+
+#: includes/Admin/Assets.php:179 includes/Admin/Onboarding/WelcomeCards.php:37
+#, fuzzy
+#| msgid "Create content with AI"
+msgid "Generate content with AI"
+msgstr "Kurti turinį su DI"
+
+#: includes/Admin/Assets.php:200
+#, fuzzy
+msgid "Get a domain"
+msgstr "Gaukite domeną"
+
+#: includes/Admin/Hooks.php:52
+msgid "Get Discount"
+msgstr "Gauti nuolaidą"
+
+#: includes/Admin/Assets.php:180
+#, fuzzy
+msgid ""
+"Get images, text, and SEO keywords created for you instantly – try <strong>"
+"AI Content Creator</strong>."
+msgstr ""
+"Akimirksniu sukurkite paveikslėlius, tekstą ir SEO raktažodžius - "
+"išbandykite <strong>AI turinio kūrėją</strong>."
+
+#: includes/Admin/Onboarding/WelcomeCards.php:39
+#, fuzzy
+msgid "Get images, text, and SEO keywords created for you instantly."
+msgstr ""
+"Gaukite vaizdus, tekstą ir SEO raktinius žodžius, kurie bus sukurti iš karto."
+
+#: includes/Admin/Assets.php:219
+#, fuzzy
+msgid "Get in touch with our live specialists"
+msgstr "Susisiekite su mūsų specialistais"
+
+#: includes/Admin/Assets.php:107 includes/Admin/Onboarding/Onboarding.php:502
+#, fuzzy
+msgid ""
+"Get ready to accept customer payments. Let them pay for your products and "
+"services with ease."
+msgstr ""
+"Pasiruoškite priimti klientų mokėjimus. Leiskite jiems lengvai atsiskaityti "
+"už jūsų produktus ir paslaugas."
+
+#: includes/Admin/Onboarding/Onboarding.php:460
+#, fuzzy
+#| msgid "Get started"
+msgid "Get Started"
+msgstr "Pradėti"
+
+#: includes/Admin/Assets.php:141
+#, fuzzy
+msgid "Get started!"
+msgstr "Pradėkite!"
+
+#: includes/Admin/Assets.php:102
+#, fuzzy
+msgid "Getting your features ready"
+msgstr "Funkcijų paruošimas"
+
+#: includes/Admin/Onboarding/Onboarding.php:364
+msgid "Give a page a short title such as “Our Services”"
+msgstr "Suteikite puslapiui trumpą pavadinimą, pavyzdžiui, „Mūsų paslaugos“."
+
+#: includes/Admin/Onboarding/Onboarding.php:381
+msgid ""
+"Give your page a name (e.g. \"My Portfolio\"), then click the \"+\" button "
+"in the editor to add a new block."
+msgstr ""
+"Sukurkite puslapiui pavadinimą (pvz., „Mano darbai“) ir spustelėkite mygtuką "
+"„+“, kad pridėtumėte naują blokelį."
+
+#: includes/Admin/Assets.php:156 includes/Admin/Onboarding/Onboarding.php:260
+msgid "Go to Posts"
+msgstr "Eikite į įrašus"
+
+#: includes/Admin/Assets.php:137 includes/Admin/Assets.php:168
+#: includes/Admin/Onboarding/Onboarding.php:202
+#: includes/Admin/Onboarding/Onboarding.php:322
+msgid "Go to the Customize page"
+msgstr "Eikite į Puslapio redagavimą"
+
+#: includes/Admin/Assets.php:155
+#, fuzzy
+msgid "Got it!"
+msgstr "Supratau!"
+
+#: includes/Admin/Assets.php:213
+#, fuzzy
+msgid "Help Center"
+msgstr "Pagalbos centras"
+
+#: includes/Admin/Assets.php:153
+#, fuzzy
+msgid "Hide completed"
+msgstr "Paslėpti užbaigtą"
+
+#: includes/Admin/Onboarding/PluginManager.php:54
+#, fuzzy
+msgid ""
+"Hosted services for WooCommerce: automated tax calculation, shipping label "
+"printing, and smoother payment setup."
+msgstr ""
+"\"WooCommerce\" prieglobos paslaugos: automatinis mokesčių apskaičiavimas, "
+"pristatymo etikečių spausdinimas ir sklandesnė mokėjimų sąranka."
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Assets.php:215
+#, fuzzy
+msgid "Hostinger Academy"
+msgstr "\"Hostinger\" akademija"
+
+#. Plugin Name of the plugin
+msgid "Hostinger Easy Onboarding"
+msgstr "Hostinger svetainės kūrimas"
+
+#. Description of the plugin
+msgid "Hostinger Easy Onboarding WordPress plugin."
+msgstr "Hostinger svetainės kūrimo WordPress įskiepis."
+
+#: includes/Admin/Assets.php:159 includes/Admin/Onboarding/Onboarding.php:265
+msgid ""
+"Hover over the chosen post to see the options menu. Click on the Edit button "
+"to open the post editor."
+msgstr ""
+"Užveskite pelės žymeklį virš pasirinkto įrašo, kad pamatytumėte parinkčių "
+"meniu. Spustelėkite mygtuką Redaguoti, kad atidarytumėte įrašų redagavimą."
+
+#: includes/Admin/Surveys.php:40
+#, fuzzy
+msgid "How could we make it easier to create a new WordPress website?"
+msgstr "Kaip galėtume palengvinti naujos \"WordPress\" svetainės kūrimą?"
+
+#: includes/Admin/Assets.php:203 includes/Admin/Views/Learn.php:8
+msgid "How to Add Your WordPress Website to Google Search Console"
+msgstr "Kaip pridėti WordPress svetainę prie Google Search Console?"
+
+#: includes/Admin/Assets.php:208 includes/Admin/Views/Learn.php:33
+msgid "How to Back Up a WordPress Site"
+msgstr "Kaip sukurti atsarginę WordPress svetainės kopiją?"
+
+#: includes/Admin/Assets.php:205 includes/Admin/Views/Learn.php:18
+msgid "How to Clear Cache in WordPress Website"
+msgstr "Kaip išvalyti kešą WordPress svetainėje?"
+
+#: includes/Admin/Assets.php:204 includes/Admin/Views/Learn.php:13
+msgid "How to Create a WordPress Contact Us Page"
+msgstr "Kaip sukurti WordPress kontaktų puslapį?"
+
+#: includes/Admin/Assets.php:206 includes/Admin/Views/Learn.php:23
+msgid "How to Edit the Footer in WordPress"
+msgstr "Kaip redaguoti WordPress svetainės poraštę?"
+
+#: includes/Admin/Assets.php:209 includes/Admin/Views/Learn.php:38
+msgid "How to Import Images Into WordPress Website"
+msgstr "Kaip importuoti paveiksliukus į WordPress svetainę?"
+
+#: includes/Admin/Assets.php:118
+#, fuzzy
+msgid "How to Point Domain Name to Web Hosting"
+msgstr "Kaip nukreipti domeno vardą į interneto prieglobą"
+
+#: includes/Admin/Assets.php:210 includes/Admin/Views/Learn.php:43
+msgid "How to Set Up WordPress SMTP"
+msgstr "Kaip nustatyti WordPress SMTP?"
+
+#: includes/Admin/Surveys.php:39
+#, fuzzy
+msgid ""
+"How would you rate your experience building a website based on a pre-built "
+"template? (Score 1-10)"
+msgstr ""
+"Kaip vertinate savo patirtį kuriant svetainę pagal iš anksto sukurtą šabloną?"
+" (balai nuo 1 iki 10)"
+
+#: includes/Admin/Surveys.php:32
+msgid ""
+"How would you rate your experience setting up a WooCommerce site on our "
+"hosting?"
+msgstr ""
+"Kaip vertinate savo patirtį kuriant WooCommerce svetainę su mūsų hostingu?"
+
+#: includes/Admin/Surveys.php:46
+msgid ""
+"How would you rate your experience using our AI content generation tools in "
+"onboarding? (Scale 1-10)"
+msgstr ""
+"Kaip vertinate savo patirtį naudojantis mūsų DI turinio kūrimo įrankiais "
+"kuriant svetainę? (skalėje nuo 1 iki 10)"
+
+#. Plugin URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://hostinger.lt"
+
+#. Author URI of the plugin
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.lt"
+
+#: includes/Admin/Assets.php:167 includes/Admin/Onboarding/Onboarding.php:300
+msgid ""
+"If you wish to edit the image, click on the chosen image and click the Edit "
+"Image button. You can now crop, rotate, flip or scale the selected image."
+msgstr ""
+"Jei norite redaguoti paveikslėlį, spustelėkite norimą paveikslėlį ir "
+"pasirinkite „Redaguoti paveikslėlį“. Tuomet pasirinktą paveikslėlį galite "
+"apkarpyti, pasukti, apversti ar sumažinti."
+
+#: includes/Admin/Onboarding/Onboarding.php:385
+msgid ""
+"In the block menu, search for \"Gallery\" and select the Gallery block. "
+"Upload the images you want to showcase in your portfolio, then adjust the "
+"layout and add captions if needed."
+msgstr ""
+"Blokelių meniu raskite ir pasirinkite „Galerija“. Įkelkite nuotraukas, "
+"pakoreguokite išdėstymą ir, jei reikia, pridėkite antraštes."
+
+#: includes/Admin/Assets.php:130 includes/Admin/Assets.php:169
+#: includes/Admin/Onboarding/Onboarding.php:323
+msgid ""
+"In the left sidebar, click Appearance to expand the menu. In the Appearance "
+"section, click Customize. The Customize page will open."
+msgstr ""
+"Kairėje šoninėje juostoje eikite į skiltį „Išvaizda“ ir pasirinkite "
+"„Konfigūruoti“. Pateksite į konfigūracijos langą."
+
+#: includes/Admin/Onboarding/Onboarding.php:203
+msgid ""
+"In the left sidebar, click Appearance to expand the menu. In the Appearance "
+"section, click Customize. The Customize page will open. "
+msgstr ""
+"Kairėje šoninėje juostoje eikite į skiltį „Išvaizda“ ir pasirinkite "
+"„Konfigūruoti“. Pateksite į konfigūracijos langą. "
+
+#: includes/Admin/Assets.php:171 includes/Admin/Onboarding/Onboarding.php:327
+msgid "In the left sidebar, click Site Identity and edit your site title."
+msgstr ""
+"Kairėje šoninėje juostoje, spustelkite „Tinklapio identitetas“ ir "
+"redaguokite svetainės antraštę."
+
+#: includes/Admin/Assets.php:139
+#, fuzzy
+msgid ""
+"In the left sidebar, click Site Identity, then click on the Select Site Icon "
+"button. Here, you can upload your brand logo."
+msgstr ""
+"Kairėje šoninėje juostoje spustelėkite Svetainės tapatybė, tada spustelėkite "
+"mygtuką Pasirinkti svetainės piktogramą. Čia galite įkelti savo prekės "
+"ženklo logotipą."
+
+#: includes/Admin/Onboarding/Onboarding.php:207
+msgid ""
+"In the left sidebar, click Site Identity, then click on the Select Site Icon "
+"button. Here, you can upload your brand logo. "
+msgstr ""
+"Kairėje šoninėje juostoje spustelėkite „Tinklalapio identitetas“ ir "
+"spustelėkite mygtuką „Pasirinkite tinklalapio simbolį“. Čia galėsite įkelti "
+"savo logotipą. "
+
+#: includes/Admin/Assets.php:163
+#, fuzzy
+msgid ""
+"In the left sidebar, find the Media button. Click on the Library button to "
+"see all the images you have uploaded to your website."
+msgstr ""
+"Kairėje šoninėje juostoje raskite mygtuką Žiniasklaida. Spustelėkite mygtuką "
+"Biblioteka, kad pamatytumėte visus vaizdus, kuriuos įkėlėte į savo svetainę."
+
+#: includes/Admin/Onboarding/Onboarding.php:292
+msgid ""
+"In the left sidebar, find the Media button. The Media Library page allows "
+"you to edit, view, and delete media previously uploaded to your website."
+msgstr ""
+"Kairėje šoninėje juostoje pasirinkite skiltį „Failai“. Failų saugyklos "
+"puslapyje galite redaguoti, peržiūrėti ir ištrinti anksčiau į svetainę "
+"įkeltus failus."
+
+#: includes/Admin/Assets.php:184 includes/Admin/Onboarding/Onboarding.php:397
+msgid ""
+"In the left sidebar, find the Pages menu and click on Add New button. You "
+"will see the WordPress page editor. Each paragraph, image, or video in the "
+"WordPress editor is presented as a “block” of content."
+msgstr ""
+"Kairėje šoninėje juostoje raskite meniu Puslapiai ir spustelėkite mygtuką "
+"„Pridėti naują“. Pamatysite WordPress puslapio redaktorių. WordPress "
+"redaktoriuje kiekviena pastraipa, paveikslėlis ar vaizdo įrašas yra rodomas "
+"kaip atskiras turinio „blokas“."
+
+#: includes/Admin/Assets.php:157 includes/Admin/Onboarding/Onboarding.php:261
+msgid ""
+"In the left sidebar, find the Posts button. Click on the All Posts button "
+"and find the post for which you want to change the description."
+msgstr ""
+"Kairėje šoninėje juostoje raskite mygtuką „Įrašai“. Spustelėkite mygtuką "
+"„Visi įrašai“ ir raskite įrašą, kurio aprašymą norite pakeisti."
+
+#: includes/Admin/Onboarding/WelcomeCards.php:19
+#, fuzzy
+msgid ""
+"Install <strong>WooCommerce</strong>, add products or services, and start "
+"selling today."
+msgstr ""
+"Įdiekite <strong>WooCommerce</strong>, pridėkite produktų arba paslaugų ir "
+"pradėkite pardavinėti jau šiandien."
+
+#: includes/Admin/Assets.php:178
+#, fuzzy
+msgid "Installed"
+msgstr "Įdiegta"
+
+#: includes/Admin/Assets.php:121
+#: includes/Admin/Views/Partials/PromotionalBanner.php:5
+msgid "Invite a Friend, Earn Up to $100"
+msgstr "Pakvieskite draugą ir užsidirbkite iki 100 $"
+
+#: includes/Admin/Onboarding/PluginManager.php:44
+#, fuzzy
+msgid ""
+"It enables a WooCommerce site to accept payments through UPI apps like BHIM, "
+"Google Pay, Paytm, PhonePe or any Banking UPI app. Avoid payment gateway "
+"charges."
+msgstr ""
+"Tai leidžia \"WooCommerce\" svetainei priimti mokėjimus per UPI programėles, "
+"tokias kaip BHIM, \"Google Pay\", \"Paytm\", \"PhonePe\" arba bet kurią "
+"banko UPI programėlę. Išvenkite mokėjimo vartų mokesčių."
+
+#: includes/Admin/Assets.php:211
+#, fuzzy
+msgid "Knowledge Base"
+msgstr "Žinių bazė"
+
+#: includes/Admin/Menu.php:86 includes/Admin/Menu.php:87
+msgid "Learn"
+msgstr "Sužinoti daugiau"
+
+#: includes/Admin/Assets.php:207 includes/Admin/Views/Learn.php:28
+msgid "LiteSpeed Cache: How to Get 100% WordPress Optimization"
+msgstr "LiteSpeed Cache: kaip visiškai optimizuoti WordPress svetainę ?"
+
+#: includes/Admin/Onboarding/Onboarding.php:373
+msgid ""
+"Make the page easy to read and navigate by using headings and bullet points. "
+"Include a clear call-to-action (CTA) to encourage visitors to take the next "
+"step for example, to contact you via email or contact form."
+msgstr ""
+"Pasirūpinkite, kad puslapį būtų lengva skaityti ir naršyti, naudodami "
+"antraštes ir punktus. Įtraukite aiškius mygtukus, kad paskatintumėte "
+"lankytojus žengti kitą žingsnį, pavyzdžiui, susisiekti su jumis el. paštu "
+"arba naudojant kontaktinę formą."
+
+#: includes/Admin/Assets.php:91
+#, fuzzy
+msgid "Manage shipping"
+msgstr "Valdykite pristatymą"
+
+#: includes/Admin/Assets.php:90 includes/Admin/Onboarding/Onboarding.php:543
+#, fuzzy
+msgid "Market your business"
+msgstr "Rinkodara jūsų verslui"
+
+#: includes/Admin/Assets.php:114
+#, fuzzy
+msgid "Nameserver"
+msgstr "Vardų serveris"
+
+#: includes/Admin/Assets.php:149
+#, fuzzy
+msgid "Now <strong>finish setting up</strong> the plugins you’ve installed."
+msgstr "Dabar <strong>baigkite nustatyti</strong> įdiegtus įskiepius."
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+#| msgid ""
+#| "on <a\n"
+#| "\t\t\t   href=\"https://wordpress."
+#| "org/support/plugin/hostinger/reviews/#new-post\"\n"
+#| "\t\t\t   target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"<a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-post\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Menu.php:27 includes/Admin/Menu.php:76
+#: includes/Admin/Menu.php:77
+msgid "Onboarding"
+msgstr "Svetainės kūrimas"
+
+#: includes/Admin/Onboarding/Onboarding.php:238
+msgid ""
+"Once you have finished drafting your post, read it over to check for errors, "
+"make any necessary revisions, and then publish it to your blog."
+msgstr ""
+"Baigę rengti įrašą, perskaitykite jį, kad patikrintumėte, ar jame nėra "
+"klaidų, atlikite reikiamus pataisymus ir paskelbkite jį savo tinklaraštyje."
+
+#: includes/Admin/Onboarding/Onboarding.php:389
+msgid ""
+"Once you're happy with your portfolio post, click the \"Publish\" button to "
+"make it live on your website. You can add a link to your main navigation "
+"menu or other relevant posts to make it easy for visitors to find."
+msgstr ""
+"Kai būsite patenkinti savo puslapiu, spustelėkite mygtuką „Publikuoti“, kad "
+"jis atsirastų jūsų svetainėje. Galite pridėti nuorodą į pagrindinį "
+"navigacijos meniu arba kitus susijusius puslapius, kad lankytojams būtų "
+"lengva jį rasti."
+
+#: includes/Admin/Assets.php:86 includes/Admin/Onboarding/Onboarding.php:72
+#, fuzzy
+msgid "Online store setup"
+msgstr "Internetinės parduotuvės sąranka"
+
+#: includes/Admin/Assets.php:216
+#, fuzzy
+msgid ""
+"Opt-in to receive tips, discounts, and recommendations from the WooCommerce "
+"team directly in your inbox."
+msgstr ""
+"Užsiregistruokite, kad gautumėte \"WooCommerce\" komandos patarimų, nuolaidų "
+"ir rekomendacijų tiesiai į savo pašto dėžutę."
+
+#: includes/Admin/Assets.php:191
+#, fuzzy
+msgid "Other"
+msgstr "Kita"
+
+#: includes/Admin/Assets.php:187
+#, fuzzy
+msgid "Payment methods"
+msgstr "Mokėjimo būdai"
+
+#: includes/Admin/Onboarding/PluginManager.php:29
+#, fuzzy
+msgid ""
+"PayPal's latest complete payments processing solution. Accept PayPal, Pay "
+"Later, credit/debit cards, alternative digital wallets local payment types "
+"and bank accounts."
+msgstr ""
+"Naujausias \"PayPal\" pilnas mokėjimų apdorojimo sprendimas. Priimkite "
+"\"PayPal\", \"Pay Later\", kredito / debeto korteles, alternatyvias "
+"skaitmenines pinigines, vietinius mokėjimų tipus ir banko sąskaitas."
+
+#: includes/Admin/Assets.php:119
+#, fuzzy
+msgid "Play on YouTube"
+msgstr "Žaisti \"YouTube"
+
+#: includes/Admin/Assets.php:88
+#, fuzzy
+msgid "Preview website"
+msgstr "Peržiūros svetainė"
+
+#: includes/Admin/Onboarding/Onboarding.php:237
+msgid "Proofread and publish"
+msgstr "Peržiūrėkite ir paskelbkite"
+
+#: includes/Admin/Assets.php:198 includes/Admin/Onboarding/Onboarding.php:408
+msgid "Publish the page"
+msgstr "Paskelbkite puslapį"
+
+#: includes/Admin/Onboarding/Onboarding.php:388
+msgid "Publish your page"
+msgstr "Paskelbkite puslapį"
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "Įvertinkite šį įskiepį"
+
+#: includes/Admin/Assets.php:190
+#, fuzzy
+msgid "Recommended for you"
+msgstr "Rekomenduojama jums"
+
+#: includes/Admin/Assets.php:181 includes/Admin/Onboarding/WelcomeCards.php:27
+#, fuzzy
+msgid "Run an Amazon Affiliate site"
+msgstr "Paleisti \"Amazon\" filialo svetainę"
+
+#: includes/Admin/Assets.php:92
+#, fuzzy
+msgid "Run email marketing campaigns"
+msgstr "Vykdyti el. pašto rinkodaros kampanijas"
+
+#: includes/Admin/Onboarding/PluginManager.php:38
+#, fuzzy
+msgid ""
+"Securely accept payments, synchronize sales, and seamlessly manage inventory "
+"and product data between WooCommerce and Square POS."
+msgstr ""
+"Saugiai priimkite mokėjimus, sinchronizuokite pardavimus ir sklandžiai "
+"tvarkykite inventoriaus ir produktų duomenis tarp \"WooCommerce\" ir "
+"\"Square POS\"."
+
+#: includes/Admin/Assets.php:110 includes/Admin/Onboarding/Onboarding.php:480
+#, fuzzy
+msgid ""
+"Sell products, services, and digital downloads. Set up and customize each "
+"item to fit your business needs."
+msgstr ""
+"Parduokite produktus, paslaugas ir skaitmeninius atsisiuntimus. Nustatykite "
+"ir pritaikykite kiekvieną elementą pagal savo verslo poreikius."
+
+#: includes/Admin/Assets.php:105 includes/Admin/Onboarding/Onboarding.php:500
+#, fuzzy
+msgid "Set up a payment method"
+msgstr "Nustatykite mokėjimo būdą"
+
+#: includes/Admin/Assets.php:122 includes/Admin/Assets.php:126
+#, fuzzy
+msgid "Set up a website that works for you."
+msgstr "Sukurkite jums tinkančią svetainę."
+
+#: includes/Admin/Onboarding/WelcomeCards.php:17
+#, fuzzy
+#| msgid "Set up your online store"
+msgid "Set up an online store"
+msgstr "Sukurti internetinę parduotuvę"
+
+#: includes/Admin/Assets.php:106 includes/Admin/Onboarding/Onboarding.php:504
+#, fuzzy
+msgid "Set up payment method"
+msgstr "Nustatyti mokėjimo būdą"
+
+#: includes/Admin/Assets.php:189
+#, fuzzy
+msgid "Set up payments"
+msgstr "Nustatyti mokėjimus"
+
+#: includes/Admin/Assets.php:143 includes/Admin/Onboarding/Onboarding.php:456
+#, fuzzy
+#| msgid "Set up my online store"
+msgid "Setup my online store"
+msgstr "Sukurti savo internetinę parduotuvę"
+
+#: includes/Admin/Views/Partials/PromotionalBanner.php:9
+msgid ""
+"Share your referral link with friends and family and <b>receive 20% "
+"commission</b> for every successful referral."
+msgstr ""
+"Pasidalinkite savo nuoroda su draugais ir šeimos nariais ir <b>gaukite 20 % "
+"komisinių</b> už kiekvieną sėkmingą rekomendaciją."
+
+#: includes/Admin/Assets.php:120
+#, fuzzy
+msgid ""
+"Share your referral link with friends and family and <strong>receive 20% "
+"commission</strong> for every successful referral."
+msgstr ""
+"Pasidalykite savo nuorodą su draugais ir šeimos nariais ir <strong>gaukite "
+"20 % komisinių</strong> už kiekvieną sėkmingą nuorodą."
+
+#: includes/Admin/Assets.php:94 includes/Admin/Onboarding/Onboarding.php:523
+#, fuzzy
+msgid "Ship products with ease"
+msgstr "Lengvai siųskite produktus"
+
+#: includes/Admin/Assets.php:95 includes/Admin/Assets.php:188
+#: includes/Admin/Onboarding/Onboarding.php:527
+#, fuzzy
+msgid "Shipping methods"
+msgstr "Pristatymo būdai"
+
+#: includes/Rest/WooRoutes.php:46
+#, fuzzy
+msgid "Shop locale is empty, please setup store first"
+msgstr "Parduotuvės vieta yra tuščia, pirmiausia nustatykite parduotuvę"
+
+#: includes/Admin/Assets.php:142 includes/Admin/Onboarding/Step.php:76
+#, fuzzy
+msgid "Skip"
+msgstr "Praleisti"
+
+#: includes/Rest/WooRoutes.php:117
+#, fuzzy
+msgid "Sorry, there are activation errors."
+msgstr "Atsiprašome, yra aktyvavimo klaidų."
+
+#: includes/Rest/StepRoutes.php:69 includes/Rest/WooRoutes.php:52
+#: includes/Rest/WooRoutes.php:104 includes/Rest/WooRoutes.php:185
+#, fuzzy
+msgid "Sorry, there are validation errors."
+msgstr "Atsiprašome, yra patvirtinimo klaidų."
+
+#: includes/Admin/Assets.php:111
+#: includes/Admin/Views/Partials/PromotionalBanner.php:24
+msgid "Start earning"
+msgstr "Rekomenduoti"
+
+#: includes/Rest/StepRoutes.php:88
+#, fuzzy
+msgid "Step category and/or step does not exist."
+msgstr "Žingsnio kategorija ir (arba) žingsnis neegzistuoja."
+
+#: includes/Admin/Assets.php:104
+#, fuzzy
+msgid "Store info"
+msgstr "Parduotuvės informacija"
+
+#: includes/Rest/WooRoutes.php:179
+#, fuzzy
+msgid "Store location locale not found"
+msgstr "Parduotuvės vietos vietovė nerasta"
+
+#: includes/Admin/Onboarding/PluginManager.php:26
+#, fuzzy
+msgid "Take credit card payments on your store using Stripe."
+msgstr ""
+"Atlikite mokėjimus kredito kortelėmis savo parduotuvėje naudodami \"Stripe\"."
+
+#: includes/Admin/Assets.php:140 includes/Admin/Onboarding/Step.php:75
+msgid "Take me there"
+msgstr "Nukreipti ten"
+
+#: includes/Admin/Assets.php:217
+#, fuzzy
+msgid "Tell us a bit about your business"
+msgstr "Papasakokite šiek tiek apie savo verslą"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:77
+#, fuzzy
+msgid ""
+"The Hostinger Easy Onboarding plugin requires minimum PHP version of <b>"
+"%s</b>. "
+msgstr ""
+"\"Hostinger\" įskiepiui \"Easy Onboarding\" reikia minimalios PHP versijos "
+"<b>%s</b>."
+
+#: includes/Admin/Onboarding/PluginManager.php:66
+#, fuzzy
+msgid ""
+"The USPS Simple plugin calculates rates for domestic shipping dynamically "
+"using USPS API during checkout."
+msgstr ""
+"\"USPS Simple\" įskiepis dinamiškai apskaičiuoja vietinio siuntimo tarifus, "
+"naudodamas USPS API per kasą."
+
+#: includes/Admin/Onboarding/PluginManager.php:63
+#, fuzzy
+msgid ""
+"This extension gives you the possibility to use the Colissimo shipping "
+"methods in WooCommerce"
+msgstr ""
+"Šis plėtinys suteikia jums galimybę naudoti \"Colissimo\" pristatymo metodus "
+"\"WooCommerce"
+
+#: includes/Admin/Assets.php:165 includes/Admin/Onboarding/Onboarding.php:296
+msgid ""
+"To upload a new image, click on Add New button on the Media Library page and "
+"select files."
+msgstr ""
+"Norėdami įkelti naują paveikslėlį ar kitą medijos failą, failų saugyklos "
+"puslapyje spustelėkite mygtuką „Įkelti naują failą“ ir pasirinkite norimus "
+"failus."
+
+#: includes/Admin/Assets.php:96 includes/Admin/Onboarding/Onboarding.php:552
+#, fuzzy
+msgid "Try Omnisend"
+msgstr "Išbandykite \"Omnisend"
+
+#: includes/Errors.php:31
+msgid "Unknown error code."
+msgstr "Nežinomas klaidos kodas."
+
+#: includes/Admin/Assets.php:132 includes/Admin/Assets.php:164
+#: includes/Admin/Onboarding/Onboarding.php:287
+#: includes/Admin/Onboarding/Onboarding.php:295
+msgid "Upload an image"
+msgstr "Įkelti paveikslėlį"
+
+#: includes/Admin/Assets.php:124 includes/Admin/Assets.php:138
+#: includes/Admin/Onboarding/Onboarding.php:194
+#: includes/Admin/Onboarding/Onboarding.php:206
+msgid "Upload your logo"
+msgstr "Įkelti savo logotipą"
+
+#: includes/Admin/Onboarding/Onboarding.php:352
+msgid "Upload your portfolio projects"
+msgstr "Įkelkite savo darbų aprašymus"
+
+#: includes/Admin/Hooks.php:48
+msgid ""
+"Use the special discount code <b>ONLYHOSTINGER30</b> to get 30% off on "
+"Omnisend for 6 months when you upgrade."
+msgstr ""
+"Pasinaudokite specialiu nuolaidos kodu <b>ONLYHOSTINGER30</b> ir gaukite 30 "
+"% nuolaidą Omnisend 6 mėnesiams, atnaujinus planą."
+
+#: includes/Admin/Assets.php:152
+#, fuzzy
+msgid "View completed"
+msgstr "Peržiūrėti užbaigtą"
+
+#: includes/Admin/Assets.php:150
+#, fuzzy
+msgid "View plugins"
+msgstr "Peržiūrėti įskiepius"
+
+#: includes/Admin/Assets.php:113
+#, fuzzy
+msgid "Wait for domain propagation"
+msgstr "Laukite, kol domenas išplis"
+
+#: includes/Errors.php:20
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"Atsiprašome už nepatogumus. DI turinio generavimo procesas susidūrė su "
+"serverio klaida. Bandykite dar kartą vėliau, o jei problema išlieka, "
+"maloniai prašome susisiekti su mūsų palaikymo komanda dėl pagalbos."
+
+#: includes/Admin/Assets.php:218
+#, fuzzy
+msgid "We'll use this information to help you set up your store faster."
+msgstr ""
+"Naudosime šią informaciją, kad padėtume jums greičiau sukurti parduotuvę."
+
+#: includes/Admin/Assets.php:87
+#, fuzzy
+msgid "Website is published"
+msgstr "Paskelbta svetainė"
+
+#: includes/Admin/Menu.php:50
+msgid "Website list"
+msgstr "Svetainių sąrašas"
+
+#: includes/Admin/Assets.php:147 includes/Admin/Onboarding/Onboarding.php:39
+#, fuzzy
+msgid "Website setup"
+msgstr "Svetainės sąranka"
+
+#: includes/Admin/Assets.php:127
+#, fuzzy
+msgid "Website URL"
+msgstr "Svetainės URL"
+
+#: includes/Admin/Assets.php:220
+#, fuzzy
+msgid "Welcome to WordPress!"
+msgstr "Sveiki atvykę į \"WordPress\"!"
+
+#: includes/Admin/Assets.php:100
+#, fuzzy
+msgid "What type of products or services will you sell?"
+msgstr "Kokio tipo produktus ar paslaugas parduosite?"
+
+#: includes/Admin/Assets.php:99
+#, fuzzy
+msgid "Where is your store located?"
+msgstr "Kur yra jūsų parduotuvė?"
+
+#: includes/Admin/Assets.php:214
+#, fuzzy
+msgid "WordPress tutorials"
+msgstr "WordPress pamokos"
+
+#: includes/Admin/Onboarding/Onboarding.php:369
+msgid ""
+"Write a brief introduction to your business, provide an overview of your "
+"services with descriptions and benefits, and use relevant images to support "
+"your content. Keep it simple and straightforward."
+msgstr ""
+"Parašykite trumpą savo verslo pristatymą, apžvelkite savo paslaugas, "
+"pateikdami jų aprašymus ir privalumus, ir naudokite atitinkamas nuotraukas "
+"tekstui papildyti. Laikykitės paprastumo ir aiškumo."
+
+#: includes/Admin/Onboarding/Onboarding.php:234
+msgid ""
+"Write your content, making sure to include relevant keywords and images. You "
+"can use different blocks to create headings, paragraphs, lists, and other "
+"types of content."
+msgstr ""
+"Kurdami turinį, būtinai įtraukite tinkamus raktažodžius ir nuotraukas. "
+"Galite naudoti įvairius blokus antraštėms, pastraipoms, sąrašams ir kitiems "
+"turinio tipams kurti."
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:81
+#, fuzzy
+msgid "You are running <b>%s</b> PHP version."
+msgstr "Jūs naudojate <b>%s</b> PHP versiją."
+
+#: includes/Admin/Assets.php:194
+#, fuzzy
+msgid ""
+"You can also set up a payment method without installing additional plugins."
+msgstr "Taip pat galite nustatyti mokėjimo būdą neįdiegę papildomų įskiepių."
+
+#: includes/Admin/Assets.php:193
+#, fuzzy
+msgid ""
+"You can also set up a shipping method without installing additional plugins."
+msgstr "Taip pat galite nustatyti pristatymo būdą neįdiegę papildomų įskiepių."
+
+#: includes/Admin/Assets.php:116
+#, fuzzy
+msgid ""
+"You can connect domain to Hostinger by changing the nameservers. Different "
+"domain providers are have unique procedures for changing nameservers. Here "
+"are Hostinger's nameservers:"
+msgstr ""
+"Galite prijungti domeną prie \"Hostinger\" pakeisdami vardų serverius. "
+"Skirtingi domenų teikėjai turi unikalias vardų serverių keitimo procedūras. "
+"Čia pateikiami \"Hostinger\" vardų serveriai:"
+
+#: includes/Admin/Assets.php:161 includes/Admin/Onboarding/Onboarding.php:269
+msgid ""
+"You can see the whole post in the editor. Find the description part and "
+"change it to your preferences."
+msgstr ""
+"Visą įrašą galite pamatyti redaktoriuje. Raskite aprašymo dalį ir pakeiskite "
+"ją pagal savo pageidavimus."
+
+#: includes/Admin/Assets.php:129
+#, fuzzy
+msgid ""
+"You need to purchase a domain for your website before the preview domain "
+"becomes inaccessible. Find a desired website name using a <a style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\" target=\"_blank\" "
+"href=\"https://hpanel.hostinger.com/domains/domain-checker\" >domain name "
+"searcher.</a >"
+msgstr ""
+"Turite įsigyti svetainės domeną, kol peržiūros domenas taps neprieinamas. "
+"Ieškokite norimo svetainės pavadinimo naudodamiesi <a style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\" target=\"_blank\" "
+"href=\"https://hpanel.hostinger.com/domains/domain-checker\" >domeno vardo "
+"paieškos priemone.</a >"
+
+#: includes/Admin/Assets.php:98
+#, fuzzy
+msgid "Your business email"
+msgstr "Jūsų verslo el. paštas"
+
+#: includes/Admin/Assets.php:103 includes/Admin/Assets.php:145
+#, fuzzy
+msgid "Your progress"
+msgstr "Jūsų pažanga"
+
+#: includes/Admin/Assets.php:97
+#, fuzzy
+msgid "Your store name"
+msgstr "Jūsų parduotuvės pavadinimas"
+
+#: includes/Admin/Assets.php:128
+#, fuzzy
+msgid ""
+"Your website is already published and can be accessed using Hostinger free "
+"temporary subdomain right now. Here is the current URL of your website:"
+msgstr ""
+"Jūsų svetainė jau paskelbta ir dabar ją galima pasiekti naudojant "
+"\"Hostinger\" nemokamą laikiną subdomeną. Čia pateikiamas dabartinis jūsų "
+"svetainės URL:"
+
+#: includes/Admin/Assets.php:151
+#, fuzzy
+msgid "You’re done setting up your online store!"
+msgstr "Baigėte kurti savo internetinę parduotuvę!"
+
+#: includes/Admin/Assets.php:125
+#, fuzzy
+msgid "👋 Welcome to WooCommerce"
+msgstr "👋 Sveiki atvykę į \"WooCommerce"

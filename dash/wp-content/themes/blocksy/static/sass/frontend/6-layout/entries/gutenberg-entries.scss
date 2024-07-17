@@ -1,0 +1,40 @@
+[data-archive="default"][data-layout="gutenberg"] {
+
+	article {
+		align-items: center;
+
+		&:not(:last-child) {
+			margin-bottom: var(--grid-columns-gap, 30px);
+		}
+
+		> * {
+
+			&:not(.entry-button) {
+				width: 100%;
+			}
+
+			&:not(.ct-media-container) {
+				max-width: var(--theme-narrow-container-max-width);
+			}
+		}
+
+		> .ct-media-container {
+			max-width: calc(var(--theme-narrow-container-max-width) + var(--theme-wide-offset) * 2);
+		}
+
+
+		// divider
+		&:not(:last-child) {
+			&:after {
+				content: "\00b7 \00b7 \00b7 \00b7 \00b7";
+				font-size: 25px;
+				letter-spacing: 1.5em;
+				padding-inline-start: 1.5em;
+				font-family: serif;
+				text-align: center;
+				opacity: 0.5;
+				margin-top: calc(var(--grid-columns-gap, 30px) + 10px);
+			}
+		}
+	}
+}

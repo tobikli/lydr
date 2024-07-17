@@ -1,0 +1,28 @@
+[class*='ct-media-container'] {
+	display: inline-flex;
+	overflow: hidden;
+	isolation: isolate;
+	vertical-align: middle;
+}
+
+.ct-media-container {
+	position: relative;
+	width: 100%;
+
+	img,
+	picture {
+		width: inherit;
+		border-radius: inherit;
+		object-fit: var(--theme-object-fit, cover);
+	}
+
+	picture {
+		display: inline-flex;
+	}
+}
+
+.ct-media-container-static {
+	img {
+		aspect-ratio: 1/1;
+	}
+}

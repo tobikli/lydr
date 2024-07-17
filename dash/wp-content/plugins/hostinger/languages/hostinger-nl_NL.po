@@ -1,0 +1,279 @@
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger 2.1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-"
+"wordpress-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-20T07:03:00+00:00\n"
+"PO-Revision-Date: 2024-05-30 07:57+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4"
+
+#: includes/Admin/Assets.php:131
+msgid ""
+" Turning on XML-RPC might make your site less secure. Do you want to proceed?"
+msgstr ""
+" Het inschakelen van XML-RPC kan je site minder veilig maken. Wil je "
+"doorgaan?"
+
+#: includes/Errors.php:16
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"Actie mislukt. Probeer het opnieuw of neem contact op met "
+"klantenondersteuning. Onze excuses."
+
+#: includes/Errors.php:19
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr ""
+"Er is een onverwachte fout opgetreden. Probeer het opnieuw of neem contact "
+"op met de klantenondersteuning."
+
+#. translators: %s: PHP version
+#: hostinger.php:83
+#, fuzzy
+msgid "Attention:"
+msgstr "Attentie:"
+
+#: includes/Admin/Menu.php:45
+msgid "Billings"
+msgstr "Facturen"
+
+#: includes/Admin/Assets.php:130
+msgid "Bypass link"
+msgstr "Bypass-link"
+
+#: includes/Admin/Assets.php:135
+msgid "Bypass link reset"
+msgstr "Bypass link reset"
+
+#: includes/Admin/Assets.php:133 includes/Admin/Assets.php:137
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/Views/ComingSoon.php:6 includes/Views/ComingSoon.php:24
+msgid "Coming Soon"
+msgstr "Binnenkort verkrijgbaar"
+
+#: includes/Admin/Assets.php:109
+msgid ""
+"Disable public access to the site (WordPress admins will still be able to "
+"access)"
+msgstr ""
+"Schakel publieke toegang tot de site uit (WordPress-admins hebben nog steeds "
+"toegang)"
+
+#: includes/Admin/Assets.php:112
+msgid "Disable XML-RPC"
+msgstr "XML-RPC uitschakelen"
+
+#: includes/Admin/Assets.php:132
+msgid "Disclaimer"
+msgstr "Disclaimer"
+
+#: includes/Admin/Assets.php:124
+msgid "For improved security, ensure you use the latest version of WordPress"
+msgstr ""
+"Voor een betere beveiliging moet je ervoor zorgen dat je de nieuwste versie "
+"van WordPress gebruikt"
+
+#: includes/Admin/Assets.php:114
+msgid "Force HTTPs"
+msgstr "HTTP's forceren"
+
+#: includes/Admin/Assets.php:116
+msgid "Force WWW"
+msgstr "Forceer WWW"
+
+#: includes/Admin/Hooks.php:53
+#, fuzzy
+msgid "Got it"
+msgstr "Ik heb het"
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Hooks.php:51
+#, fuzzy
+msgid "Hostinger plugin updates"
+msgstr "Hostinger plugin updates"
+
+#. Plugin Name of the plugin
+#: includes/Admin/Assets.php:108
+msgid "Hostinger Tools"
+msgstr "Hostinger Tools"
+
+#. Description of the plugin
+msgid "Hostinger WordPress plugin."
+msgstr "Hostinger WordPress plugin."
+
+#. Plugin URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://hostinger.nl"
+
+#. Author URI of the plugin
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.nl"
+
+#: includes/Admin/Assets.php:139
+msgid "Link has been reset"
+msgstr "Link is gereset"
+
+#: includes/Admin/Assets.php:125
+msgid "Maintenance"
+msgstr "Onderhoud"
+
+#: includes/Admin/Assets.php:129
+msgid "Maintenance mode"
+msgstr "Onderhoudsmodus"
+
+#: includes/Views/ComingSoon.php:27
+msgid "New WordPress website is being built and will be published soon"
+msgstr ""
+"Nieuwe WordPress website wordt gebouwd en zal binnenkort worden gepubliceerd"
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"op <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Assets.php:119
+msgid "PHP version"
+msgstr "PHP versie"
+
+#: includes/Admin/Assets.php:126
+msgid "Preview my website"
+msgstr "Preview van mijn website"
+
+#: includes/Admin/Assets.php:134
+msgid "Proceed anyway"
+msgstr "Toch doorgaan"
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "Beoordeel deze plugin"
+
+#: includes/Admin/Assets.php:128
+msgid "Redirects"
+msgstr "Omleidingen"
+
+#: includes/Admin/Assets.php:115
+msgid "Redirects all HTTP URLs to HTTPS sites"
+msgstr "Leidt alle HTTP URL's om naar HTTPS sites"
+
+#: includes/Admin/Assets.php:117
+msgid "Redirects all WWW URLs to non-WWW ones"
+msgstr "Leidt alle WWW URL's om naar niet-WW URL's"
+
+#: includes/Admin/Assets.php:111 includes/Admin/Assets.php:138
+msgid "Reset link"
+msgstr "Reset link"
+
+#: includes/Admin/Assets.php:122
+msgid "Running the latest version"
+msgstr "De nieuwste versie runnen"
+
+#: includes/Admin/Assets.php:127
+msgid "Security"
+msgstr "Beveiliging"
+
+#: includes/Admin/Assets.php:110
+msgid "Skip-link that bypasses the maintenance mode"
+msgstr "Overslaan-link die de onderhoudsmodus omzeilt"
+
+#. translators: %s: PHP version
+#: hostinger.php:83
+#, fuzzy
+msgid "The Hostinger plugin requires minimum PHP version of <b>%s</b>. "
+msgstr "De Hostinger plugin vereist een minimale PHP versie van <b>%s</b>."
+
+#: includes/Admin/Assets.php:136
+msgid ""
+"This will invalidate the currently generated link in use. This action cannot "
+"be undone, are you sure you want to proceed?"
+msgstr ""
+"Hierdoor wordt de huidige gegenereerde link die in gebruik is ongeldig. Deze "
+"actie kan niet ongedaan worden gemaakt, weet je zeker dat je door wilt gaan?"
+
+#: includes/Admin/Menu.php:57 includes/Admin/Menu.php:58
+#, fuzzy
+msgid "Tools"
+msgstr "Gereedschap"
+
+#: includes/Errors.php:38
+msgid "Unknown error code."
+msgstr "Onbekende foutcode."
+
+#: includes/Admin/Assets.php:123
+msgid "Update to"
+msgstr "Bijwerken naar"
+
+#: includes/Admin/Assets.php:121
+msgid "Various updates and fixes available in the newest version."
+msgstr "Diverse updates en fixes beschikbaar in de nieuwste versie."
+
+#: includes/Errors.php:22
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"Onze excuses voor het ongemak. Er is een serverfout opgetreden bij het "
+"genereren van AI-inhoud. Probeer het later nog eens. Mocht het probleem zich "
+"blijven voordoen, neem dan contact op met ons ondersteuningsteam voor "
+"assistentie."
+
+#: includes/Admin/Hooks.php:52
+#, fuzzy
+msgid ""
+"We have split certain settings into Hostinger tools to easily manage some "
+"key preferences of your website. “Get started” and “Learning” sections are "
+"now part of the main Hostinger Easy Onboarding plugin."
+msgstr ""
+"We hebben bepaalde instellingen opgesplitst in Hostinger tools om "
+"gemakkelijk een aantal belangrijke voorkeuren van je website te beheren. "
+"\"Aan de slag\" en \"Leren\" secties zijn nu onderdeel van de Hostinger Easy "
+"Onboarding plugin."
+
+#: includes/Admin/Menu.php:36
+msgid "Website list"
+msgstr "Website lijst"
+
+#: includes/Admin/Assets.php:120
+msgid "WordPress version"
+msgstr "WordPress versie"
+
+#: includes/Admin/Assets.php:118
+msgid ""
+"WWW and non-WWW domain records are not pointing to the same host. Redirect "
+"not possible."
+msgstr ""
+"WWW- en niet-WWW-domeinrecords verwijzen niet naar dezelfde host. Redirect "
+"niet mogelijk."
+
+#: includes/Admin/Assets.php:113
+msgid ""
+"XML-RPC allows apps to connect to your WordPress site, but might expose your "
+"site's security. Disable this feature if you don't need it"
+msgstr ""
+"XML-RPC stelt apps in staat om verbinding te maken met je WordPress site, "
+"maar kan de beveiliging van je site blootleggen. Schakel deze functie uit "
+"als je deze niet nodig hebt"
+
+#. translators: %s: PHP version
+#: hostinger.php:87
+#, fuzzy
+msgid "You are running <b>%s</b> PHP version."
+msgstr "Je gebruikt <b>%s</b> PHP versie."

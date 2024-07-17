@@ -1,0 +1,7 @@
+.edit-post-visual-editor {
+	background-color: #fcfcfc;
+
+	iframe[name="editor-canvas"] {
+		box-shadow: 0 5px 40px rgba(0, 0, 0, 0.08);
+	}
+}

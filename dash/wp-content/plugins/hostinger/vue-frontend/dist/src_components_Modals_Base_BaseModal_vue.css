@@ -1,0 +1,20 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Modals/Base/BaseModal.vue?vue&type=style&index=0&id=8740fa32&lang=scss&scoped=true ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+.base-modal__title-container[data-v-8740fa32] {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.base-modal__title[data-v-8740fa32] {
+  font-size: 20px;
+  color: var(--dark);
+  margin: 0;
+  font-weight: 700;
+}
+.base-modal__subtitle[data-v-8740fa32] {
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 24px;
+  color: var(--gray);
+}

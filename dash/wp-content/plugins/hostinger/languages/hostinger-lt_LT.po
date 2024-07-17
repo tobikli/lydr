@@ -1,0 +1,275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-"
+"wordpress-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Lithuanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-02T12:10:37+00:00\n"
+"PO-Revision-Date: 2024-05-30 07:57+0000\n"
+"Language: lt_LT\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4"
+
+#: includes/Admin/Assets.php:131
+msgid ""
+" Turning on XML-RPC might make your site less secure. Do you want to proceed?"
+msgstr " Įjungus XML-RPC, tavo svetainė gali būti mažiau saugi. Ar nori tęsti?"
+
+#: includes/Errors.php:16
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"Veiksmas nepavyko. Bandykite dar kartą arba susisiekite su palaikymu. "
+"Atsiprašome."
+
+#: includes/Errors.php:19
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr "Nenumatyta klaida. Bandykite dar kartą arba susisiekite su palaikymu."
+
+#. translators: %s: PHP version
+#: hostinger.php:83
+#, fuzzy
+msgid "Attention:"
+msgstr "Dėmesio:"
+
+#: includes/Admin/Menu.php:45
+msgid "Billings"
+msgstr "Mokėjimai"
+
+#: includes/Admin/Assets.php:130
+msgid "Bypass link"
+msgstr "Apeiti nuorodą"
+
+#: includes/Admin/Assets.php:135
+msgid "Bypass link reset"
+msgstr "Apeiti nuorodos atkūrimą"
+
+#: includes/Admin/Assets.php:133 includes/Admin/Assets.php:137
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#: includes/Views/ComingSoon.php:6 includes/Views/ComingSoon.php:24
+msgid "Coming Soon"
+msgstr "Netrukus"
+
+#: includes/Admin/Assets.php:109
+msgid ""
+"Disable public access to the site (WordPress admins will still be able to "
+"access)"
+msgstr ""
+"Išjungti viešą prieigą prie svetainės (WordPress administratoriai vis tiek "
+"galės prisijungti)"
+
+#: includes/Admin/Assets.php:112
+msgid "Disable XML-RPC"
+msgstr "Išjungti XML-RPC"
+
+#: includes/Admin/Assets.php:132
+msgid "Disclaimer"
+msgstr "Perspėjimas"
+
+#: includes/Admin/Assets.php:124
+msgid "For improved security, ensure you use the latest version of WordPress"
+msgstr ""
+"Saugumui užtikrinti, rekomenduojame naudoti naujausią WordPress versiją"
+
+#: includes/Admin/Assets.php:114
+msgid "Force HTTPs"
+msgstr "Taikyti HTTP"
+
+#: includes/Admin/Assets.php:116
+msgid "Force WWW"
+msgstr "Taikyti WWW"
+
+#: includes/Admin/Hooks.php:53
+#, fuzzy
+msgid "Got it"
+msgstr "Turiu"
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Hooks.php:51
+#, fuzzy
+msgid "Hostinger plugin updates"
+msgstr "\"Hostinger\" įskiepių atnaujinimai"
+
+#. Plugin Name of the plugin
+#: includes/Admin/Assets.php:108
+msgid "Hostinger Tools"
+msgstr "Hostinger įrankiai"
+
+#. Description of the plugin
+msgid "Hostinger WordPress plugin."
+msgstr "Hostinger WordPress įskiepis."
+
+#. Plugin URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://hostinger.lt"
+
+#. Author URI of the plugin
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.lt"
+
+#: includes/Admin/Assets.php:139
+msgid "Link has been reset"
+msgstr "Nuoroda nustatyta iš naujo"
+
+#: includes/Admin/Assets.php:125
+msgid "Maintenance"
+msgstr "Priežiūra"
+
+#: includes/Admin/Assets.php:129
+msgid "Maintenance mode"
+msgstr "Darbinis režimas"
+
+#: includes/Views/ComingSoon.php:27
+msgid "New WordPress website is being built and will be published soon"
+msgstr "Naujas WordPress tinklapis kuriamas ir netrukus bus paskelbtas"
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+#| msgid ""
+#| "on <a\n"
+#| "\t\t\t   href=\"https://wordpress."
+#| "org/support/plugin/hostinger/reviews/#new-post\"\n"
+#| "\t\t\t   target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"<a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-post\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Assets.php:119
+msgid "PHP version"
+msgstr "PHP versija"
+
+#: includes/Admin/Assets.php:126
+msgid "Preview my website"
+msgstr "Peržiūrėti svetainę"
+
+#: includes/Admin/Assets.php:134
+msgid "Proceed anyway"
+msgstr "Vis tiek tęsti"
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "Įvertinkite šį įskiepį"
+
+#: includes/Admin/Assets.php:128
+msgid "Redirects"
+msgstr "Peradresavimas"
+
+#: includes/Admin/Assets.php:115
+msgid "Redirects all HTTP URLs to HTTPS sites"
+msgstr "Peradresuoti visus HTTP URL į HTTPS svetaines"
+
+#: includes/Admin/Assets.php:117
+msgid "Redirects all WWW URLs to non-WWW ones"
+msgstr "Peradresuoti visus WWW URL į ne WWW adresus"
+
+#: includes/Admin/Assets.php:111 includes/Admin/Assets.php:138
+msgid "Reset link"
+msgstr "Atstatyti nuorodą"
+
+#: includes/Admin/Assets.php:122
+msgid "Running the latest version"
+msgstr "Paleisti naujausią versiją"
+
+#: includes/Admin/Assets.php:127
+msgid "Security"
+msgstr "Saugumas"
+
+#: includes/Admin/Assets.php:110
+msgid "Skip-link that bypasses the maintenance mode"
+msgstr "Praleisti nuorodą, kuri apeina priežiūros režimą"
+
+#. translators: %s: PHP version
+#: hostinger.php:83
+#, fuzzy
+msgid "The Hostinger plugin requires minimum PHP version of <b>%s</b>. "
+msgstr "\"Hostinger\" įskiepiui reikia minimalios PHP versijos <b>%s</b>."
+
+#: includes/Admin/Assets.php:136
+msgid ""
+"This will invalidate the currently generated link in use. This action cannot "
+"be undone, are you sure you want to proceed?"
+msgstr ""
+"Tai panaikins šiuo metu naudojamą sukurtą nuorodą. Šio veiksmo atšaukti "
+"negalima, ar tikrai nori tęsti?"
+
+#: includes/Admin/Menu.php:57 includes/Admin/Menu.php:58
+#, fuzzy
+msgid "Tools"
+msgstr "Įrankiai"
+
+#: includes/Errors.php:38
+msgid "Unknown error code."
+msgstr "Nežinomas klaidos kodas."
+
+#: includes/Admin/Assets.php:123
+msgid "Update to"
+msgstr "Atnaujinti į"
+
+#: includes/Admin/Assets.php:121
+msgid "Various updates and fixes available in the newest version."
+msgstr "Naujausioje versijoje yra įvairių atnaujinimų ir pataisymų."
+
+#: includes/Errors.php:22
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"Atsiprašome už nepatogumus. DI turinio generavimo procesas susidūrė su "
+"serverio klaida. Bandykite dar kartą vėliau, o jei problema išlieka, "
+"maloniai prašome susisiekti su mūsų palaikymo komanda dėl pagalbos."
+
+#: includes/Admin/Hooks.php:52
+#, fuzzy
+msgid ""
+"We have split certain settings into Hostinger tools to easily manage some "
+"key preferences of your website. “Get started” and “Learning” sections are "
+"now part of the main Hostinger Easy Onboarding plugin."
+msgstr ""
+"Tam tikrus nustatymus suskirstėme į \"Hostinger\" įrankius, kad galėtumėte "
+"lengvai valdyti kai kurias pagrindines savo svetainės nuostatas. skyriai "
+"\"Pradėti\" ir \"Mokymasis\" dabar yra pagrindinio įskiepio \"Hostinger Easy "
+"Onboarding\" dalis."
+
+#: includes/Admin/Menu.php:36
+msgid "Website list"
+msgstr "Svetainių sąrašas"
+
+#: includes/Admin/Assets.php:120
+msgid "WordPress version"
+msgstr "WordPress versija"
+
+#: includes/Admin/Assets.php:118
+msgid ""
+"WWW and non-WWW domain records are not pointing to the same host. Redirect "
+"not possible."
+msgstr ""
+"WWW ir ne WWW domenų įrašai nėra nukreipti į tą patį kompiuterį. "
+"Peradresuoti neįmanoma."
+
+#: includes/Admin/Assets.php:113
+msgid ""
+"XML-RPC allows apps to connect to your WordPress site, but might expose your "
+"site's security. Disable this feature if you don't need it"
+msgstr ""
+"XML-RPC leidžia programoms prisijungti prie WordPress svetainės, tačiau gali "
+"būti pažeistas svetainės saugumas. Išjunk šią funkciją, jei ji nereikalinga"
+
+#. translators: %s: PHP version
+#: hostinger.php:87
+#, fuzzy
+msgid "You are running <b>%s</b> PHP version."
+msgstr "Jūs naudojate <b>%s</b> PHP versiją."

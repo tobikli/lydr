@@ -1,0 +1,24 @@
+.wc-block-checkout {
+
+	.wc-block-checkout__payment-method .wc-block-components-radio-control {
+		border-radius: var(--theme-form-field-border-radius, 3px);
+	}
+
+	// summary block
+	.wp-block-woocommerce-checkout-totals-block .wp-block-woocommerce-checkout-order-summary-block {
+
+		.wc-block-components-totals-wrapper {
+			padding-inline: 0;
+		}
+
+		// checkout items badge
+		.wc-block-components-order-summary-item__quantity {
+			font-size: 10px;
+			font-weight: 600;
+			color: #fff;
+			border: none;
+			box-shadow: none;
+			background: var(--theme-palette-color-1);
+		}
+	}
+}

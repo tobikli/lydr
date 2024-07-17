@@ -1,0 +1,10 @@
+.ct-query-template-grid {
+
+	@include media-breakpoint-down (sm) {
+		--ct-grid-columns: var(--ct-grid-columns-mobile);
+	}
+
+	@include media-breakpoint-only (md) {
+		--ct-grid-columns: var(--ct-grid-columns-tablet);
+	}
+}

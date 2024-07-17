@@ -1,0 +1,12 @@
+.ct-module-title {
+
+	&:is(p, span) {
+		// --theme-font-size: 14px;
+		// --theme-font-weight: 600;
+
+		&:not(:empty) {
+			display: flex;
+			margin-bottom: 15px;
+		}
+	}
+}

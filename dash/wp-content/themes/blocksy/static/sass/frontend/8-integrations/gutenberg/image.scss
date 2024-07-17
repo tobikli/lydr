@@ -1,0 +1,12 @@
+.wp-block-image {
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	// when lightbox is enabled
+	// make sure trigger button z-index won't conflict with our sticky header
+	&.wp-lightbox-container {
+		isolation: isolate;
+	}
+}

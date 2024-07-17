@@ -1,0 +1,72 @@
+:root {
+  --tooltip-rotation: 0deg;
+  --tooltip-width: 250px;
+}
+
+@mixin tooltipBase {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0) rotate(var(--tooltip-rotation));
+  content: attr(tooltip);
+  background-color: var(--gray);
+  color: var(--light);
+  font-size: 16px;
+  padding: 4px 16px;
+  border-radius: 4px;
+  font-weight: 400;
+  max-width: var(--tooltip-width);
+  box-sizing: border-box;
+  line-height: normal;
+  white-space: normal;
+  animation: fadeIn 0.3s;
+}
+
+.has-tooltip--bottom::after {
+  @include tooltipBase;
+  top: calc(100% + 5px);
+}
+
+.has-tooltip--bottom-rotated::after {
+  @include tooltipBase;
+  bottom: calc(100% + 5px);
+}
+
+.has-tooltip--top::after {
+  @include tooltipBase;
+  bottom: calc(100% + 5px);
+}
+
+.has-tooltip--top-rotated::after {
+  @include tooltipBase;
+  top: calc(100% + 5px);
+}
+
+.has-tooltip--left::after {
+  @include tooltipBase;
+  top: 50%;
+  left: auto;
+  right: calc(100% + 5px);
+  transform: translate(0, -50%) rotate(var(--tooltip-rotation));
+}
+
+.has-tooltip--left-rotated::after {
+  @include tooltipBase;
+  top: 50%;
+  left: calc(100% + 5px);
+  transform: translate(0, -50%) rotate(var(--tooltip-rotation));
+}
+
+.has-tooltip--right::after {
+  @include tooltipBase;
+  top: 50%;
+  left: calc(100% + 5px);
+  transform: translate(0, -50%) rotate(var(--tooltip-rotation));
+}
+
+.has-tooltip--right-rotated::after {
+  @include tooltipBase;
+  top: 50%;
+  left: auto;
+  right: calc(100% + 5px);
+  transform: translate(0, -50%) rotate(var(--tooltip-rotation));
+}

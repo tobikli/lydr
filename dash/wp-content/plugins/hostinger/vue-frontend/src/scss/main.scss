@@ -1,0 +1,25 @@
+#hostinger-tools-vue-app {
+  @import "./base/z-index.scss";
+  @import "./base/animations.scss";
+  @import "./base/tooltip.scss";
+  @import "./base/utilities.scss";
+  @import "./base/typography.scss";
+  @import "bootstrap-scss/bootstrap-utilities";
+  @import "./base/colors.scss";
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 14px;
+    font-family: "DM Sans", "Roboto", sans-serif !important;
+    font-weight: 400;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--main-bg-color);
+    color: var(--dark);
+  }
+}
+

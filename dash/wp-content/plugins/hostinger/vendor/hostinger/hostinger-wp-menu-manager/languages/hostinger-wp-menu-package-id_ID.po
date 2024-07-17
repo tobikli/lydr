@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger WordPress Menu management package\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-30T07:45:18+00:00\n"
+"PO-Revision-Date: 2024-05-14 10:59+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger-wp-menu-package\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4"
+
+#: Menus.php:211
+#, fuzzy
+msgid "Action Required:"
+msgstr "Tindakan yang diperlukan:"
+
+#: Menus.php:228
+#, fuzzy
+msgid "Affected plugins:"
+msgstr "Plugin yang terpengaruh:"
+
+#: Menus.php:208
+#, fuzzy
+msgid "Attention! Outdated Plugins Detected"
+msgstr "Perhatian! Plugin Kedaluwarsa Terdeteksi"
+
+#: templates/menu.php:83
+msgid "Go to hPanel"
+msgstr "Buka hPanel"
+
+#: Menus.php:58 Menus.php:104 Menus.php:105
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: Menus.php:220
+#, fuzzy
+msgid "Outdated plugins:"
+msgstr "Plugin yang sudah ketinggalan zaman:"
+
+#: Menus.php:237
+#, fuzzy
+msgid "Update plugins"
+msgstr "Perbarui plugin"
+
+#: Menus.php:211
+#, fuzzy
+msgid ""
+"Your website has some outdated plugins that might prevent new features from "
+"working properly."
+msgstr ""
+"Situs web Anda memiliki beberapa plugin usang yang mungkin menghalangi fitur-"
+"fitur baru untuk bekerja dengan baik."

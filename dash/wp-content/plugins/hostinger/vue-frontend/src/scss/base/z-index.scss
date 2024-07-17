@@ -1,0 +1,26 @@
+:root {
+  /* component (not used) */
+  --z-index-1: 100;
+  /* Hlist, mobile dialog (upgrade comparison on mobile), banner */
+  --z-index-2: 200;
+  /* HPopup, HpSidemenu (must stay above banner for mobile) */
+  --z-index-3: 300;
+  --z-index-4: 400;
+  /* HpAction */
+  --z-index-hp-action: 400;
+  /* header fixed */
+  --z-index-5: 500;
+  --z-index-6: 600;
+  /* modals */
+  --z-index-modal: 600;
+  --z-index-hp-action-modal: 700;
+  /*overlay*/
+  --z-index-10: 1000;
+  /* not used, value set by intercom */
+  --z-index-intercom-1: 1100;
+  --z-index-intercom-2: 1200;
+  --z-index-intercom-3: 1300;
+  --z-index-max: 2147483647;
+  --z-index-child-1: 10;
+  --z-index-child-2: 20;
+}

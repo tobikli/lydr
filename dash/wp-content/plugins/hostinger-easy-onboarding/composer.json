@@ -1,0 +1,51 @@
+{
+  "name": "hostinger/hostinger-easy-onboarding",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:hostinger/hostinger-wp-helper.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:hostinger/hostinger-wp-menu-manager.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:hostinger/hostinger-wp-surveys.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:hostinger/hostinger-wp-amplitude.git"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "yahnis-elsts/plugin-update-checker": "^5.4",
+    "hostinger/hostinger-wp-helper": "dev-main",
+    "hostinger/hostinger-wp-menu-manager": "dev-main",
+    "hostinger/hostinger-wp-surveys": "dev-main",
+    "hostinger/hostinger-wp-amplitude": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hostinger\\EasyOnboarding\\": "includes/"
+    }
+  },
+  "autoload-dev": {
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.7",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+    "phpcompatibility/phpcompatibility-wp": "*",
+    "wp-coding-standards/wpcs": "^3.0"
+  },
+  "scripts": {
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "platform-check": false
+  }
+}

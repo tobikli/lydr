@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger WordPress Menu management package\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-30T07:45:18+00:00\n"
+"PO-Revision-Date: 2024-05-14 10:59+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger-wp-menu-package\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4"
+
+#: Menus.php:211
+#, fuzzy
+msgid "Action Required:"
+msgstr "Acción requerida:"
+
+#: Menus.php:228
+#, fuzzy
+msgid "Affected plugins:"
+msgstr "Plugins afectados:"
+
+#: Menus.php:208
+#, fuzzy
+msgid "Attention! Outdated Plugins Detected"
+msgstr "Atención Plugins obsoletos detectados"
+
+#: templates/menu.php:83
+msgid "Go to hPanel"
+msgstr "Ir a hPanel"
+
+#: Menus.php:58 Menus.php:104 Menus.php:105
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: Menus.php:220
+#, fuzzy
+msgid "Outdated plugins:"
+msgstr "Plugins obsoletos:"
+
+#: Menus.php:237
+#, fuzzy
+msgid "Update plugins"
+msgstr "Actualizar plugins"
+
+#: Menus.php:211
+#, fuzzy
+msgid ""
+"Your website has some outdated plugins that might prevent new features from "
+"working properly."
+msgstr ""
+"Su sitio web tiene algunos plugins obsoletos que podrían impedir que las "
+"nuevas funciones funcionen correctamente."

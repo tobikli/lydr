@@ -1,0 +1,38 @@
+@import '@/scss/base/mixins.scss';
+
+.banner {
+  @include base-card;
+  padding: 16px 24px;
+  margin-bottom: 24px;
+
+  &__heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  &__heading-icon {
+    margin-right: 8px;
+    color: var(--gray);
+  }
+
+  &__heading-title {
+    margin-bottom: 0px;
+    font-weight: 700;
+  }
+
+  &__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: theme('screens.md')) {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__contents {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+}

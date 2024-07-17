@@ -1,0 +1,16 @@
+@import 'search';
+@import 'gallery';
+@import 'query-loop';
+@import 'contact-info';
+@import 'dynamic-data';
+
+
+.ct-widget {
+
+	li {
+		
+		ul, ol {
+			--theme-list-indent: 25px;
+		}
+	}
+}

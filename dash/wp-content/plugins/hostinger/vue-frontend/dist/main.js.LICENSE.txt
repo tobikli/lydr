@@ -1,0 +1,64 @@
+/*!
+  * vue-router v4.3.2
+  * (c) 2024 Eduardo San Martin Morote
+  * @license MIT
+  */
+
+/*!
+ * XRegExp 5.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2007-present MIT License
+ */
+
+/*!
+ * XRegExp Unicode Categories 5.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2010-present MIT License
+ * Unicode data by Mathias Bynens <mathiasbynens.be>
+ */
+
+/*!
+ * XRegExp Unicode Properties 5.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2012-present MIT License
+ * Unicode data by Mathias Bynens <mathiasbynens.be>
+ */
+
+/*!
+ * XRegExp Unicode Scripts 5.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2010-present MIT License
+ * Unicode data by Mathias Bynens <mathiasbynens.be>
+ */
+
+/*!
+ * XRegExp.build 5.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2012-present MIT License
+ */
+
+/*!
+ * XRegExp.matchRecursive 5.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2009-present MIT License
+ */
+
+/*! #__NO_SIDE_EFFECTS__ */
+
+/**
+* @vue/reactivity v3.4.24
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
+
+/**
+* @vue/runtime-dom v3.4.24
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
+
+/**
+* @vue/shared v3.4.24
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/

@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Redirect specific paths to corresponding URLs
+    RewriteRule ^asdacn$ https://www.google.de [L,R=301]
+    RewriteRule ^igsefs$ https://www.tum.de [L,R=301]
+    # Add more RewriteRule directives for additional paths as needed
+
+    # Handle 404 errors with a custom error document
+    ErrorDocument 404 /
+</IfModule>

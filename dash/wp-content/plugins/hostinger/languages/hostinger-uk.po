@@ -1,0 +1,277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 08:27+0000\n"
+"PO-Revision-Date: 2024-05-30 07:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4\n"
+"X-Domain: hostinger"
+
+#: includes/Admin/Assets.php:131
+msgid ""
+" Turning on XML-RPC might make your site less secure. Do you want to proceed?"
+msgstr ""
+"Увімкнувши XML-RPC, ваш сайт стане менш захищеним. Ви хочете продовжити?"
+
+#: includes/Errors.php:16
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"Не вдалося виконати дію. Спробуйте ще раз або зверніться до служби підтримки."
+" "
+
+#: includes/Errors.php:19
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr ""
+"Виникла непередбачувана помилка. Спробуйте ще раз або зверніться до служби "
+"підтримки."
+
+#. translators: %s: PHP version
+#: hostinger.php:83
+#, fuzzy
+msgid "Attention:"
+msgstr "Увага:"
+
+#: includes/Admin/Menu.php:45
+msgid "Billings"
+msgstr "Платежі"
+
+#: includes/Admin/Assets.php:130
+msgid "Bypass link"
+msgstr "Обхідний канал"
+
+#: includes/Admin/Assets.php:135
+msgid "Bypass link reset"
+msgstr "Скидання обхідного каналу"
+
+#: includes/Admin/Assets.php:133 includes/Admin/Assets.php:137
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: includes/Views/ComingSoon.php:6 includes/Views/ComingSoon.php:24
+msgid "Coming Soon"
+msgstr "Незабаром"
+
+#: includes/Admin/Assets.php:109
+msgid ""
+"Disable public access to the site (WordPress admins will still be able to "
+"access)"
+msgstr ""
+"Вимкніть публічний доступ до сайту (адміністратори WordPress матимуть доступ)"
+
+#: includes/Admin/Assets.php:112
+msgid "Disable XML-RPC"
+msgstr "Вимкнути XML-RPC"
+
+#: includes/Admin/Assets.php:132
+msgid "Disclaimer"
+msgstr "Попередження"
+
+#: includes/Admin/Assets.php:124
+msgid "For improved security, ensure you use the latest version of WordPress"
+msgstr ""
+"Для покращення безпеки переконайтеся, що ви використовуєте останню версію "
+"WordPress"
+
+#: includes/Admin/Assets.php:114
+msgid "Force HTTPs"
+msgstr "Направити на HTTP"
+
+#: includes/Admin/Assets.php:116
+msgid "Force WWW"
+msgstr "Направити на WWW"
+
+#: includes/Admin/Hooks.php:53
+#, fuzzy
+msgid "Got it"
+msgstr "Зрозумів"
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Hooks.php:51
+#, fuzzy
+msgid "Hostinger plugin updates"
+msgstr "Оновлення плагіна Hostinger"
+
+#. Plugin Name of the plugin
+#: includes/Admin/Assets.php:108
+msgid "Hostinger Tools"
+msgstr "Інструменти Hostinger"
+
+#. Description of the plugin
+msgid "Hostinger WordPress plugin."
+msgstr "Плагін WordPress Hostinger."
+
+#. Plugin URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://hostinger.com"
+
+#. Author URI of the plugin
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.com"
+
+#: includes/Admin/Assets.php:139
+msgid "Link has been reset"
+msgstr "Зв'язок скинуто"
+
+#: includes/Admin/Assets.php:125
+msgid "Maintenance"
+msgstr "Технічне обслуговування"
+
+#: includes/Admin/Assets.php:129
+msgid "Maintenance mode"
+msgstr "Режим технічного обслуговування"
+
+#: includes/Views/ComingSoon.php:27
+msgid "New WordPress website is being built and will be published soon"
+msgstr "Новий сайт WordPress створюється та незабаром буде опублікований"
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+#| msgid ""
+#| "on <a\n"
+#| "\t\t\t   href=\"https://wordpress."
+#| "org/support/plugin/hostinger/reviews/#new-post\"\n"
+#| "\t\t\t   target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"на <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Assets.php:119
+msgid "PHP version"
+msgstr "Версія PHP"
+
+#: includes/Admin/Assets.php:126
+msgid "Preview my website"
+msgstr "Попередній перегляд мого сайту"
+
+#: includes/Admin/Assets.php:134
+msgid "Proceed anyway"
+msgstr "Все одно продовжити"
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "Оцініть цей плагін"
+
+#: includes/Admin/Assets.php:128
+msgid "Redirects"
+msgstr "Перенаправлення"
+
+#: includes/Admin/Assets.php:115
+msgid "Redirects all HTTP URLs to HTTPS sites"
+msgstr "Перенаправляє всі HTTP URL-адреси на HTTPS-сайти"
+
+#: includes/Admin/Assets.php:117
+msgid "Redirects all WWW URLs to non-WWW ones"
+msgstr "Перенаправляє всі WWW-адреси на адреси без WWW"
+
+#: includes/Admin/Assets.php:111 includes/Admin/Assets.php:138
+msgid "Reset link"
+msgstr "Скинути посилання"
+
+#: includes/Admin/Assets.php:122
+msgid "Running the latest version"
+msgstr "Запуск останньої версії"
+
+#: includes/Admin/Assets.php:127
+msgid "Security"
+msgstr "Безпека"
+
+#: includes/Admin/Assets.php:110
+msgid "Skip-link that bypasses the maintenance mode"
+msgstr "Перехід в обхід режиму технічного обслуговування"
+
+#. translators: %s: PHP version
+#: hostinger.php:83
+#, fuzzy
+msgid "The Hostinger plugin requires minimum PHP version of <b>%s</b>. "
+msgstr "Плагін Hostinger потребує мінімальної версії PHP <b>%s</b>."
+
+#: includes/Admin/Assets.php:136
+msgid ""
+"This will invalidate the currently generated link in use. This action cannot "
+"be undone, are you sure you want to proceed?"
+msgstr ""
+"Це зробить недійсним поточне посилання, яке використовується. Цю дію не "
+"можна скасувати, ви впевнені, що хочете продовжити?"
+
+#: includes/Admin/Menu.php:57 includes/Admin/Menu.php:58
+#, fuzzy
+msgid "Tools"
+msgstr "Інструменти"
+
+#: includes/Errors.php:38
+msgid "Unknown error code."
+msgstr "Невідомий код помилки."
+
+#: includes/Admin/Assets.php:123
+msgid "Update to"
+msgstr "Оновити до"
+
+#: includes/Admin/Assets.php:121
+msgid "Various updates and fixes available in the newest version."
+msgstr "У новій версії доступні різні оновлення та виправлення."
+
+#: includes/Errors.php:22
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"Перепрошуємо за тимчасові незручності. Під час генерації контенту ШІ виникла "
+"помилка сервера. Повторіть спробу пізніше. Якщо проблема не зникне, "
+"зверніться за допомогою до нашої служби підтримки."
+
+#: includes/Admin/Hooks.php:52
+#, fuzzy
+msgid ""
+"We have split certain settings into Hostinger tools to easily manage some "
+"key preferences of your website. “Get started” and “Learning” sections are "
+"now part of the main Hostinger Easy Onboarding plugin."
+msgstr ""
+"Ми розділили певні налаштування в інструментах Hostinger, щоб легко керувати "
+"деякими ключовими параметрами вашого сайту. розділи \"Початок роботи\" та "
+"\"Навчання\" тепер є частиною основного плагіна Hostinger Easy Onboarding."
+
+#: includes/Admin/Menu.php:36
+msgid "Website list"
+msgstr "Список сайтів"
+
+#: includes/Admin/Assets.php:120
+msgid "WordPress version"
+msgstr "Версія WordPress"
+
+#: includes/Admin/Assets.php:118
+msgid ""
+"WWW and non-WWW domain records are not pointing to the same host. Redirect "
+"not possible."
+msgstr ""
+"Записи доменів з і без WWW не вказують на один і той самий хост. "
+"Переадресація неможлива."
+
+#: includes/Admin/Assets.php:113
+msgid ""
+"XML-RPC allows apps to connect to your WordPress site, but might expose your "
+"site's security. Disable this feature if you don't need it"
+msgstr ""
+"XML-RPC дозволяє програмам підключатися до вашого сайту WordPress, але може "
+"піддавати ризику безпеку вашого сайту. Вимкніть цю функцію, якщо вона вам не "
+"потрібна"
+
+#. translators: %s: PHP version
+#: hostinger.php:87
+#, fuzzy
+msgid "You are running <b>%s</b> PHP version."
+msgstr "У вас запущено <b>%s</b> версію PHP."

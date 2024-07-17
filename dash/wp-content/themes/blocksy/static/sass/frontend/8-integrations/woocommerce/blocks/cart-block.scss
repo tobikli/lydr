@@ -1,0 +1,23 @@
+.wc-block-cart {
+
+	// desktop/large view
+	&.is-large {
+
+		table.wc-block-cart-items {
+
+			.wc-block-cart-item__image {
+				padding-inline-start: 0;
+			}
+
+			tr {
+
+				th, td {
+
+					&:last-child {
+						padding-inline-end: 0;
+					}
+				}
+			}	
+		}
+	}
+}

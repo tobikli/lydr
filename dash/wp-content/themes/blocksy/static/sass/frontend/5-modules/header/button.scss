@@ -1,0 +1,48 @@
+.ct-header-cta {
+	--theme-button-line-height: 1.3;
+	--theme-icon-color: currentColor;
+
+	a {
+		gap: 0.5em;
+	}
+
+	// button size
+	[data-size="small"] {
+		--theme-button-min-height: 34px;
+		--theme-button-padding: 5px 15px;
+		--theme-button-font-size: 13px;
+	}
+
+	[data-size="medium"] {
+		--theme-button-min-height: 42px;
+		--theme-button-padding: 5px 20px;
+	}
+
+	[data-size="large"] {
+		--theme-button-min-height: 50px;
+		--theme-button-padding: 5px 30px;
+		--theme-button-font-size: 16px;
+	}
+
+	// button secondary label
+	.ct-button-text {
+		display: flex;
+		flex-direction: column;
+		text-align: var(--horizontal-alignment);
+	}
+
+	.ct-button-secondary-text {
+		color: var(--theme-button-text-initial-color);
+		transition: color 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	}
+
+	a {
+
+		&:hover {
+
+			.ct-button-secondary-text {
+				color: var(--theme-button-text-hover-color);
+			}
+		}
+	}
+}

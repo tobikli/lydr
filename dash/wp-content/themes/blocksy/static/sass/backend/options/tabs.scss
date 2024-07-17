@@ -1,0 +1,111 @@
+.ct-tabs {
+	margin: var(--tabs-container-margin, 25px -12px 0 -12px);
+
+	> ul {
+		display: flex;
+		column-gap: 7px;
+		position: sticky;
+		z-index: 2;
+		top: var(--tabs-sticky-offset, 0px);
+		margin: 0;
+		padding: var(--tabs-pills-margin, 0 14px);
+		box-shadow: inset 0px -1px 0px 0px var(--optionBorderColor);
+		background: var(--tabs-pills-active-background-color, #f0f0f1);
+
+		> li {
+			position: relative;
+			z-index: 1;
+			flex: 1 1 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 13px;
+			font-weight: 500;
+			height: var(--tabs-pills-height, 42px);
+			max-width: var(--tabs-pills-max-width);
+			margin: 0;
+			padding: 0px 10px;
+			cursor: pointer;
+			border: 1px solid var(--optionBorderColor);
+			box-sizing: border-box;
+			color: var(--tabs-pills-inactive-color, #555);
+			background: var(--tabs-pills-inactive-background-color, #eaeaec);
+
+			&.active {
+				position: relative;
+				color: var(--tabs-pills-active-color, #3c4248);
+				background: var(--tabs-pills-active-background-color, #f0f0f1);
+
+				&:before, &:after {
+					position: absolute;
+					content: '';
+				}
+				
+				&:before {
+					position: absolute;
+					content: '';
+					height: 2px;
+					top: -2px;
+					inset-inline: -1px;
+					background: var(--ui-accent-color);
+				}
+
+				&:after {
+					inset-inline-start: 0;
+					bottom: -1px;
+					width: 100%;
+					height: 1px;
+					background: var(--tabs-pills-active-background-color, #f0f0f1);
+				}
+			}
+
+			&:not(.active) {
+
+				&:hover {
+					color: var(--tabs-pills-hover-color, #444);
+					background: var(--tabs-pills-hover-background-color, #fff);
+				}
+			}
+		}
+
+		// helpers
+		&:before, &:after {
+			position: absolute;
+			content: '';
+		}
+
+		&:before {
+			inset: -15px 0 1px 0;
+			background: var(--tabs-pills-active-background-color, #f0f0f1);
+		}
+
+		&:after {
+			inset-inline: 0;
+			bottom: -5px;
+			width: 100%;
+			height: 5px;
+			background: var(--tabs-pills-active-background-color, #f0f0f1);
+		}
+	}
+
+	.ct-current-tab {
+		padding: var(--tabs-content-padding, 0 12px);
+	}
+
+	&:not(:last-child) {
+		> .ct-current-tab {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+
+#customize-controls {
+	--tabs-sticky-offset: 14px;
+
+	.ct-available-items > .ct-tabs,
+	.ct-options-container > .ct-tabs {
+		--tabs-sticky-offset: 2px;
+	}
+}
+

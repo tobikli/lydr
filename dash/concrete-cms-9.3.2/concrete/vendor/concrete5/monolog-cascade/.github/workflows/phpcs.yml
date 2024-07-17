@@ -1,0 +1,19 @@
+name: PHPCS
+
+on: [push, pull_request]
+
+jobs:
+  phpcs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.0'
+          tools: cs2pr, phpcs
+      - name: Run phpcs
+        continue-on-error: true
+        run: phpcs -p --report-full --report-checkstyle=./phpcs-report.xml --extensions=php --standard=PSR12 ./src ./tests | cs2pr
+
+      - name: Show PHPCS results in PR
+        run: cs2pr ./phpcs-report.xml

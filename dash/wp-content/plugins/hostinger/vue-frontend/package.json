@@ -1,0 +1,63 @@
+{
+  "name": "hostinger-tools-plugin-vue",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "lint": "eslint . --ext .vue,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@vue/tsconfig": "^0.4.0",
+    "@vueuse/core": "^10.7.0",
+    "axios": "^1.6.5",
+    "bootstrap-scss": "^5.3.3",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "sass-loader": "^14.2.1",
+    "terser-webpack-plugin": "^5.3.10",
+    "vue-router": "^4.2.5",
+    "vue3-toastify": "^0.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@rushstack/eslint-patch": "^1.6.1",
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-modules-newlines": "^0.0.7",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.7.6",
+    "null-loader": "^4.0.1",
+    "pinia": "^2.1.7",
+    "sass": "^1.69.5",
+    "terser": "^5.26.0",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "vue": "^3.4.4",
+    "vue-loader": "^17.4.2",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^4.0.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

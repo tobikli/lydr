@@ -1,0 +1,19 @@
+parameters:
+    level: 7
+    reportUnmatchedIgnoredErrors: false
+    paths:
+        - %currentWorkingDirectory%/lib
+        - %currentWorkingDirectory%/tests
+    ignoreErrors:
+        - '~Unable to resolve the template type T in call to method static method Doctrine\\DBAL\\DriverManager\:\:getConnection\(\)~'
+        - '~Call to method getVersion\(\) of deprecated class PackageVersions\\Versions\:.*~'
+        # Drop when bumping to doctrine/dbal 2.11+
+        - '~^.*PrimaryReadReplicaConnection.*$~'
+
+
+includes:
+    - vendor/phpstan/phpstan-deprecation-rules/rules.neon
+    - vendor/phpstan/phpstan-phpunit/extension.neon
+    - vendor/phpstan/phpstan-phpunit/rules.neon
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+    - .github/phpstan-baseline.neon

@@ -1,0 +1,5 @@
+@mixin base-card {
+  border: 1px solid var(--gray-border);
+  border-radius: 8px;
+  background-color: var(--light)
+}

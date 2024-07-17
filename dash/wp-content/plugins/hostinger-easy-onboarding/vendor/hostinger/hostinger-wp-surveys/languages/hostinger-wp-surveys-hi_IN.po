@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger WordPress Surveys package\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Hindi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-13T05:29:33+00:00\n"
+"PO-Revision-Date: 2024-05-13 09:29+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger-wp-surveys\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.7; wp-6.4.4"
+
+#: src/SurveyManager.php:166
+msgid "Next"
+msgstr "अगला"
+
+#: src/SurveyManager.php:167
+msgid "Previous"
+msgstr "पिछला"
+
+#: src/SurveyManager.php:168
+msgid "Submit"
+msgstr "सबमिट करें"
+
+#: src/SurveyManager.php:169
+msgid "Thank you for completing the survey !"
+msgstr "सर्वे पूरा करने के लिए धन्यवाद!"
+
+#: src/SurveyManager.php:178
+msgid "Response required."
+msgstr "प्रतिक्रिया आवश्यक है"
+
+#: src/SurveyManager.php:188
+msgid "Poor"
+msgstr "खराब"
+
+#: src/SurveyManager.php:189
+msgid "Excellent"
+msgstr "बहुत अच्छे"
+
+#: src/SurveyManager.php:237
+msgid "Question"
+msgstr "सवाल"
+
+#: src/SurveyManager.php:243
+msgid "of "
+msgstr "का"

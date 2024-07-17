@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-13T05:29:33+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: hostinger-wp-surveys\n"
+
+#: src/SurveyManager.php:166
+msgid "Next"
+msgstr ""
+
+#: src/SurveyManager.php:167
+msgid "Previous"
+msgstr ""
+
+#: src/SurveyManager.php:168
+msgid "Submit"
+msgstr ""
+
+#: src/SurveyManager.php:169
+msgid "Thank you for completing the survey !"
+msgstr ""
+
+#: src/SurveyManager.php:178
+msgid "Response required."
+msgstr ""
+
+#: src/SurveyManager.php:188
+msgid "Poor"
+msgstr ""
+
+#: src/SurveyManager.php:189
+msgid "Excellent"
+msgstr ""
+
+#: src/SurveyManager.php:237
+msgid "Question"
+msgstr ""
+
+#: src/SurveyManager.php:243
+msgid "of "
+msgstr ""

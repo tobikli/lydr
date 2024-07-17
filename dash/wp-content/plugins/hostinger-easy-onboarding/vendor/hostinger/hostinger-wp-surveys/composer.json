@@ -1,0 +1,33 @@
+{
+	"name": "hostinger/hostinger-wp-surveys",
+	"description": "A PHP package with surveys for WordPress plugins",
+	"license": "proprietary",
+	"type": "library",
+	"version": "1.1.2",
+	"require": {
+		"php": ">=8.0",
+		"hostinger/hostinger-wp-helper": "dev-main"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.0",
+		"brain/monkey": "^2.6",
+		"phpunit/phpunit": "^9.6",
+		"10up/wp_mock": "^1.0"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:hostinger/hostinger-wp-helper.git"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Hostinger\\Surveys\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Hostinger\\Surveys\\Tests\\": "tests/phpunit"
+		}
+	}
+}
