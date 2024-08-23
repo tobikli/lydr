@@ -26,6 +26,28 @@ function saveRedirectsToFile($filename, $redirects) {
     file_put_contents($filename, $json);
 }
 
+function isSecondLevelDomainLydrIo($url) {
+    // Parse the URL to get the host
+    $parsedUrl = parse_url($url, PHP_URL_HOST);
+    
+    // If the URL is not valid, return false
+    if ($parsedUrl === false) {
+        return false;
+    }
+
+    // Get the host parts
+    $hostParts = explode('.', $parsedUrl);
+
+    // Check if the host ends with 'lydr.io'
+    $hostCount = count($hostParts);
+    if ($hostCount >= 2) {
+        $secondLevelDomain = $hostParts[$hostCount - 2] . '.' . $hostParts[$hostCount - 1];
+        return $secondLevelDomain === 'lydr.io';
+    }
+
+    return false;
+}
+
 // Determine the protocol (http or https)
 $protocol = 'http://';
 if ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || $_SERVER['SERVER_PORT'] == 443) {
@@ -62,6 +84,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['url'])) {
     // Sanitize the URL input
     $url = filter_var($_POST['url'], FILTER_SANITIZE_URL);
 
+    $url = strtolower($url);
+
     // Check if URL doesn't contain http or https, prepend http://
     if (!preg_match("/^(http|https):/", $url)) {
         $url = "http://" . $url;
@@ -73,6 +97,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['url'])) {
     if (!preg_match($pattern, $url)) {
         $shortenedUrlContent = '<p style="color: red;">Invalid URL. Please enter a valid website address.</p>';
     } else {
+        if (isSecondLevelDomainLydrIo($url)) {
+            $shortenedUrlContent = '<p style="color: white;">Can\'t short lydr.io websites.</p>';
+        } else {
         // Check if the URL already exists in the redirects array
         $existingPath = array_search($url, $redirects);
         if ($existingPath !== false) {
@@ -97,9 +124,69 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['url'])) {
             // Construct the shortened URL
             $shortenedUrl = "https://go.lydr.io$path";
             $shortenedShow = "go.lydr.io$path";
+            
         }
 
-        $shortenedUrlContent = "<div class=\"shortened-url\">Shortened URL: <a href=\"$shortenedUrl\" target=\"_blank\" style=\"color: rgb(255, 255, 255); text-decoration: underline dashed; text-decoration-thickness: 0.5px;\">$shortenedShow</a></div>";
+        $shortenedUrlContent = "<div style=\"border: 0px solid #ccc; padding: 10px; width: 300px; text-align: center; background: #131329\">
+            <div class=\"shortened-url\">
+                <a href=\"$shortenedUrl\" target=\"_blank\" style=\"color: rgb(255, 255, 255); text-decoration: underline dashed; text-decoration-thickness: 0.5px;\">$shortenedShow</a>
+            </div>
+            <div style=\"margin-top: 10px;\">
+                       <button class=\"styled-button\" onclick=\"copyUrl()\">Copy</button>
+                        <button class=\"styled-button\" onclick=\"shareUrl()\">Share</button>
+            </div>
+                <div id=\"message\" style=\"margin-top: 10px; color: white;\"></div>
+        
+                </div>
+                
+        <style>
+            .styled-button {
+                background-color: #001124;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 14px;
+                margin: 5px 2px;
+                cursor: pointer;
+                border-radius: 4px;
+                transition: background-color 0.3s ease;
+            }
+            
+            .styled-button:hover {
+                background-color: #001f43;
+            }
+        </style>
+        <script>
+            function copyUrl() {
+                const url = \"$shortenedUrl\";
+                navigator.clipboard.writeText(url).then(() => {
+                    document.getElementById('message').innerText = 'URL copied to clipboard';
+                }).catch(err => {
+                    document.getElementById('message').innerText = 'Failed to copy URL';
+                    document.getElementById('message').style.color = 'red';
+                });
+            }
+        
+            function shareUrl() {
+                const url = \"$shortenedUrl\";
+                if (navigator.share) {
+                    navigator.share({
+                        title: 'Check out this link',
+                        url: url
+                    }).catch(err => {
+                        //alert('Failed to share URL');
+                    });
+                } else {
+                    alert('Share not supported on this browser');
+                }
+            }
+        </script>
+        ";
+    }
+        
     }
 } else {
     $shortenedUrlContent = ''; // Set to empty if no submission
@@ -121,10 +208,10 @@ $html = <<<HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lydr | short links</title>
+    <title>go.lydr | short links</title>
     <link rel="icon" type="image/x-icon" href="https://lydr.io/lydr.png">
     <style>
-        body, html {
+    body, html {
             margin: 0;
             padding: 0;
             height: 100%;
@@ -141,8 +228,9 @@ $html = <<<HTML
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 20px 0;
+            padding: 10px 0;
             position: absolute;
+            background: rgb(5,5,25); /* Add background to header */
             top: 0;
             left: 50%;
             transform: translateX(-50%);
@@ -265,6 +353,9 @@ $html = <<<HTML
         .shortened-url a:hover {
             text-decoration: none;
         }
+        input {
+            display: block;
+        }
 
         @media (min-width: 800px) {
             .link-input {
@@ -277,17 +368,20 @@ $html = <<<HTML
                 margin-left: 10px;
             }
         }
+
     </style>
 </head>
 <body>
+    <a href="/">
     <header class="header">
-        <img src="https://lydr.io/lydr.png" alt="Image" class="logo">
-        <div class="logo-text">lydr</div>
+            <img src="https://lydr.io/lydr.png" alt="Image" class="logo">
+            <div class="logo-text">go.lydr</div>
     </header>
+    </a>
     <main class="main-content">
-        <p>Short your link</p>
+        <p>Short a link</p>
         <form class="link-input" action="" method="post">
-            <input type="text" name="url" placeholder="Enter URL..." required>
+            <input type="text" name="url" placeholder="Enter URL" required>
             <button type="submit">Shorten</button>
         </form>
         <br> 
@@ -296,7 +390,9 @@ $html = <<<HTML
     <footer>
         <ul>
             <li><a href="https://lydr.io">Home</a></li>
-            <li><a href="/redirects.json">All Links</a></li>
+            <li><a href="/all">All</a></li>
+            <li><a href="/custom">Custom</a></li>
+            <li><a href="/report">Report</a></li>
             <li><a href="https://lydr.io/about">About</a></li>
 
         </ul>

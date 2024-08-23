@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /login/reset/verify/
+
+# Redirect URLs of the form /login/reset/verify/yourkeyhere to /login/reset/verify/default.php?key=yourkeyhere
+RewriteRule ^([a-zA-Z0-9]+)$ default.php?key=$1 [L,QSA]

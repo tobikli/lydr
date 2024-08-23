@@ -23,7 +23,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 20px 0;
+            padding: 10px 0;
+            background: rgb(5,5,25); /* Add background to header */
             position: absolute;
             top: 0;
             left: 50%;
@@ -103,27 +104,36 @@
     </style>
 </head>
 <body>
+    <a href="/">
     <header class="header">
-        <img src="/lydr.png" alt="Image" class="logo">
-        <div class="logo-text">lydr</div>
+            <img src="https://lydr.io/lydr.png" alt="Image" class="logo">
+            <div class="logo-text">lydr</div>
     </header>
+    </a>
     <main class="main-content">
-        <p>Coming soon.</p>
-        <p>Tobias Klingenberg. © 2024</p>
+        <p>Tobias Wen Klingenberg. © 2024</p>
+        <span style="white-space: nowrap">
+            
+        <a href="mailto:tobikli@pm.me" style="color: white;"><p>tobikli@pm.me</p></a>
+        <a href="mailto:a@lydr.io" style="color: white;"><p>a@lydr.io</p></a>
+
+        </span>
 
     </main>
     <footer>
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="https://dash.lydr.io/login">Login</a></li>
-            <li><a href="https://dash.lydr.io/register">Register</a></li>
+            <li><a href="/login">Login</a></li>
             <li><button id="moreLinksButton">></button></li>
         </ul>
         <div id="moreLinks" class="hidden">
             <ul>
+                <li><a href="/admin">Admin</a></li>
                 <li><a href="/api">API</a></li>
                 <li><a href="/ar">AR</a></li>
                 <li><a href="https://go.lydr.io">GO</a></li>
+                <li><a href="https://dl.lydr.io">DL</a></li>
+                <li><a href="/s">iOS</a></li>
 
             </ul>
         </div>

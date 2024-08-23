@@ -16,6 +16,11 @@
             height: 100vh;
             margin: 0;
         }
+        
+        h1, h2, h3, h4, h5, h6, h7
+        {
+            font-weight: normal;
+        }
         .container {
             text-align: center;
         }
@@ -53,12 +58,19 @@
         <br>
         <p>Looking for a short link?</p>
         <a id="short-link" href="https://go.lydr.io">go.lydr.io</a>
+        <p>Or Download?</p>
+        <a id="down-link" href="https://go.lydr.io">go.lydr.io</a>
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             var shortLink = document.getElementById('short-link');
             var newHref = 'https://go.lydr.io' + window.location.pathname;
             var newText = 'go.lydr.io' + window.location.pathname;
+            shortLink.href = newHref;
+            shortLink.textContent = newText;
+            var shortLink = document.getElementById('down-link');
+            var newHref = 'https://dl.lydr.io' + window.location.pathname;
+            var newText = 'dl.lydr.io' + window.location.pathname;
             shortLink.href = newHref;
             shortLink.textContent = newText;
         });

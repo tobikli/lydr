@@ -1,0 +1,16 @@
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+
+    # Handle 404 errors with a custom error document
+    ErrorDocument 404 /missing.html
+    
+    
+    # Handle
+    ErrorDocument 403 /missing.html
+    
+
+</IfModule>
+

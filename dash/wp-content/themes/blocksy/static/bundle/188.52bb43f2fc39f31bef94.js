@@ -1,1 +1,0 @@
-"use strict";(self.blocksyJsonP=self.blocksyJsonP||[]).push([[188],{8188:function(n,o,s){s.r(o),s.d(o,{mountCF7Integration:function(){return t}});const t=function(){if(!window.wpcf7)return;const n=document.querySelectorAll(".wpcf7-form");n.length&&n.forEach((function(n){const o=n.closest(".no-js");o&&(wpcf7.init(n),o.classList.replace("no-js","js"))}))}}}]);
