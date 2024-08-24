@@ -70,7 +70,7 @@ if (isset($_GET['search'])) {
         }
         
         .logo {
-            width: 100px;
+            width: 50px;
             height: auto;
             margin-right: 20px;
         }
@@ -267,7 +267,7 @@ if (isset($_GET['search'])) {
 </script>
     <a href="/">
     <header class="header">
-            <img src="https://lydr.io/lydr.png" alt="Image" class="logo">
+        <img src="https://lydr.io/lydr.gif" alt="Image" class="logo">
             <div class="logo-text">go.lydr</div>
     </header>
     </a>

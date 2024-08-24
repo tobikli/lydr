@@ -106,7 +106,7 @@ $html = <<<HTML
         }
         
         .logo {
-            width: 100px; /* Adjust size as needed */
+            width: 50px; /* Adjust size as needed */
             height: auto;
             margin-right: 20px;
         }
@@ -279,7 +279,7 @@ $html = <<<HTML
 </script>
     <a href="https://go.lydr.io">
     <header class="header">
-            <img src="https://lydr.io/lydr.png" alt="Image" class="logo">
+        <img src="https://lydr.io/lydr.gif" alt="Image" class="logo">
             <div class="logo-text">dl.lydr</div>
     </header>
     </a>

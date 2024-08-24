@@ -161,7 +161,7 @@ $filename = htmlspecialchars($filename, ENT_QUOTES, 'UTF-8');
         }
         
         .logo {
-            width: 100px; /* Adjust size as needed */
+            width: 50px; /* Adjust size as needed */
             height: auto;
             margin-right: 20px;
         }
@@ -179,7 +179,7 @@ $filename = htmlspecialchars($filename, ENT_QUOTES, 'UTF-8');
             flex-direction: column;
             text-align: center;
             flex-grow: 1;
-            padding: 100px 20px 60px; /* Adjusted padding for header and footer */
+            padding: 80px 20px 40px; /* Padding for header and footer */
             color: white;
             font-size: 1em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -270,7 +270,7 @@ $filename = htmlspecialchars($filename, ENT_QUOTES, 'UTF-8');
 <body>
     <a href="/">
     <header class="header">
-            <img src="https://lydr.io/lydr.png" alt="Image" class="logo">
+        <img src="https://lydr.io/lydr.gif" alt="Image" class="logo">
             <div class="logo-text">lydr admin</div>
     </header>
     </a>
@@ -340,7 +340,7 @@ HTML;
         }
         
         .logo {
-            width: 100px; /* Adjust size as needed */
+            width: 50px; /* Adjust size as needed */
             height: auto;
             margin-right: 20px;
         }
@@ -398,7 +398,7 @@ HTML;
 <body>
     <a href="/">
     <header class="header">
-            <img src="https://lydr.io/lydr.png" alt="Image" class="logo">
+        <img src="https://lydr.io/lydr.gif" alt="Image" class="logo">
             <div class="logo-text">lydr admin</div>
     </header>
     </a>

@@ -14,7 +14,7 @@ if (isset($_SESSION["login"]) && $_SESSION["login"] == 1) {
                 <div class="project-title">Welcome, '.htmlspecialchars($username).'</div>
                 <div class="project-description">Manage your preferences.</div>
                     <a href="/profile"><button class="btn-profile">Profile</button></a>
-                    <a href="/logout?red=/"><button class="btn-settings">Logout</button></a>
+                    <a href="/logout?red=/"><button style="margin-top:10px;">Logout</button></a>
                 </div>';
 }
 
@@ -62,7 +62,7 @@ $html = <<<HTML
         }
 
         .logo {
-            width: 100px; /* Logo size */
+            width: 50px; /* Logo size */
             height: auto;
             margin-right: 20px;
         }
@@ -86,7 +86,7 @@ $html = <<<HTML
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 120px 20px 60px; /* Padding for header and footer */
+            padding: 80px 20px 40px; /* Padding for header and footer */
             color: white;
             font-size: 1em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -132,6 +132,10 @@ $html = <<<HTML
             width: auto; /* Adjust width to fit button content */
             box-sizing: border-box;
             transition: background-color 0.3s;
+        }
+        
+        .btn-settings {
+            margin-top: 0px;
         }
         
     
@@ -189,6 +193,10 @@ $html = <<<HTML
             margin-top: 20px;
             width: 100%;
             box-sizing: border-box;
+        }
+        
+        .grid-item btn-settings {
+            margin-top: 10px;
         }
 
         .grid-item button:hover {
@@ -259,13 +267,17 @@ $html = <<<HTML
             .socialmediaicons .fa {
               padding: 10px;
               font-size: 20px;
-              width: 30px;
+              width: 25px;
               text-align: center;
               text-decoration: none;
               margin: 5px 2px;
             }
             
         
+        .socialmediaicons .fa-github {
+            background: #1d2127;
+            color: white;
+        }
         .socialmediaicons .fa-linkedin {
             background: #007bb5;
             color: white;
@@ -285,12 +297,12 @@ $html = <<<HTML
 </head>
 <body>
     <header class="header">
-        <img src="https://lydr.io/lydr.png" alt="Image" class="logo">
+        <img src="https://lydr.io/lydr.gif" alt="Image" class="logo">
         <div class="logo-text">lydr</div>
     </header>
 
     <main class="main-content">
-        <br>
+        
         <div class="grid-container">
             <div class="grid-item large">
                 <div class="project-title">Hello,</div>
@@ -313,6 +325,7 @@ $html = <<<HTML
                 </ul>
                 <br>
                 <div class="socialmediaicons">
+                    <a href="https://github.com/tobikli" class="fa fa-github"></a>
                     <a href="https://www.linkedin.com/in/tobias-klingenberg/" class="fa fa-linkedin"></a>
                     <a href="https://www.instagram.com/tob1wen/" class="fa fa-instagram"></a>
                     <a href="https://www.reddit.com/user/tobiji/" class="fa fa-reddit"></a>

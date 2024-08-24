@@ -1,4 +1,4 @@
-<img src="https://lydr.io/lydr.png" alt="drawing" width="100"/>
+<img src="https://lydr.io/lydr.gif" alt="drawing" width="100"/>
 
 # lydr.io
 
