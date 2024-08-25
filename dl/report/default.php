@@ -93,15 +93,17 @@ $html = <<<HTML
         }
         
         .header {
-            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 10px 0;
-            position: fixed; /* Keep header fixed at the top */
+            position: fixed;
             top: 0;
             left: 0;
-            background: rgb(5,5,25); /* Add background to header */
+            width: 100%;
+            background: rgba(5, 5, 25, 0.7); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
             z-index: 2; /* Ensure header is above main content */
         }
         

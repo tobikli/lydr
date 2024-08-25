@@ -43,29 +43,34 @@ if (isset($_GET['search'])) {
     <title>go.lydr | all links</title>
     <link rel="icon" type="image/x-icon" href="https://lydr.io/lydr.png">
     <style>
-        body, html {
+         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            background: rgb(9, 9, 28);
+            background: rgb(9, 9, 28); /* Background color */
             font-family: 'Courier New', Courier, monospace;
-            overflow: hidden; /* Prevent body scrolling */
+            overflow-x: hidden; /* Prevent horizontal scrolling */
         }
-        
-        .header {
+
+        header, footer {
             width: 100%;
+            box-sizing: border-box; /* Ensure header and footer stay within viewport */
+        }
+
+        .header {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 10px 0;
-            position: fixed; /* Keep header fixed at the top */
+            position: fixed;
             top: 0;
             left: 0;
-            background: rgb(5,5,25); /* Add background to header */
+            width: 100%;
+            background: rgba(5, 5, 25, 0.7); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
             z-index: 2; /* Ensure header is above main content */
         }
         
@@ -99,8 +104,8 @@ if (isset($_GET['search'])) {
         }
         
         .scrollable-content {
-            width: 100%;
-            max-width: 90vw;
+            width: 400px;
+            max-width: 80%;
             max-height: 100vh - 500px; /* Set max height to avoid pushing the search bar under the header */
             margin-top: 20px; /* Margin to separate from search bar */
             background: rgba(19, 19, 41, 0.9); /* Slightly different background for scroll area */
@@ -113,8 +118,8 @@ if (isset($_GET['search'])) {
         }
         
         .search-content {
-            width: 100%;
-            max-width: 1000px;
+            width: 400px;
+            max-width: 80%;
             max-height: 100vh - 500px; /* Set max height to avoid pushing the search bar under the header */
             margin-top: 30px; /* Margin to separate from search bar */
             padding-top: 10px;

@@ -1,10 +1,10 @@
 [
     {
-        "userid": 0,
+        "userid": 1,
         "username": "obfuscated",
         "password": "obfuscated",
         "email": "obfuscated",
-        "verified": 0,
+        "verified": 1,
         "status": "obfuscated"
     }
 ]

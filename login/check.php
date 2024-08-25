@@ -39,6 +39,7 @@ if (isset($_POST["loginname"]) && isset($_POST["loginpasswort"])) {
                 $_SESSION["username"] = $user["username"];
                 $_SESSION["email"] = $user["email"];
                 $_SESSION["status"] = $user["status"];
+                $_SESSION["verified"] = $user["verified"];
                 
                         
                 if($redirect != ""){
@@ -49,14 +50,14 @@ if (isset($_POST["loginname"]) && isset($_POST["loginpasswort"])) {
                 exit();
             } else {
                 // Incorrect password
-                header("Location: /login?error=wrong password");
+                header("Location: /login?error=Wrong Password");
                 exit();
             }
         }
     }
 
     // If no matching user found
-    header("Location: /login?error=user not found");
+    header("Location: /login?error=User not found");
     exit();
 }
 

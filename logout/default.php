@@ -13,6 +13,6 @@ if (isset($_GET['red'])) {
     header("Location: ". $red);
     exit();// Redirect to the login page
 }
-header("Location: /login"); // Redirect to the login page
+header("Location: /"); // Redirect to the login page
 exit;
 ?>

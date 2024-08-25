@@ -7,17 +7,25 @@ $html = <<<HTML
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lydr | cv</title>
-    <link rel="icon" type="image/x-icon" href="https://lydr.io/lydr.png">
+    <link rel="icon" type="image/x-icon" href="https://lydr.io/lydr_w.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
-        body, html {
+        
+   body, html {
             margin: 0;
             padding: 0;
             height: 100%;
             display: flex;
             flex-direction: column;
-            background: rgb(9, 9, 28); /* Background color */
+            /* background-image: url('/images/bg.png');
+            background-position: 70% 60%; */
+            background: rgba(17, 23, 41, 1); /* Fallback color */
+            background: radial-gradient(
+                900px circle at 200px 200px,
+                rgba(29, 78, 216, 0.15),
+                transparent 80%
+              ),rgba(17, 23, 41, 1);
             font-family: 'Courier New', Courier, monospace;
             overflow-x: hidden; /* Prevent horizontal scrolling */
         }
@@ -26,7 +34,7 @@ $html = <<<HTML
             width: 100%;
             box-sizing: border-box; /* Ensure header and footer stay within viewport */
         }
-
+        
         .header {
             display: flex;
             justify-content: center;
@@ -35,7 +43,10 @@ $html = <<<HTML
             position: fixed;
             top: 0;
             left: 0;
-            background: rgb(5,5,25); /* Background for header */
+            width: 100%;
+            background: rgba(17, 23, 41, 0.8); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
             z-index: 2; /* Ensure header is above main content */
         }
         
@@ -53,6 +64,7 @@ $html = <<<HTML
             color: white;
             font-size: 1.5em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            padding: 10px;
         }
 
         .main-content {
@@ -68,7 +80,7 @@ $html = <<<HTML
             box-sizing: border-box; /* Include padding in element's width and height */
         }
 
-        embed {
+        iframe {
             max-width: 100vw;
             width: 700px;
             height: 100%;
@@ -79,7 +91,7 @@ $html = <<<HTML
         footer {
             text-align: center;
             padding: 20px 0;
-            background: rgb(5,5,25);
+            background:  rgba(17, 23, 41, 0.8); 
             box-sizing: border-box;
         }
 
@@ -135,13 +147,12 @@ $html = <<<HTML
 <body>
     <a href="/">
     <header class="header">
-        <img src="https://lydr.io/lydr.gif" alt="Image" class="logo">
             <div class="logo-text">lydr cv</div>
     </header>
     </a>
 
     <main class="main-content">
-        <embed src="the_cv.pdf" type="application/pdf" width="100%" height="100%" style="max-width: 100vw; height: 80vh; background-color: white;">
+        <iframe src="https://docs.google.com/gview?url=https://lydr.io/cv/the_cv.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
     </main>
 
     <footer>

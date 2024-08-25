@@ -7,7 +7,7 @@ $html=<<<HTML
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lydr | projects</title>
-    <link rel="icon" type="image/x-icon" href="https://lydr.io/lydr.png">
+    <link rel="icon" type="image/x-icon" href="/lydr_w.png">
     <style>
         body, html {
             margin: 0;
@@ -15,25 +15,42 @@ $html=<<<HTML
             height: 100%;
             display: flex;
             flex-direction: column;
-            background: rgb(9, 9, 28); /* Gradient background */
+            background: rgba(17, 23, 41, 1);
+            background: radial-gradient(
+                900px circle at 200px 200px,
+                rgba(29, 78, 216, 0.15),
+                transparent 80%
+              ),rgba(17, 23, 41, 1);
             font-family: 'Courier New', Courier, monospace;
+            overflow-x: hidden;
         }
 
-        .header {
+        header, footer {
             width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .header {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 10px 0;
-            position: fixed; /* Keep header fixed at the top */
+            position: fixed;
             top: 0;
             left: 0;
-            background: rgb(5,5,25); /* Add background to header */
-            z-index: 2; /* Ensure header is above main content */
+            width: 100%;
+            background: rgba(17, 23, 41, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            z-index: 2;
+        }
+        
+        a {
+            color: white;
         }
 
         .logo {
-            width: 50px; /* Adjust size as needed */
+            width: 50px;
             height: auto;
             margin-right: 20px;
         }
@@ -42,6 +59,7 @@ $html=<<<HTML
             color: white;
             font-size: 1.5em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            padding: 10px;
         }
 
         .main-content {
@@ -51,20 +69,20 @@ $html=<<<HTML
             flex-direction: column;
             text-align: center;
             flex-grow: 1;
-            padding: 100px 20px 60px; /* Adjusted padding for header and footer */
+            padding: 100px 20px 60px;
             color: white;
             font-size: 1em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
             width: 100%;
-            box-sizing: border-box; /* Include padding in element's width and height */
+            box-sizing: border-box;
         }
 
         footer {
             width: 100%;
             text-align: center;
             padding: 20px 0;
-            z-index: 2; /* Ensure footer is above main content */
-            background: rgb(5,5,25);
+            z-index: 2;
+            background:  rgba(17, 23, 41, 0.8); 
         }
 
         footer ul {
@@ -91,7 +109,7 @@ $html=<<<HTML
         button {
             padding: 10px 20px;
             font-size: 1em;
-            background-color: #131329;
+            background-color: rgba(27, 45, 87, 0.4);
             color: white;
             border: none;
             border-radius: 4px;
@@ -103,7 +121,7 @@ $html=<<<HTML
         }
 
         button:hover {
-            background-color: #001f43;
+            background-color: rgba(27, 45, 87, 0.2);
         }
 
         .project-container {
@@ -111,22 +129,23 @@ $html=<<<HTML
             flex-wrap: wrap;
             justify-content: center;
             width: 100%;
-            max-width: 1200px; /* Max width of the container */
+            max-width: 1200px;
             margin-top: 20px;
         }
 
         .project-box {
-            background-color: #131329;
+            background-color: rgba(27, 45, 87, 0.4);
             color: white;
             padding: 20px;
             margin: 10px;
-            flex: 1 1 calc(33.333% - 40px); /* Adjust width of the boxes */
+            flex: 1 1 calc(33.333% - 40px);
             box-sizing: border-box;
-            border: 1px solid #001124;
             border-radius: 5px;
-            min-width: 250px; /* Minimum width for a box */
-            max-width: calc(33.333% - 40px); /* Max width of a box */
+            min-width: 250px;
+            max-width: calc(33.333% - 40px);
             text-align: left;
+            display: flex;
+            flex-direction: column;
         }
 
         .project-title {
@@ -138,15 +157,41 @@ $html=<<<HTML
             font-size: 1em;
         }
 
+        .project-image {
+            width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        .live-demo {
+            margin-top: auto; /* Ensures the live demo link is pushed to the bottom */
+            font-size: 1.2em;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .live-demo:hover {
+            text-decoration: underline;
+        }
+
+        .arrow {
+            margin-left: 5px;
+            font-size: 1.2em;
+        }
+
         @media (max-width: 800px) {
             .project-box {
-                flex: 1 1 calc(50% - 40px); /* 2 per row on smaller screens */
+                flex: 1 1 calc(50% - 40px);
             }
         }
 
         @media (max-width: 500px) {
             .project-box {
-                flex: 1 1 100%; /* 1 per row on smallest screens */
+                flex: 1 1 100%;
             }
         }
     </style>
@@ -155,43 +200,50 @@ $html=<<<HTML
 <body>
     <a href="/">
         <header class="header">
-        <img src="https://lydr.io/lydr.gif" alt="Image" class="logo">
             <div class="logo-text">lydr projects</div>
         </header>
     </a>
     <main class="main-content">
         <br><br>
 
-
         <p>All current and past projects</p>
         <div class="project-container">
             <div class="project-box">
                 <div class="project-title"><a href="https://go.lydr.io" style="color:white;">go.lydr</a></div>
+                <img class="project-image" src="go.png" alt="go.lydr">
                 <div class="project-description">Simple Link shortener with possible custom link</div>
+                <a class="live-demo" href="https://go.lydr.io">Live Demo <span class="arrow">➔</span></a>
             </div>
             <div class="project-box">
                 <div class="project-title"><a href="https://dl.lydr.io" style="color:white;">dl.lydr</a></div>
+                <img class="project-image" src="dl.png" alt="dl.lydr">
                 <div class="project-description">File Host for all type of files</div>
+                <a class="live-demo" href="https://dl.lydr.io">Live Demo <span class="arrow">➔</span></a>
             </div>
             <div class="project-box">
                 <div class="project-title"><a href="/ar" style="color:white;">Edu AR</a></div>
                 <div class="project-description">WebAR App for a Skeleton Model. TUM Seminar. Based on <a href="https://ar-js-org.github.io/AR.js-Docs/" style="color:white;">ar.js</a></div>
+                <a class="live-demo" href="/ar">Live Demo <span class="arrow">➔</span></a>
             </div>
             <div class="project-box">
                 <div class="project-title"><a href="https://tace.app" style="color:white;">Tace</a></div>
+                <img class="project-image" src="tace.png" alt="Tace">
                 <div class="project-description">Flutter based App. In Dev.</div>
+                <a class="live-demo" href="https://tace.app">Live Demo <span class="arrow">➔</span></a>
             </div>
             <div class="project-box">
                 <div class="project-title"><a href="https://github.com/tobikli/imgtoascii" style="color:white;">imgtoascii</a></div>
                 <div class="project-description">Simple image to asciiart converter in python.</div>
+                <a class="live-demo" href="https://github.com/tobikli/imgtoascii">Live Demo <span class="arrow">➔</span></a>
             </div>
             <div class="project-box">
                 <div class="project-title"><a href="https://github.com/tobikli/lydr" style="color:white;">lydr</a></div>
+                <img class="project-image" src="lydr.png" alt="lydr">
                 <div class="project-description">This website.</div>
+                <a class="live-demo" href="https://github.com/tobikli/lydr">Live Demo <span class="arrow">➔</span></a>
             </div>
         </div>
-            <a href="https://github.com/tobikli/"><button type="button"><img style="width:40px;" src="/images/github.png"/></button></a>
-
+        <a href="https://github.com/tobikli/"><button type="button"><img style="width:40px;" src="/images/github.png"/></button></a>
     </main>
     <footer>
         <ul>

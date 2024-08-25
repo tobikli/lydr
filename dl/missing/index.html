@@ -6,29 +6,35 @@
     <title>dl.lydr | Missing</title>
     <link rel="icon" type="image/x-icon" href="https://lydr.io/lydr.png">
     <style>
-        body, html {
+         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            background: rgb(9, 9, 28); /* Gradient background */
+            background: rgb(9, 9, 28); /* Background color */
             font-family: 'Courier New', Courier, monospace;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
         }
-        
-        .header {
+
+        header, footer {
             width: 100%;
+            box-sizing: border-box; /* Ensure header and footer stay within viewport */
+        }
+
+        .header {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 10px 0;
-            position: absolute;
-            background: rgb(5,5,25); /* Add background to header */
+            position: fixed;
             top: 0;
-            left: 50%;
-            transform: translateX(-50%);
+            left: 0;
+            width: 100%;
+            background: rgba(5, 5, 25, 0.7); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
+            z-index: 2; /* Ensure header is above main content */
         }
         
         .logo {

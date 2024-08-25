@@ -79,29 +79,34 @@ $html = <<<HTML
     <title>go.lydr | report</title>
     <link rel="icon" type="image/x-icon" href="https://lydr.io/lydr.png">
     <style>
-        body, html {
+         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            background: rgb(9, 9, 28); /* Gradient background */
+            background: rgb(9, 9, 28); /* Background color */
             font-family: 'Courier New', Courier, monospace;
-            z-index: 2; /* Ensure footer is above main content */
+            overflow-x: hidden; /* Prevent horizontal scrolling */
         }
-        
-        .header {
+
+        header, footer {
             width: 100%;
+            box-sizing: border-box; /* Ensure header and footer stay within viewport */
+        }
+
+        .header {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 10px 0;
-            position: fixed; /* Keep header fixed at the top */
+            position: fixed;
             top: 0;
             left: 0;
-            background: rgb(5,5,25); /* Add background to header */
+            width: 100%;
+            background: rgba(5, 5, 25, 0.7); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
             z-index: 2; /* Ensure header is above main content */
         }
         
@@ -180,8 +185,8 @@ $html = <<<HTML
             display:block;
             align-items: center;
             flex-direction: column;
-            width: 100%;
-            max-width: 800px; /* Increased default width */
+            width: 80%
+            max-width: 90vw; /* Increased default width */
         }
 
         .link-input select, .link-input textarea {

@@ -64,8 +64,8 @@ if (isset($_POST["username"]) && isset($_POST["email"]) && isset($_POST["passwor
     $directoryPath = __DIR__ . $path;
     mkdir($directoryPath, 0777, true);
 
-    $exampleFilePath = __DIR__ . '/../profile/profile.webp';
-            $defaultFilePath = $directoryPath . '/profile.webp';
+    $exampleFilePath = __DIR__ . '/../profile/placehold.png';
+            $defaultFilePath = $directoryPath . '/placehold.png';
 
             // Check if example.php exists and copy it to default.php
             if (file_exists($exampleFilePath)) {
@@ -75,7 +75,7 @@ if (isset($_POST["username"]) && isset($_POST["email"]) && isset($_POST["passwor
             } else {
                 die('example.php not found');
             }
-    $fileDetails = "profile.webp\n";
+    $fileDetails = "placehold.png\n";
             file_put_contents($directoryPath . '/name.txt', $fileDetails);
             chmod($directoryPath . '/name.txt', 0640);
 

@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION["login"]) || $_SESSION["login"] != 1) {
-    header('Location: /login');
+    header('Location: /login?red=/profile');
     exit;
 }
 
@@ -31,21 +31,44 @@ foreach ($usersData as $user) {
     }
 }
 
+$mailmsg = '';
 $verify = '';
 if ($verified == 0){
+    $mailmsg = '';
     $verify = '
-    <form method="POST" class="link-input" action="check.php">
-    <div>
-        <input type="hidden" name="email" value="'. $mail .'">
-        <button type=submit name=submit >Verify Email</button>
+    <div class="verify-box">
+        <p>Email not verified!</p>
+        <div class="container">
+            <form method="POST" class="link-input" action="check.php">
+                <input type="hidden" name="email" value="'. htmlspecialchars($mail, ENT_QUOTES, 'UTF-8') .'">
+                <button type="submit" name="submit">Verify Email</button>
+            </form>
         </div>
-    </form>
+    </div>
     ';
 }
 
-$adcont = '';
-if ($userid == 1){
-    $adcont = "<a style=\"color:white;\"href=\"/admin\">Admin Panel</a>";
+$confirm = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST["req"])) {
+    $r = trim($_POST["req"]);
+
+    if (strcmp($r, "delete") == 0) {
+        $confirm = '
+        <div class="verify-box1">
+        <p>Confirm</p>
+        <div class="container">
+            <form method="POST" class="link-input" action="delete.php">
+                <button  type="submit" name="submit" value="true"">Yes</button>
+                <button type="submit" name="submit" value="false">No</button>
+            </form>
+        </div>
+    </div>';
+    } 
+}
+
+if ($status == "admin"){
+    $status = "<p><a style=\"color:white;\"href=\"/admin\">admin</a></p>";
 }
 
 $msg = '';
@@ -80,7 +103,7 @@ $html = <<<HTML
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lydr | profile</title>
-    <link rel="icon" type="image/x-icon" href="https://lydr.io/lydr.png">
+    <link rel="icon" type="image/x-icon" href="/lydr_w.png">
     <style>
         body, html {
             margin: 0;
@@ -88,27 +111,50 @@ $html = <<<HTML
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            background: rgb(9, 9, 28); /* Gradient background */
+            background-position: 70% 60%; */
+            background: rgba(17, 23, 41, 1); /* Fallback color */
+            background: radial-gradient(
+                900px circle at 200px 200px,
+                rgba(29, 78, 216, 0.15),
+                transparent 80%
+              ),rgba(17, 23, 41, 1);
             font-family: 'Courier New', Courier, monospace;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
         }
 
-        .header {
+        header, footer {
             width: 100%;
+            box-sizing: border-box; /* Ensure header and footer stay within viewport */
+        }
+        
+        .header {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 10px 0;
-            position: absolute;
-            background: rgb(5,5,25); /* Add background to header */
+            position: fixed;
             top: 0;
-            left: 50%;
-            transform: translateX(-50%);
+            left: 0;
+            width: 100%;
+            background: rgba(17, 23, 41, 0.8); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
+            z-index: 2; /* Ensure header is above main content */
+        }
+        
+        .container{
+          display:flex;
+          flex-direction: column;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+        a {
+            color: white;
         }
 
         .logo {
-            width: 50px; /* Adjust size as needed */
+            width: 50px; /* Logo size */
             height: auto;
             margin-right: 20px;
         }
@@ -117,32 +163,157 @@ $html = <<<HTML
             color: white;
             font-size: 1.5em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            padding: 10px;
         }
-
+        
         .main-content {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column; /* Added to stack items vertically */
-            text-align: center;
+            flex-direction: column;
+            align-items: center; /* Center items horizontally */
+            justify-content: center; /* Center items vertically if needed */
             flex-grow: 1;
-            padding: 20px;
+            padding: 90px 10px 40px; 
             color: white;
             font-size: 1em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            text-align: center; /* Ensure text is centered */
         }
-
+        
+        .verify-box1 button[name="submit"][value="true"]:hover {
+            background-color: rgba(138, 26, 58, 0.8);
+        }
+        
+        .verify-box1 button[name="submit"] {
+            margin-top: 5px;
+        }
+        
+        .link-input button{
+            background-color: rgba(12, 17, 31, 0.4);
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .link-input button:hover{
+            background-color: rgba(12, 17, 31, 0.8);
+        }
+        
+        .link-delete button{
+            background-color: rgba(138, 26, 58, 0.4);
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .link-delete button:hover{
+            background-color: rgba(138, 26, 58, 0.8);
+        }
+        
+    
         footer {
             width: 100%;
             text-align: center;
-            padding: 20px 0;
-            position: absolute;
+            padding: 10px 0;
+            position: relative;
             bottom: 0;
+            background: rgba(17, 23, 41, 0.8); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
+            z-index: 2; /* Ensure header is above main content */
         }
 
         button {
             font-family: 'Courier New', Courier, monospace; /* Default font, can be changed */
         }
+        
+        .verify-box1 {
+            border: 0px dashed #ccc;
+            padding: 15px;
+            margin: 20px auto; /* Center the box horizontally */
+            border-radius: 2px;
+            background-color: rgba(17, 23, 41, 0.2); /* Adjusted for better visibility */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for better visibility */
+            width: 200px; /* Fixed width to ensure consistent centering */
+            max-width: 600px; /* Maximum width */
+            box-sizing: border-box;
+            text-align: center; /* Center text inside the box */
+        }
+        
+        .verify-box1 .container {
+            display: flex;
+            flex-direction: column; /* Stack buttons vertically */
+            justify-content: center; /* Center buttons horizontally */
+            align-items: center; /* Center buttons vertically */
+        }
+        
+        .verify-box1 button {
+            margin: 10px 0; /* Add margin to space out buttons */
+        }
+
+
+        .verify-box {
+            border: 0px dashed #ccc;
+            padding: 15px;
+            margin: 20px auto; /* Center the box horizontally */
+            border-radius: 2px;
+            background-color: rgba(17, 23, 41, 0.2); /* Adjusted for better visibility */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for better visibility */
+            width: 300px; /* Fixed width to ensure consistent centering */
+            max-width: 600px; /* Maximum width */
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center; /* Center text inside the box */
+        }
+        
+        .verify-box p {
+            margin: 0;
+            font-weight: none;
+            color: white;
+        }
+        
+        .verify-box .container {
+            display: flex;
+            justify-content: center; /* Center the form horizontally */
+        }
+        
+        .verify-box form {
+            margin-top: 20px;
+            display: flex; /* Use flexbox to center the button */
+            justify-content: center; /* Center the button horizontally */
+            align-items: center; /* Center the button vertically if needed */
+        }
+        
+        .verify-box button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: rgba(12, 17, 31, 0.4);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: auto; /* Allow button to resize based on its content */
+            box-sizing: border-box;
+        }
+        
+        .verify-box button:hover {
+            background-color: rgba(12, 17, 31, 0.8);
+        }
+
 
         footer ul {
             list-style: none;
@@ -172,72 +343,26 @@ $html = <<<HTML
             display: none;
         }
 
-        .link-input {
-            margin-top: 20px;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            width: 100%;
-            max-width: 800px; /* Increased default width */
-        }
-
-        .link-input input[type="text"] {
-            padding: 10px;
-            font-size: 1em;
-            border: 0px solid #ccc;
-            border-radius: 0px;
-            width: 100%;
-            background-color: #131329; /* Dark background */
-            color: white; /* White text */
-            font-family: 'Courier New', Courier, monospace;
+        
+       
+        .verify-box {
+            border: 0px dashed #ccc;
+            padding: 15px;
+            margin: 20px auto; /* Center the box horizontally */
+            border-radius: 2px;
+            background-color: rgba(17, 23, 41, 0.2); /* Adjusted for better visibility */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for better visibility */
+            width: 300px; /* Fixed width to ensure consistent centering */
+            max-width: 600px; /* Maximum width */
             box-sizing: border-box;
+            text-align: center; /* Center text inside the box */
         }
+        
+    
 
-         .link-input button {
-            padding: 10px 20px;
-            font-size: 1em;
-            background-color: #001124;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            margin-top: 10px;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        .link-input button:hover {
-            background-color: #001f43;
-        }
-
-        .shortened-url {
-            margin-top: 10px;
-            color: white;
-            font-family: 'Courier New', Courier, monospace;
-        }
-
-        .shortened-url a {
-            color: white;
-            text-decoration: underline;
-        }
-
-        .shortened-url a:hover {
-            text-decoration: none;
-        }
-        input {
-            display: block;
-        }
 
         @media (min-width: 800px) {
-            .link-input {
-                flex-direction: row;
-            }
 
-            .link-input button {
-                width: auto;
-                margin-top: 0;
-                margin-left: 10px;
-            }
         }
 
         .upload-container {
@@ -268,7 +393,6 @@ $html = <<<HTML
 <body>
     <a href="/">
     <header class="header">
-        <img src="https://lydr.io/lydr.gif" alt="Image" class="logo">
         <div class="logo-text">lydr profile</div>
     </header>
     </a>
@@ -284,11 +408,27 @@ $html = <<<HTML
         <h2>$username</h2>
        <a>$mail</a>
         <br>
-        <p>$adcont</p>
-        <div>$verify</div>
+        <div>
+        <form method="" class="link-input" action="/profile/change">
+            <div>
+                <button type=submit name=submit>Change Email</button>
+            </div>
+        </form>
+        <br>
+    </div>
+        $verify
         <br>
         $msg
-        <br>
+        <div class="container">
+        <form method="POST" class="link-delete" action="">
+            <div>
+                <input type="hidden" name="req" value="delete">
+                <button type=submit name=submit >Delete Account</button>
+            </div>
+        </form>
+        $confirm
+        </div>
+
     </main>
     <footer>
         <ul>

@@ -1,0 +1,401 @@
+        body, html {
+            cursor: none;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            /* background-image: url('/images/bg.png');
+            background-position: 70% 60%; */
+            background: rgba(17, 23, 41, 1); /* Fallback color */
+            background: radial-gradient(
+                900px circle at 200px 200px,
+                rgba(29, 78, 216, 0.15),
+                transparent 80%
+              ),rgba(17, 23, 41, 1);
+            font-family: 'Courier New', Courier, monospace;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
+        header, footer {
+            width: 100%;
+            box-sizing: border-box; /* Ensure header and footer stay within viewport */
+        }
+        
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(17, 23, 41, 0); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
+            z-index: 2; /* Ensure header is above main content */
+        }
+        .custom-cursor {
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: rgba(179, 176, 245, 0.8);
+            pointer-events: none;
+            z-index: 1000;
+            box-shadow: 0 0 15px rgba(179, 176, 245, 0.8);
+            transition: transform 0.1s ease-out;
+        }
+        .custom-cursor.small {
+            background-color: rgba(179, 176, 245, 0.8);
+        }
+        
+        a {
+            color: white;
+        }
+        
+        a, button, input, textarea {
+            cursor: none;
+        }
+
+        .logo {
+            width: 80px; /* Logo size */
+            height: auto;
+            margin-right: 0px;
+        }
+
+        .logo-text {
+            color: white;
+            font-size: 1.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            padding: 10px 10px 10px 0px;
+        }
+        
+        .bottom-right-image {
+            position: absolute;
+            bottom: 20px;
+            margin-top: 10px;
+            right: 20px;
+            width: 70px;
+            max-width: 100px; /* Adjust size as needed */
+            max-height: 100px;
+            z-index: 10; /* Ensure it appears on top */
+        }
+
+
+        .username-display {
+            color: white;
+            font-size: 1em;
+            margin-top: 20px;
+        }
+
+        .main-content {
+            flex: 1; /* Allows content to fill remaining space */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 80px 20px 20px; /* Padding for header and footer */
+            color: white;
+            font-size: 1em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            width: 100%;
+            box-sizing: border-box; /* Include padding in element's width and height */
+            position: relative;
+            padding-bottom: 50px; /* Ensure there's space for the image */
+        }
+        
+        #container3d canvas{
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 20px;
+            padding: 0 10px; /* Padding to prevent grid items from touching the screen edges */
+            box-sizing: border-box;
+        }
+
+        .grid-item {
+            background: rgba(27, 45, 87, 0.1); /* Initial background */
+            color: white;
+            padding: 20px;
+            border: 0px solid #181f30;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for better visibility */
+            border-radius: 5px;
+            box-sizing: border-box;
+            text-align: left;
+            transition: background-color 0.3s ease, filter 0.3s ease; /* Smooth transition */
+        }
+        
+        /* Hover effect for the grid item */
+        .grid-item:hover {
+            background: rgba(27, 45, 87, 0.3); /* Darker background on hover */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
+            
+        }
+        
+        .grid-item:hover button{
+            background-color: rgba(15, 21, 38, 0.4);
+        }
+        
+        /* Dimming effect for non-hovered grid items */
+        .grid-item:hover ~ .grid-item, 
+        .grid-container:hover .grid-item:not(:hover) {
+            filter: brightness(0.8); /* Dim the brightness of other grid items */
+        }
+
+        .grid-item .button-container {
+            display: flex;
+            gap: 10px; /* Space between buttons */
+            margin-top: 10px; /* Space above buttons */
+            cursor: none;
+
+        }
+
+        .grid-item button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #001124;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: auto; /* Adjust width to fit button content */
+            box-sizing: border-box;
+            transition: background-color 0.3s;
+            cursor: none;
+
+        }
+
+        .btn-settings {
+            margin-top: 0px;
+        }
+
+        .btn-settings:hover {
+            background-color: #45a049;
+        }
+
+        .grid-item.large {
+            grid-column: span 2;
+        }
+
+        .grid-item.wide {
+            grid-column: span 3;
+        }
+
+        .grid-item.small {
+            grid-column: span 1;
+            height: 150px;
+        }
+
+        .grid-item.long {
+            grid-column: span 1;
+            grid-row: span 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .grid-item.med {
+            grid-column: span 2;
+            grid-row: span 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .grid-item.long1 {
+            grid-column: span 1;
+            grid-row: span 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+
+
+        .grid-item .project-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .grid-item .project-description {
+            font-size: 1em;
+        }
+
+        .grid-item button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: rgba(23, 32, 59, 1);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+            cursor: none;
+
+        }
+
+        .grid-item btn-settings {
+            margin-top: 10px;
+        }
+
+        .grid-item button:hover {
+            background-color: rgba(15, 21, 38, 0.8);
+            cursor: none;
+
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(17, 23, 41, 0); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
+            box-sizing: border-box;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a , ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        ul {
+            list-style-type: none; /* Remove bullets */
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove margins */
+        }
+
+        li {
+            padding: 2px; /* Remove padding */
+        }
+
+        h1, h2, h3, h4, h5, h6, h7 {
+            font-weight: normal;
+        }
+
+        footer ul li a:hover,  ul li a:hover  {
+            text-decoration: underline;
+        }
+
+        /* Mobile view adjustments */
+        @media (max-width: 800px) {
+            
+            .custom-cursor {
+            background-color: rgba(179, 176, 245, 0);
+            box-shadow: 0 0 15px rgba(179, 176, 245, 0);
+            }
+            .custom-cursor.small {
+                background-color: rgba(179, 176, 245, 0);
+            }
+            .grid-container {
+                grid-template-columns: 1fr; /* Single column on smaller screens */
+                gap: 10px; /* Smaller gap between items on mobile */
+            }
+
+            .grid-item {
+                grid-column: span 1; /* All items take up one column */
+                background: rgba(27, 45, 87, 0.2); /* Initial background */
+                grid-row: auto; /* Remove row spanning */
+                height: auto; /* Let the height adjust based on content */
+            }
+            
+
+            .grid-item.large,
+            .grid-item.wide,
+            .grid-item.long,
+            .grid-item.long1,
+            .grid-item.med {
+                grid-column: span 1; /* Ensure all items span one column */
+                grid-row: auto; /* Remove row spanning */
+                width: 100%; /* Make sure the width is 100% on mobile */
+            }
+
+            .grid-item button {
+                width: 100%; /* Ensure buttons take up the full width */
+            }
+
+            .main-content {
+                padding: 80px 10px 70px; /* Adjust padding to fit smaller screens */
+            }
+            
+    
+            ul li a{
+                color: white;
+                text-decoration: underline;
+                font-size: 1em;
+            }
+
+        }
+
+        .socialmediaicons .fa:hover {
+            color: white;
+            opacity: 0.8;
+            text-decoration: none;
+        }
+        
+
+        .socialmediaicons .fa {
+            padding: 10px;
+            font-size: 20px;
+            width: 25px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+
+        .socialmediaicons .fa-github {
+            background: #1d2127;
+            color: white;
+        }
+
+        .socialmediaicons .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .socialmediaicons .fa-instagram {
+            background: #dd2a7b;
+            color: white;
+        }
+
+        .socialmediaicons .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+        
+        .socialmediaicons .fa-twitter {
+            background: #ff5700;
+            color: white;
+        }

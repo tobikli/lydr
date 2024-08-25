@@ -96,7 +96,7 @@ $html = <<<HTML
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lydr | reset</title>
-    <link rel="icon" type="image/x-icon" href="https://lydr.io/lydr.png">
+    <link rel="icon" type="image/x-icon" href="/lydr_w.png">
     <style>
         body, html {
             margin: 0;
@@ -104,38 +104,55 @@ $html = <<<HTML
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            background: rgb(9, 9, 28); /* Gradient background */
+            /* background-image: url('/images/bg.png');
+            background-position: 70% 60%; */
+            background: rgba(17, 23, 41, 1); /* Fallback color */
+            background: radial-gradient(
+                900px circle at 200px 200px,
+                rgba(29, 78, 216, 0.15),
+                transparent 80%
+              ),rgba(17, 23, 41, 1);
             font-family: 'Courier New', Courier, monospace;
-            z-index: 2; /* Ensure footer is above main content */
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
+        header, footer {
+            width: 100%;
+            box-sizing: border-box; /* Ensure header and footer stay within viewport */
         }
         
         .header {
-            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 10px 0;
-            position: fixed; /* Keep header fixed at the top */
+            position: fixed;
             top: 0;
             left: 0;
-            background: rgb(5,5,25); /* Add background to header */
+            width: 100%;
+            background: rgba(17, 23, 41, 0.8); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
             z-index: 2; /* Ensure header is above main content */
         }
         
+        a {
+            color: white;
+        }
+
         .logo {
-            width: 50px; /* Adjust size as needed */
+            width: 50px; /* Logo size */
             height: auto;
             margin-right: 20px;
         }
-        
+
         .logo-text {
             color: white;
             font-size: 1.5em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            padding: 10px;
         }
-        
+
         .main-content {
             display: flex;
             justify-content: center;
@@ -266,7 +283,6 @@ $html = <<<HTML
 <body>
     <a href="/">
     <header class="header">
-        <img src="https://lydr.io/lydr.gif" alt="Image" class="logo">
             <div class="logo-text">lydr reset</div>
     </header>
     </a>
