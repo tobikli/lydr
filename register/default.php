@@ -2,6 +2,11 @@
 
 session_start();
 
+if (isset($_SESSION["login"]) && $_SESSION["login"] == 1) {
+    header('Location: '."/profile");
+    exit;
+}
+
 
 $error = '';
 if (isset($_GET['error'])) {
@@ -27,7 +32,7 @@ $html=<<<HTML
     </a>
     <main class="main-content">
         <form method="POST" class="link-input" action="check.php">
-<b>Register</b><br>
+<p>Register</p>
 <br>
 <input type="text" placeholder="User" name="username" required><br><br>
 <input type="text" placeholder="Mail" name="email" required><br><br>

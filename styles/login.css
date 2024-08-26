@@ -161,6 +161,26 @@ body, html {
         .link-input button:hover {
             background-color: rgba(12, 17, 31, 0.8);
         }
+        
+        .link-input textarea {
+            display:block;
+            padding: 10px;
+            font-size: 1em;
+            border: 0px solid #ccc;
+            border-radius: 0px;
+            width: 100%;
+            background-color: rgba(12, 17, 31, 0.4); /* Dark background */
+            color: white; /* White text */
+            font-family: 'Courier New', Courier, monospace;
+            box-sizing: border-box;
+        }
+
+        .link-input textarea {
+            height: 200px; /* Set the height for the textarea */
+            resize: vertical; 
+            min-height: 100px;
+            max-height: 400px;
+        }
 
         
 

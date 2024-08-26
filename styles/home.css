@@ -1,5 +1,4 @@
         body, html {
-            cursor: none;
             margin: 0;
             padding: 0;
             height: 100%;
@@ -7,7 +6,6 @@
             flex-direction: column;
             /* background-image: url('/images/bg.png');
             background-position: 70% 60%; */
-            background: rgba(17, 23, 41, 1); /* Fallback color */
             background: radial-gradient(
                 900px circle at 200px 200px,
                 rgba(29, 78, 216, 0.15),
@@ -15,7 +13,11 @@
               ),rgba(17, 23, 41, 1);
             font-family: 'Courier New', Courier, monospace;
             overflow-x: hidden; /* Prevent horizontal scrolling */
+            z-index: 2;
+            cursor:none;
         }
+        
+
 
         header, footer {
             width: 100%;
@@ -34,29 +36,43 @@
             background: rgba(17, 23, 41, 0); /* Semi-transparent background */
             backdrop-filter: blur(10px); /* Apply Gaussian blur */
             -webkit-backdrop-filter: blur(10px); /* Safari support */
-            z-index: 2; /* Ensure header is above main content */
+            z-index: 10; /* Ensure header is above main content */
         }
-        .custom-cursor {
+        
+        c {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center;
+            padding: 10px;
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        
+        .header-right {
             position: absolute;
-            width: 18px;
-            height: 18px;
-            border-radius: 50%;
-            background-color: rgba(179, 176, 245, 0.8);
-            pointer-events: none;
-            z-index: 1000;
-            box-shadow: 0 0 15px rgba(179, 176, 245, 0.8);
-            transition: transform 0.1s ease-out;
+            top: 10px;
+            right: 10px;
+            /* Additional styling if needed */
         }
-        .custom-cursor.small {
-            background-color: rgba(179, 176, 245, 0.8);
-        }
+
+
+
+
         
         a {
             color: white;
-        }
-        
-        a, button, input, textarea {
+            text-decoration: none;
             cursor: none;
+
         }
 
         .logo {
@@ -70,6 +86,7 @@
             font-size: 1.5em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
             padding: 10px 10px 10px 0px;
+            text-decoration: none;
         }
         
         .bottom-right-image {
@@ -97,7 +114,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 80px 20px 20px; /* Padding for header and footer */
+            padding: 80px 20px 40px; /* Padding for header and footer */
             color: white;
             font-size: 1em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -105,6 +122,7 @@
             box-sizing: border-box; /* Include padding in element's width and height */
             position: relative;
             padding-bottom: 50px; /* Ensure there's space for the image */
+            z-index:5;
         }
         
         #container3d canvas{
@@ -124,10 +142,14 @@
             margin-top: 20px;
             padding: 0 10px; /* Padding to prevent grid items from touching the screen edges */
             box-sizing: border-box;
+            cursor: none;
+
         }
 
         .grid-item {
             background: rgba(27, 45, 87, 0.1); /* Initial background */
+            backdrop-filter: blur(10px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
             color: white;
             padding: 20px;
             border: 0px solid #181f30;
@@ -153,14 +175,13 @@
         /* Dimming effect for non-hovered grid items */
         .grid-item:hover ~ .grid-item, 
         .grid-container:hover .grid-item:not(:hover) {
-            filter: brightness(0.8); /* Dim the brightness of other grid items */
+            filter: brightness(0.95); /* Dim the brightness of other grid items */
         }
 
         .grid-item .button-container {
             display: flex;
             gap: 10px; /* Space between buttons */
             margin-top: 10px; /* Space above buttons */
-            cursor: none;
 
         }
 
@@ -171,11 +192,10 @@
             color: white;
             border: none;
             border-radius: 4px;
-            cursor: pointer;
+            /* cursor: pointer; */
             width: auto; /* Adjust width to fit button content */
             box-sizing: border-box;
             transition: background-color 0.3s;
-            cursor: none;
 
         }
 
@@ -230,9 +250,14 @@
             font-size: 1.5em;
             margin-bottom: 10px;
         }
-
+        
         .grid-item .project-description {
             font-size: 1em;
+        }
+
+        .grid-item .project-description1 {
+            font-size: 1em;
+            margin-bottom: 20px;
         }
 
         .grid-item button {
@@ -242,13 +267,12 @@
             color: white;
             border: none;
             border-radius: 4px;
-            cursor: pointer;
-            margin-top: 20px;
+            /* cursor: pointer; */
+            margin: 0px;
             width: 100%;
             box-sizing: border-box;
             font-family: 'Courier New', Courier, monospace;
             cursor: none;
-
         }
 
         .grid-item btn-settings {
@@ -257,9 +281,10 @@
 
         .grid-item button:hover {
             background-color: rgba(15, 21, 38, 0.8);
-            cursor: none;
 
         }
+
+        
 
         footer {
             text-align: center;
@@ -268,10 +293,12 @@
             backdrop-filter: blur(10px); /* Apply Gaussian blur */
             -webkit-backdrop-filter: blur(10px); /* Safari support */
             box-sizing: border-box;
-            position: absolute;
+            position: relative;
             bottom: 0;
             left: 0;
             width: 100%;
+            z-index: 10; /* Ensure header is above main content */
+
         }
 
         footer ul {
@@ -310,7 +337,18 @@
         }
 
         /* Mobile view adjustments */
-        @media (max-width: 800px) {
+        @media (max-width: 1120px) {
+            body, html{
+              background: radial-gradient(
+                900px circle at 200px 200px,
+                rgba(29, 78, 216, 0.15),
+                transparent 80%
+              ),rgba(17, 23, 41, 1);
+            }
+                    
+            .header-right {
+                display: none;
+            }
             
             .custom-cursor {
             background-color: rgba(179, 176, 245, 0);
@@ -347,7 +385,7 @@
             }
 
             .main-content {
-                padding: 80px 10px 70px; /* Adjust padding to fit smaller screens */
+                padding: 70px 10px 90px; /* Adjust padding to fit smaller screens */
             }
             
     

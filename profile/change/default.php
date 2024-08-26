@@ -88,7 +88,7 @@ $html = <<<HTML
     </a>
     <main class="main-content">
         <form method="POST" class="link-input" action="">
-            <b>Change Email</b><br>
+            <p>Change Email</p><br>
             <br>
             <input type="text" placeholder="Email" name="mail" required><br><br>
             <input type="text" placeholder="Repeat Email" name="mail1" required><br><br>

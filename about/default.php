@@ -52,6 +52,7 @@ $html = <<<HTML
         
         a {
             color: white;
+
         }
 
         .logo {
@@ -109,7 +110,6 @@ $html = <<<HTML
             font-size: 1em;
             background: none;
             border: none;
-            cursor: pointer;
         }
         
         footer ul li a:hover, footer ul li button:hover {
@@ -120,6 +120,7 @@ $html = <<<HTML
             display: inline;
             margin: 0;
             padding: 0px 0px 10px 0px;
+
         }
 
         form input[type="submit"] {
@@ -166,8 +167,7 @@ $html = <<<HTML
         <br>
         <form action="/contact" method="">
             <input type="submit" value="Send me a message">
-        </form>   <br>
-        <!-- The form that looks like plain white text -->
+        </form>   <br><br>
         <form action="" method="post">
             <input type="submit" value="Impressum">
         </form>

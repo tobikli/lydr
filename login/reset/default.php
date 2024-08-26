@@ -2,12 +2,6 @@
 
 session_start();
 
-if (isset($_SESSION["login"]) && $_SESSION["login"] == 1) {
-    
-    header('Location: '."/admin");
-    exit;
-}
-
 $error = '';
 if (isset($_GET['error'])) {
     $error = htmlspecialchars($_GET['error']); // Use htmlspecialchars to avoid XSS attacks
@@ -39,7 +33,7 @@ $html=<<<HTML
     </a>
     <main class="main-content">
         <form method="POST" class="link-input" action="check.php">
-<b>Reset</b><br>
+<p>Reset</p>
 <br>
 <input type="text" placeholder="Email" name="email" required><br><br>
 <button type=submit name=submit >Submit</button>

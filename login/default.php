@@ -3,7 +3,6 @@
 session_start();
 
 if (isset($_SESSION["login"]) && $_SESSION["login"] == 1) {
-    
     header('Location: '."/profile");
     exit;
 }
@@ -40,7 +39,7 @@ $html=<<<HTML
     </a>
     <main class="main-content">
         <form method="POST" class="link-input" action="check.php">
-<b>Login</b><br>
+<p>Login</p>
 <p>$sso</p>
 <br>
 <input type="text" placeholder="User" name="loginname" required><br><br>

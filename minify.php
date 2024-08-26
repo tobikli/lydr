@@ -1,7 +1,7 @@
 <?php
 // minify.php
 
-function minify_html($html)
+function minify($html)
 {
    $search = array(
     '/(\n|^)(\x20+|\t)/',

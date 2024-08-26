@@ -1,0 +1,31 @@
+        .custom-cursor {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: rgba(29, 78, 216, 0.02); /* Subtle color */
+            pointer-events: none;
+            z-index: 0;
+            box-shadow: 0 0 4000px 250px rgba(29, 78, 216, 0.02); /* Soft shadow for additional blur effect */
+            transition: opacity 0.5s ease, transform 0.1s ease-out; /* Smooth transition for fading out */
+            opacity: 0; /* Start hidden */
+            filter: blur(40px); /* Blurs the cursor itself */
+        }
+        
+        .custom-cursor1 {
+            position: absolute;
+            width: 10px; /* Size of the circle */
+            height: 10px; /* Size of the circle */
+            border-radius: 50%;
+            border: 2px solid white; /* White border to create the hollow effect */
+            background-color: rgba(29, 78, 216, 0); /* No fill color */
+            backdrop-filter: blur(1px); /* Apply Gaussian blur */
+            -webkit-backdrop-filter: blur(1px); /* Safari support */
+            pointer-events: none;
+            z-index: 9999; /* Ensure it stays on top */
+            transition: transform 0.1s ease-out; /* Smooth transition for cursor movement */
+            opacity: 0; /* Start hidden */
+            transform: translate(-50%, -50%); /* Center the cursor */
+        }
+        
+    

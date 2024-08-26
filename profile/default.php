@@ -362,7 +362,9 @@ $html = <<<HTML
 
 
         @media (min-width: 800px) {
-
+            .main-content {
+                padding: 110px 10px 40px; 
+            }
         }
 
         .upload-container {
@@ -414,6 +416,16 @@ $html = <<<HTML
                 <button type=submit name=submit>Change Email</button>
             </div>
         </form>
+        <form method="" class="link-input" action="/login/reset">
+            <div>
+                <button type=submit name=submit>Change Password</button>
+            </div>
+        </form>
+        <form method="" class="link-input" action="/logout">
+            <div>
+                <button style="color: #c94138;" type=submit name=submit>Logout</button>
+            </div>
+        </form>
         <br>
     </div>
         $verify
@@ -433,7 +445,6 @@ $html = <<<HTML
     <footer>
         <ul>
             <li><a href="https://lydr.io">Home</a></li>
-            <li><a href="https://lydr.io/logout">Logout</a></li>
             <li><a href="https://lydr.io/about">About</a></li>
         </ul>
     </footer>
